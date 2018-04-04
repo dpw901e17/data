@@ -1,0 +1,11 @@
+Setting;Value
+Reuse CommandBuffers;false
+Probe Interval;1000
+Seconds;30
+Export CSV;true
+Pipeline Statistics;false
+Open Hardware Monitor;true
+Rotate Cubes;false
+Draw Thread Count;14
+Cube Dimension;25
+Cube Padding;1
