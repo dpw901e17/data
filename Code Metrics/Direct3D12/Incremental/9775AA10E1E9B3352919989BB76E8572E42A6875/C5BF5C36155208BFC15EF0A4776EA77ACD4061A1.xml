@@ -1,0 +1,1003 @@
+<Root>
+<Comments>
+<c f="1" b="5" e="5"/>
+<c f="1" b="6" e="5"/>
+<c f="1" b="8" e="8"/>
+<c f="1" b="9" e="8"/>
+<c f="1" b="9" e="9"/>
+<c f="1" b="10" e="9"/>
+<c f="1" b="10" e="10"/>
+<c f="1" b="11" e="10"/>
+<c f="1" b="11" e="11"/>
+<c f="1" b="12" e="11"/>
+<c f="1" b="21" e="21"/>
+<c f="1" b="22" e="21"/>
+<c f="1" b="24" e="24"/>
+<c f="1" b="25" e="24"/>
+<c f="1" b="25" e="25"/>
+<c f="1" b="26" e="25"/>
+<c f="1" b="26" e="26"/>
+<c f="1" b="27" e="26"/>
+<c f="1" b="27" e="27"/>
+<c f="1" b="28" e="27"/>
+<c f="1" b="37" e="37"/>
+<c f="1" b="38" e="37"/>
+<c f="1" b="40" e="40"/>
+<c f="1" b="41" e="40"/>
+<c f="1" b="41" e="41"/>
+<c f="1" b="42" e="41"/>
+<c f="1" b="42" e="42"/>
+<c f="1" b="43" e="42"/>
+<c f="1" b="43" e="43"/>
+<c f="1" b="44" e="43"/>
+<c f="1" b="60" e="60"/>
+<c f="1" b="61" e="60"/>
+</Comments>
+<Macros>
+<m f="1" bl="13" bc="3" el="13" ec="27"/>
+<m f="1" bl="29" bc="3" el="29" ec="28"/>
+<m f="1" bl="45" bc="3" el="45" ec="35"/>
+<m f="1" bl="67" bc="3" el="67" ec="40"/>
+</Macros>
+<Directives>
+<m f="1" bl="1" bc="1"/>
+</Directives>
+<Comments/>
+<Macros/>
+<Directives>
+<m f="2" bl="2" bc="1"/>
+<m f="2" bl="3" bc="1"/>
+</Directives>
+<tun>
+<cr access="none" depth="0" kind="class" name="ResourceFactory" id="b081e8db08e62be12c329a49b056bbe7_3ebc83b4aca79e4166d5c3a1e7864790" file="2" linestart="5" lineend="16">
+<cr access="public" kind="class" name="ResourceFactory" id="b081e8db08e62be12c329a49b056bbe7_296ddd29d58a2d7c6e2482efa4d37d77" file="2" linestart="5" lineend="5"/>
+<asd access="public"/>
+<m name="CreateUploadHeap" id="b081e8db08e62be12c329a49b056bbe7_612d18b95bb2cf25ca1eeb82cc7c2549" file="2" linestart="8" lineend="8" access="public" storage="static" hasbody="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="sizeInBytes" proto="const int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="CreateDefaultHeap" id="b081e8db08e62be12c329a49b056bbe7_7fb7f96df7d580f14cf5e1961e8995c0" file="2" linestart="9" lineend="9" access="public" storage="static" hasbody="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="sizeInBytes" proto="const int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="CreateDefaultTextureHeap" id="b081e8db08e62be12c329a49b056bbe7_1f78833d331969bd2173954885edd846" file="2" linestart="10" lineend="10" access="public" storage="static" hasbody="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textureDesc" proto="D3D12_RESOURCE_DESC &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_862923654275607091075798604c2f81"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="CreateDeafultDepthStencilHeap" id="b081e8db08e62be12c329a49b056bbe7_eecfee0a63924a3032bc1e01af69b795" file="2" linestart="11" lineend="11" access="public" storage="static" hasbody="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<asd access="private"/>
+<c name="ResourceFactory" id="b081e8db08e62be12c329a49b056bbe7_2f3266e063e9b331187eebb725e8d5e9" file="2" linestart="14" lineend="14" access="private" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="14" cb="20" le="14" ce="21"/>
+
+</Stmt>
+</c>
+<d name="~ResourceFactory" id="b081e8db08e62be12c329a49b056bbe7_a47ffc2bd2df921b6659f163bfd8bf79" file="2" linestart="15" lineend="15" access="private" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="15" cb="21" le="15" ce="22"/>
+
+</Stmt>
+</d>
+</cr>
+<m name="CreateUploadHeap" id="48f9177f499fa7392a1eb23e01afba9d_612d18b95bb2cf25ca1eeb82cc7c2549" file="1" linestart="3" lineend="17" previous="b081e8db08e62be12c329a49b056bbe7_612d18b95bb2cf25ca1eeb82cc7c2549" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="sizeInBytes" proto="const int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="4" cb="1" le="17" ce="1">
+<dst lb="6" cb="2" le="6" ce="28">
+<exp pvirg="true"/>
+<Var nm="uploadHeap">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<mce lb="7" cb="2" le="13" ce="28" nbparm="7" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a">
+<exp pvirg="true"/>
+<mex lb="7" cb="2" le="7" ce="22" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a" nm="CreateCommittedResource" arrow="1">
+<mce lb="7" cb="2" le="7" ce="19" nbparm="0" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a">
+<exp pvirg="true"/>
+<mex lb="7" cb="2" le="7" ce="9" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" nm="GetDevice" point="1">
+<drx lb="7" cb="2" kind="lvalue" nm="device"/>
+</mex>
+</mce>
+</mex>
+<n32 lb="8" cb="3" le="8" ce="50">
+<uo lb="8" cb="3" le="8" ce="50" kind="&amp;">
+<mte lb="8" cb="4" le="8" ce="50">
+<exp pvirg="true"/>
+<n26 lb="8" cb="4" le="8" ce="50">
+<n10 lb="8" cb="4" le="8" ce="50">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_360440c5f0f1fa276344903495e2c6d5"/>
+<temp/>
+<drx lb="8" cb="28" id="2cd4e6b730954360c006482b86a79774_b76eaae421eb6f882f7e7296fded0088" nm="D3D12_HEAP_TYPE_UPLOAD"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</n26>
+</mte>
+</uo>
+</n32>
+<drx lb="9" cb="3" id="2cd4e6b730954360c006482b86a79774_7d2036c520e7b93e99afdd6a154ab097" nm="D3D12_HEAP_FLAG_NONE"/>
+<n32 lb="10" cb="3" le="10" ce="45">
+<uo lb="10" cb="3" le="10" ce="45" kind="&amp;">
+<mte lb="10" cb="4" le="10" ce="45">
+<exp pvirg="true"/>
+<ce lb="10" cb="4" le="10" ce="45" nbparm="3" id="e412ad6d17e523f3a4ef846b69077d20_710aafc70acd3886a127caa216d780bb">
+<exp pvirg="true"/>
+<n32 lb="10" cb="4" le="10" ce="27">
+<drx lb="10" cb="4" le="10" ce="27" kind="lvalue" id="e412ad6d17e523f3a4ef846b69077d20_710aafc70acd3886a127caa216d780bb" nm="Buffer"/>
+</n32>
+<n32 lb="10" cb="34">
+<n32 lb="10" cb="34">
+<drx lb="10" cb="34" kind="lvalue" nm="sizeInBytes"/>
+</n32>
+</n32>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ce>
+</mte>
+</uo>
+</n32>
+<drx lb="11" cb="3" id="2cd4e6b730954360c006482b86a79774_b58281466bb170f2101546cc66fd6a31" nm="D3D12_RESOURCE_STATE_GENERIC_READ"/>
+<n32 lb="12" cb="3">
+<n16 lb="12" cb="3">
+<exp pvirg="true"/>
+</n16>
+</n32>
+<n22 lb="13" cb="3" le="13" ce="3">
+<exp pvirg="true"/>
+<uo lb="13" cb="3" le="13" ce="3" kind="*">
+<n32 lb="13" cb="3" le="13" ce="3">
+<uo lb="13" cb="3" le="13" ce="3" kind="*">
+<n46 lb="13" cb="3" le="13" ce="3">
+<exp pvirg="true"/>
+<uo lb="13" cb="3" le="13" ce="3" kind="&amp;">
+<drx lb="13" cb="3" kind="lvalue" nm="uploadHeap"/>
+</uo>
+</n46>
+</uo>
+</n32>
+</uo>
+</n22>
+<ce lb="13" cb="3" le="13" ce="3" nbparm="1" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd">
+<exp pvirg="true"/>
+<n32 lb="13" cb="3">
+<drx lb="13" cb="3" kind="lvalue" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" nm="IID_PPV_ARGS_Helper">
+<template_arguments>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="13" cb="3" le="13" ce="3" kind="&amp;">
+<drx lb="13" cb="3" kind="lvalue" nm="uploadHeap"/>
+</uo>
+</ce>
+</mce>
+<mce lb="14" cb="2" le="14" ce="26" nbparm="1" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9">
+<exp pvirg="true"/>
+<mex lb="14" cb="2" le="14" ce="14" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9" nm="SetName" arrow="1">
+<n32 lb="14" cb="2">
+<n32 lb="14" cb="2">
+<drx lb="14" cb="2" kind="lvalue" nm="uploadHeap"/>
+</n32>
+</n32>
+</mex>
+<n32 lb="14" cb="22">
+<drx lb="14" cb="22" kind="lvalue" nm="name"/>
+</n32>
+</mce>
+<rx lb="16" cb="2" le="16" ce="9" pvirg="true">
+<n32 lb="16" cb="9">
+<drx lb="16" cb="9" kind="lvalue" nm="uploadHeap"/>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="CreateDefaultHeap" id="48f9177f499fa7392a1eb23e01afba9d_7fb7f96df7d580f14cf5e1961e8995c0" file="1" linestart="19" lineend="33" previous="b081e8db08e62be12c329a49b056bbe7_7fb7f96df7d580f14cf5e1961e8995c0" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="sizeInBytes" proto="const int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="20" cb="1" le="33" ce="1">
+<dst lb="22" cb="2" le="22" ce="29">
+<exp pvirg="true"/>
+<Var nm="defaultHeap">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<mce lb="23" cb="2" le="29" ce="29" nbparm="7" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a">
+<exp pvirg="true"/>
+<mex lb="23" cb="2" le="23" ce="22" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a" nm="CreateCommittedResource" arrow="1">
+<mce lb="23" cb="2" le="23" ce="19" nbparm="0" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a">
+<exp pvirg="true"/>
+<mex lb="23" cb="2" le="23" ce="9" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" nm="GetDevice" point="1">
+<drx lb="23" cb="2" kind="lvalue" nm="device"/>
+</mex>
+</mce>
+</mex>
+<n32 lb="24" cb="3" le="24" ce="51">
+<uo lb="24" cb="3" le="24" ce="51" kind="&amp;">
+<mte lb="24" cb="4" le="24" ce="51">
+<exp pvirg="true"/>
+<n26 lb="24" cb="4" le="24" ce="51">
+<n10 lb="24" cb="4" le="24" ce="51">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_360440c5f0f1fa276344903495e2c6d5"/>
+<temp/>
+<drx lb="24" cb="28" id="2cd4e6b730954360c006482b86a79774_1655295909d6c2345e91ccc52913e4b9" nm="D3D12_HEAP_TYPE_DEFAULT"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</n26>
+</mte>
+</uo>
+</n32>
+<drx lb="25" cb="3" id="2cd4e6b730954360c006482b86a79774_7d2036c520e7b93e99afdd6a154ab097" nm="D3D12_HEAP_FLAG_NONE"/>
+<n32 lb="26" cb="3" le="26" ce="45">
+<uo lb="26" cb="3" le="26" ce="45" kind="&amp;">
+<mte lb="26" cb="4" le="26" ce="45">
+<exp pvirg="true"/>
+<ce lb="26" cb="4" le="26" ce="45" nbparm="3" id="e412ad6d17e523f3a4ef846b69077d20_710aafc70acd3886a127caa216d780bb">
+<exp pvirg="true"/>
+<n32 lb="26" cb="4" le="26" ce="27">
+<drx lb="26" cb="4" le="26" ce="27" kind="lvalue" id="e412ad6d17e523f3a4ef846b69077d20_710aafc70acd3886a127caa216d780bb" nm="Buffer"/>
+</n32>
+<n32 lb="26" cb="34">
+<n32 lb="26" cb="34">
+<drx lb="26" cb="34" kind="lvalue" nm="sizeInBytes"/>
+</n32>
+</n32>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ce>
+</mte>
+</uo>
+</n32>
+<drx lb="27" cb="3" id="2cd4e6b730954360c006482b86a79774_5abe1fd0365dd024cf7045c532076734" nm="D3D12_RESOURCE_STATE_COPY_DEST"/>
+<n32 lb="28" cb="3">
+<n16 lb="28" cb="3">
+<exp pvirg="true"/>
+</n16>
+</n32>
+<n22 lb="29" cb="3" le="29" ce="3">
+<exp pvirg="true"/>
+<uo lb="29" cb="3" le="29" ce="3" kind="*">
+<n32 lb="29" cb="3" le="29" ce="3">
+<uo lb="29" cb="3" le="29" ce="3" kind="*">
+<n46 lb="29" cb="3" le="29" ce="3">
+<exp pvirg="true"/>
+<uo lb="29" cb="3" le="29" ce="3" kind="&amp;">
+<drx lb="29" cb="3" kind="lvalue" nm="defaultHeap"/>
+</uo>
+</n46>
+</uo>
+</n32>
+</uo>
+</n22>
+<ce lb="29" cb="3" le="29" ce="3" nbparm="1" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd">
+<exp pvirg="true"/>
+<n32 lb="29" cb="3">
+<drx lb="29" cb="3" kind="lvalue" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" nm="IID_PPV_ARGS_Helper">
+<template_arguments>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="29" cb="3" le="29" ce="3" kind="&amp;">
+<drx lb="29" cb="3" kind="lvalue" nm="defaultHeap"/>
+</uo>
+</ce>
+</mce>
+<mce lb="30" cb="2" le="30" ce="27" nbparm="1" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9">
+<exp pvirg="true"/>
+<mex lb="30" cb="2" le="30" ce="15" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9" nm="SetName" arrow="1">
+<n32 lb="30" cb="2">
+<n32 lb="30" cb="2">
+<drx lb="30" cb="2" kind="lvalue" nm="defaultHeap"/>
+</n32>
+</n32>
+</mex>
+<n32 lb="30" cb="23">
+<drx lb="30" cb="23" kind="lvalue" nm="name"/>
+</n32>
+</mce>
+<rx lb="32" cb="2" le="32" ce="9" pvirg="true">
+<n32 lb="32" cb="9">
+<drx lb="32" cb="9" kind="lvalue" nm="defaultHeap"/>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="CreateDefaultTextureHeap" id="48f9177f499fa7392a1eb23e01afba9d_1f78833d331969bd2173954885edd846" file="1" linestart="35" lineend="49" previous="b081e8db08e62be12c329a49b056bbe7_1f78833d331969bd2173954885edd846" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textureDesc" proto="D3D12_RESOURCE_DESC &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_862923654275607091075798604c2f81"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="36" cb="1" le="49" ce="1">
+<dst lb="38" cb="2" le="38" ce="36">
+<exp pvirg="true"/>
+<Var nm="defaultTextureHeap">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<mce lb="39" cb="2" le="45" ce="36" nbparm="7" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a">
+<exp pvirg="true"/>
+<mex lb="39" cb="2" le="39" ce="22" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a" nm="CreateCommittedResource" arrow="1">
+<mce lb="39" cb="2" le="39" ce="19" nbparm="0" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a">
+<exp pvirg="true"/>
+<mex lb="39" cb="2" le="39" ce="9" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" nm="GetDevice" point="1">
+<drx lb="39" cb="2" kind="lvalue" nm="device"/>
+</mex>
+</mce>
+</mex>
+<n32 lb="40" cb="3" le="40" ce="51">
+<uo lb="40" cb="3" le="40" ce="51" kind="&amp;">
+<mte lb="40" cb="4" le="40" ce="51">
+<exp pvirg="true"/>
+<n26 lb="40" cb="4" le="40" ce="51">
+<n10 lb="40" cb="4" le="40" ce="51">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_360440c5f0f1fa276344903495e2c6d5"/>
+<temp/>
+<drx lb="40" cb="28" id="2cd4e6b730954360c006482b86a79774_1655295909d6c2345e91ccc52913e4b9" nm="D3D12_HEAP_TYPE_DEFAULT"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</n26>
+</mte>
+</uo>
+</n32>
+<drx lb="41" cb="3" id="2cd4e6b730954360c006482b86a79774_7d2036c520e7b93e99afdd6a154ab097" nm="D3D12_HEAP_FLAG_NONE"/>
+<n32 lb="42" cb="3" le="42" ce="4">
+<uo lb="42" cb="3" le="42" ce="4" kind="&amp;">
+<drx lb="42" cb="4" kind="lvalue" nm="textureDesc"/>
+</uo>
+</n32>
+<drx lb="43" cb="3" id="2cd4e6b730954360c006482b86a79774_5abe1fd0365dd024cf7045c532076734" nm="D3D12_RESOURCE_STATE_COPY_DEST"/>
+<n32 lb="44" cb="3">
+<n16 lb="44" cb="3">
+<exp pvirg="true"/>
+</n16>
+</n32>
+<n22 lb="45" cb="3" le="45" ce="3">
+<exp pvirg="true"/>
+<uo lb="45" cb="3" le="45" ce="3" kind="*">
+<n32 lb="45" cb="3" le="45" ce="3">
+<uo lb="45" cb="3" le="45" ce="3" kind="*">
+<n46 lb="45" cb="3" le="45" ce="3">
+<exp pvirg="true"/>
+<uo lb="45" cb="3" le="45" ce="3" kind="&amp;">
+<drx lb="45" cb="3" kind="lvalue" nm="defaultTextureHeap"/>
+</uo>
+</n46>
+</uo>
+</n32>
+</uo>
+</n22>
+<ce lb="45" cb="3" le="45" ce="3" nbparm="1" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd">
+<exp pvirg="true"/>
+<n32 lb="45" cb="3">
+<drx lb="45" cb="3" kind="lvalue" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" nm="IID_PPV_ARGS_Helper">
+<template_arguments>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="45" cb="3" le="45" ce="3" kind="&amp;">
+<drx lb="45" cb="3" kind="lvalue" nm="defaultTextureHeap"/>
+</uo>
+</ce>
+</mce>
+<mce lb="46" cb="2" le="46" ce="34" nbparm="1" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9">
+<exp pvirg="true"/>
+<mex lb="46" cb="2" le="46" ce="22" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9" nm="SetName" arrow="1">
+<n32 lb="46" cb="2">
+<n32 lb="46" cb="2">
+<drx lb="46" cb="2" kind="lvalue" nm="defaultTextureHeap"/>
+</n32>
+</n32>
+</mex>
+<n32 lb="46" cb="30">
+<drx lb="46" cb="30" kind="lvalue" nm="name"/>
+</n32>
+</mce>
+<rx lb="48" cb="2" le="48" ce="9" pvirg="true">
+<n32 lb="48" cb="9">
+<drx lb="48" cb="9" kind="lvalue" nm="defaultTextureHeap"/>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="CreateDeafultDepthStencilHeap" id="48f9177f499fa7392a1eb23e01afba9d_eecfee0a63924a3032bc1e01af69b795" file="1" linestart="51" lineend="72" previous="b081e8db08e62be12c329a49b056bbe7_eecfee0a63924a3032bc1e01af69b795" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="ID3D12Resource *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="52" cb="1" le="72" ce="1">
+<dst lb="53" cb="2" le="53" ce="49">
+<exp pvirg="true"/>
+<Var nm="depthOptimizedClearValue" value="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_ecbbfa6fa25285ebfedb062d9029028c"/>
+</rt>
+</ety>
+</Tdef>
+<il lb="53" cb="47" le="53" ce="48">
+<exp pvirg="true"/>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<il lb="53" cb="48">
+<exp pvirg="true"/>
+</il>
+</il>
+</Var>
+</dst>
+<xop lb="54" cb="2" le="54" ce="36" kind="=">
+<mex lb="54" cb="2" le="54" ce="27" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_cb874f75d4e6f9a159006123fdeab53a" nm="Format" point="1">
+<drx lb="54" cb="2" kind="lvalue" nm="depthOptimizedClearValue"/>
+</mex>
+<drx lb="54" cb="36" id="492d57907f43bc981c88c9f2c7078e81_9406d521132615f70c1f8799e6f85d67" nm="DXGI_FORMAT_D32_FLOAT"/>
+</xop>
+<xop lb="55" cb="2" le="55" ce="48" kind="=">
+<mex lb="55" cb="2" le="55" ce="40" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_549dc944786af5188ab67db61ea38b8f" nm="Depth" point="1">
+<mex lb="55" cb="2" le="55" ce="27" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_98e18f97160c76349c8728fdf61c6b83" nm="DepthStencil" point="1">
+<mex lb="55" cb="2" le="55" ce="27" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_4d2a0541941535cb8440aea4be0b7bd7" nm="" point="1">
+<drx lb="55" cb="2" kind="lvalue" nm="depthOptimizedClearValue"/>
+</mex>
+</mex>
+</mex>
+<n40 lb="55" cb="48">
+<flit/>
+</n40>
+</xop>
+<xop lb="56" cb="2" le="56" ce="50" kind="=">
+<mex lb="56" cb="2" le="56" ce="40" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_123ec6fb724f4b33bdbc4fcf884f0ae2" nm="Stencil" point="1">
+<mex lb="56" cb="2" le="56" ce="27" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_98e18f97160c76349c8728fdf61c6b83" nm="DepthStencil" point="1">
+<mex lb="56" cb="2" le="56" ce="27" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_4d2a0541941535cb8440aea4be0b7bd7" nm="" point="1">
+<drx lb="56" cb="2" kind="lvalue" nm="depthOptimizedClearValue"/>
+</mex>
+</mex>
+</mex>
+<n32 lb="56" cb="50">
+<n45 lb="56" cb="50">
+<flit/>
+</n45>
+</n32>
+</xop>
+<dst lb="58" cb="2" le="58" ce="41">
+<exp pvirg="true"/>
+<Var nm="defaultDepthStencilHeap">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<mce lb="61" cb="2" le="68" ce="2" nbparm="7" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a">
+<exp pvirg="true"/>
+<mex lb="61" cb="2" le="61" ce="22" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a" nm="CreateCommittedResource" arrow="1">
+<mce lb="61" cb="2" le="61" ce="19" nbparm="0" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a">
+<exp pvirg="true"/>
+<mex lb="61" cb="2" le="61" ce="9" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" nm="GetDevice" point="1">
+<drx lb="61" cb="2" kind="lvalue" nm="device"/>
+</mex>
+</mce>
+</mex>
+<n32 lb="62" cb="3" le="62" ce="51">
+<uo lb="62" cb="3" le="62" ce="51" kind="&amp;">
+<mte lb="62" cb="4" le="62" ce="51">
+<exp pvirg="true"/>
+<n26 lb="62" cb="4" le="62" ce="51">
+<n10 lb="62" cb="4" le="62" ce="51">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_360440c5f0f1fa276344903495e2c6d5"/>
+<temp/>
+<drx lb="62" cb="28" id="2cd4e6b730954360c006482b86a79774_1655295909d6c2345e91ccc52913e4b9" nm="D3D12_HEAP_TYPE_DEFAULT"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</n26>
+</mte>
+</uo>
+</n32>
+<drx lb="63" cb="3" id="2cd4e6b730954360c006482b86a79774_7d2036c520e7b93e99afdd6a154ab097" nm="D3D12_HEAP_FLAG_NONE"/>
+<n32 lb="64" cb="3" le="64" ce="122">
+<uo lb="64" cb="3" le="64" ce="122" kind="&amp;">
+<mte lb="64" cb="4" le="64" ce="122">
+<exp pvirg="true"/>
+<ce lb="64" cb="4" le="64" ce="122" nbparm="10" id="e412ad6d17e523f3a4ef846b69077d20_02ba312f549bc72b952260c785423dec">
+<exp pvirg="true"/>
+<n32 lb="64" cb="4" le="64" ce="27">
+<drx lb="64" cb="4" le="64" ce="27" kind="lvalue" id="e412ad6d17e523f3a4ef846b69077d20_02ba312f549bc72b952260c785423dec" nm="Tex2D"/>
+</n32>
+<drx lb="64" cb="33" id="492d57907f43bc981c88c9f2c7078e81_9406d521132615f70c1f8799e6f85d67" nm="DXGI_FORMAT_D32_FLOAT"/>
+<n32 lb="64" cb="56">
+<n32 lb="64" cb="56">
+<drx lb="64" cb="56" kind="lvalue" nm="width"/>
+</n32>
+</n32>
+<n32 lb="64" cb="63">
+<n32 lb="64" cb="63">
+<drx lb="64" cb="63" kind="lvalue" nm="height"/>
+</n32>
+</n32>
+<n32 lb="64" cb="71">
+<n45 lb="64" cb="71">
+<flit/>
+</n45>
+</n32>
+<n32 lb="64" cb="74">
+<n45 lb="64" cb="74"/>
+</n32>
+<n32 lb="64" cb="77">
+<n45 lb="64" cb="77"/>
+</n32>
+<n32 lb="64" cb="80">
+<n45 lb="64" cb="80"/>
+</n32>
+<drx lb="64" cb="83" id="2cd4e6b730954360c006482b86a79774_9c9169d3f27befd947ee782e294e383a" nm="D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ce>
+</mte>
+</uo>
+</n32>
+<drx lb="65" cb="3" id="2cd4e6b730954360c006482b86a79774_ca138fd9e6977a7052db3490ddc7848d" nm="D3D12_RESOURCE_STATE_DEPTH_WRITE"/>
+<n32 lb="66" cb="3" le="66" ce="4">
+<uo lb="66" cb="3" le="66" ce="4" kind="&amp;">
+<drx lb="66" cb="4" kind="lvalue" nm="depthOptimizedClearValue"/>
+</uo>
+</n32>
+<n22 lb="67" cb="3" le="67" ce="3">
+<exp pvirg="true"/>
+<uo lb="67" cb="3" le="67" ce="3" kind="*">
+<n32 lb="67" cb="3" le="67" ce="3">
+<uo lb="67" cb="3" le="67" ce="3" kind="*">
+<n46 lb="67" cb="3" le="67" ce="3">
+<exp pvirg="true"/>
+<uo lb="67" cb="3" le="67" ce="3" kind="&amp;">
+<drx lb="67" cb="3" kind="lvalue" nm="defaultDepthStencilHeap"/>
+</uo>
+</n46>
+</uo>
+</n32>
+</uo>
+</n22>
+<ce lb="67" cb="3" le="67" ce="3" nbparm="1" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd">
+<exp pvirg="true"/>
+<n32 lb="67" cb="3">
+<drx lb="67" cb="3" kind="lvalue" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" nm="IID_PPV_ARGS_Helper">
+<template_arguments>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="67" cb="3" le="67" ce="3" kind="&amp;">
+<drx lb="67" cb="3" kind="lvalue" nm="defaultDepthStencilHeap"/>
+</uo>
+</ce>
+</mce>
+<mce lb="69" cb="2" le="69" ce="39" nbparm="1" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9">
+<exp pvirg="true"/>
+<mex lb="69" cb="2" le="69" ce="27" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9" nm="SetName" arrow="1">
+<n32 lb="69" cb="2">
+<n32 lb="69" cb="2">
+<drx lb="69" cb="2" kind="lvalue" nm="defaultDepthStencilHeap"/>
+</n32>
+</n32>
+</mex>
+<n32 lb="69" cb="35">
+<drx lb="69" cb="35" kind="lvalue" nm="name"/>
+</n32>
+</mce>
+<rx lb="71" cb="2" le="71" ce="9" pvirg="true">
+<n32 lb="71" cb="9">
+<drx lb="71" cb="9" kind="lvalue" nm="defaultDepthStencilHeap"/>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

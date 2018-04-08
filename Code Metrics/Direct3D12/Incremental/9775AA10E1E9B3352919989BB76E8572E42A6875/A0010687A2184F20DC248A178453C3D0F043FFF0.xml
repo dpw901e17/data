@@ -1,0 +1,150 @@
+<Root>
+<Comments/>
+<Macros/>
+<Directives/>
+<tun>
+<cr access="public" depth="0" pod="true" kind="struct" name="VS_INPUT" id="f892c7ccef61579476c7732dcb4ff11a_4a134e6c7beb8c41e32bb4622f92f781" file="1" linestart="1" lineend="5">
+<cr access="public" kind="struct" name="VS_INPUT" id="f892c7ccef61579476c7732dcb4ff11a_8d34bb15963b3ae8fcc4c109fb455877" file="1" linestart="1" lineend="1"/>
+<fl name="pos" id="f892c7ccef61579476c7732dcb4ff11a_eca37c42173c8e04aafe82c44ddf52b1" file="1" linestart="3" lineend="3" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="texCoord" id="f892c7ccef61579476c7732dcb4ff11a_01dfa3d32ed02b6d3619ac217e9d6616" file="1" linestart="4" lineend="4" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+</cr>
+<cr access="public" depth="0" pod="true" kind="struct" name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49" file="1" linestart="7" lineend="12">
+<cr access="public" kind="struct" name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_0f339bb0d2de8f65b07da00a9720dffd" file="1" linestart="7" lineend="7"/>
+<fl name="pos" id="f892c7ccef61579476c7732dcb4ff11a_2c0048b8e92d9516d27d8342fb212e7b" file="1" linestart="9" lineend="9" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="texCoord" id="f892c7ccef61579476c7732dcb4ff11a_d8d98ef7f62e6dc0771437b0b7b4a5d1" file="1" linestart="10" lineend="10" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="posCopy" id="f892c7ccef61579476c7732dcb4ff11a_a363040bb72e23fc6f3d4ae23c44c58b" file="1" linestart="11" lineend="11" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<c name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_509c253cdb2f581f033e73ecfdade5e6" file="1" linestart="7" lineend="7" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="7" cb="8"/>
+
+</Stmt>
+</c>
+<c name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_fc3fea08bb4d825b65fd9fcc8a116ef8" file="1" linestart="7" lineend="7" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const VS_OUTPUT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<c name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_fca38654f64a8f619a6beb904dfee993" file="1" linestart="7" lineend="7" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="VS_OUTPUT &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="7" cb="8"/>
+
+</Stmt>
+</c>
+</cr>
+<v name="ConstantBuffer" proto="int" isLiteral="true" isPrimitive="true" id="f892c7ccef61579476c7732dcb4ff11a_a9d1c7f2ee7fb15bc84f8f4779b59c7e" file="1" linestart="14" lineend="14" access2="public">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="b0" proto="int" isLiteral="true" isPrimitive="true" id="f892c7ccef61579476c7732dcb4ff11a_efd66e16fc45de31c1f977752b45149d" file="1" linestart="14" storage="register" access2="public">
+<Paren/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="ConstantBuffer" proto="int" isLiteral="true" isPrimitive="true" id="f892c7ccef61579476c7732dcb4ff11a_a9d1c7f2ee7fb15bc84f8f4779b59c7e" file="1" linestart="19" lineend="19" access2="public">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="b1" proto="int" isLiteral="true" isPrimitive="true" id="f892c7ccef61579476c7732dcb4ff11a_dd464058a6c9ad31f1802b22e97d2425" file="1" linestart="19" storage="register" access2="public">
+<Paren/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="ConstantBuffer" proto="int" isLiteral="true" isPrimitive="true" id="f892c7ccef61579476c7732dcb4ff11a_a9d1c7f2ee7fb15bc84f8f4779b59c7e" file="1" linestart="24" lineend="24" access2="public">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="b2" proto="int" isLiteral="true" isPrimitive="true" id="f892c7ccef61579476c7732dcb4ff11a_cb9db53747089b2cbaf91203677c0874" file="1" linestart="24" storage="register" access2="public">
+<Paren/>
+<Stmt>
+
+</Stmt>
+</v>
+<f name="main" id="f892c7ccef61579476c7732dcb4ff11a_e2a667621eaa0de46d1bb829ef06282a" file="1" linestart="29" lineend="37" entry="true" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="VS_OUTPUT">
+<rt>
+<cr id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49"/>
+</rt>
+</fpt>
+<p name="input" proto="VS_INPUT" isLiteral="true" access2="none">
+<rt>
+<cr id="f892c7ccef61579476c7732dcb4ff11a_4a134e6c7beb8c41e32bb4622f92f781"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="30" cb="1" le="37" ce="1">
+<dst lb="31" cb="2" le="31" ce="18">
+<exp pvirg="true"/>
+<Var nm="output" value="true">
+<rt>
+<cr id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49"/>
+</rt>
+<n10 lb="31" cb="12">
+<typeptr id="f892c7ccef61579476c7732dcb4ff11a_509c253cdb2f581f033e73ecfdade5e6"/>
+<temp/>
+</n10>
+</Var>
+</dst>
+<rx lb="36" cb="2" le="36" ce="9" pvirg="true">
+<n10 lb="36" cb="9">
+<typeptr id="f892c7ccef61579476c7732dcb4ff11a_fca38654f64a8f619a6beb904dfee993"/>
+<temp/>
+<n32 lb="36" cb="9">
+<drx lb="36" cb="9" kind="lvalue" nm="output"/>
+</n32>
+</n10>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</tun>
+</Root>

@@ -1,0 +1,474 @@
+<Root>
+<Comments>
+<c f="1" b="10" e="10"/>
+<c f="1" b="11" e="10"/>
+<c f="1" b="15" e="15"/>
+<c f="1" b="16" e="16"/>
+<c f="1" b="17" e="17"/>
+<c f="1" b="18" e="18"/>
+<c f="1" b="19" e="19"/>
+<c f="1" b="20" e="20"/>
+<c f="1" b="21" e="21"/>
+<c f="1" b="23" e="23"/>
+<c f="1" b="24" e="23"/>
+<c f="1" b="37" e="37"/>
+<c f="1" b="38" e="37"/>
+<c f="1" b="41" e="41"/>
+<c f="1" b="42" e="41"/>
+</Comments>
+<Macros>
+<m f="1" bl="11" bc="63" el="11" ec="63"/>
+<m f="1" bl="25" bc="7" el="25" ec="19"/>
+<m f="1" bl="41" bc="3" el="41" ec="23"/>
+<m f="1" bl="44" bc="6" el="44" ec="15"/>
+<m f="1" bl="51" bc="2" el="51" ec="21"/>
+</Macros>
+<Directives>
+<m f="1" bl="1" bc="1"/>
+</Directives>
+<Comments/>
+<Macros/>
+<Directives>
+<m f="2" bl="2" bc="1"/>
+<m f="2" bl="3" bc="1"/>
+<m f="2" bl="4" bc="1"/>
+<m f="2" bl="5" bc="1"/>
+</Directives>
+<tun>
+<cr access="none" depth="0" kind="class" name="Device" id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc" file="2" linestart="7" lineend="18">
+<cr access="public" kind="class" name="Device" id="6d0356338d8ffb73442c812d962de0f3_ba5ff729cd1b1566c9aa22a73ab06e3b" file="2" linestart="7" lineend="7"/>
+<asd access="public"/>
+<c name="Device" id="6d0356338d8ffb73442c812d962de0f3_8fa66d1e1a95364d89a7b61bf41786ac" file="2" linestart="10" lineend="10" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dxgiFactory" proto="IDXGIFactory4 *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_f0dafd81b095f32d516e3c57b5eff11b"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~Device" id="6d0356338d8ffb73442c812d962de0f3_c5562517811cb8933a61f4fdbcd036e0" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="GetDevice" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" file="2" linestart="14" lineend="14" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="ID3D12Device *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_600c634aa0140641a97236c4b8b2e118"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<asd access="private"/>
+<fl name="device" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" file="2" linestart="17" lineend="17" isPtr="true" isLiteral="true" access="private" proto="ID3D12Device *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_600c634aa0140641a97236c4b8b2e118"/>
+</rt>
+</pt>
+</fl>
+<c name="Device" id="6d0356338d8ffb73442c812d962de0f3_ec74fc90e1466f11c1456dfff2263034" file="2" linestart="7" lineend="7" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="Device" id="fe3f003e8b0b958d7382ed1fc76d7dfe_8fa66d1e1a95364d89a7b61bf41786ac" file="1" linestart="3" lineend="47" previous="6d0356338d8ffb73442c812d962de0f3_8fa66d1e1a95364d89a7b61bf41786ac" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dxgiFactory" proto="IDXGIFactory4 *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_f0dafd81b095f32d516e3c57b5eff11b"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="4" cb="1" le="47" ce="1">
+<dst lb="5" cb="2" le="5" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<dst lb="6" cb="2" le="6" ce="24">
+<exp pvirg="true"/>
+<Var nm="adapter">
+<pt>
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_e121e9257c67ae4ed9f0861123590e43"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<dst lb="7" cb="2" le="7" ce="22">
+<exp pvirg="true"/>
+<Var nm="adapterIndex" value="true">
+<bt name="int"/>
+<n45 lb="7" cb="21">
+<flit/>
+</n45>
+</Var>
+</dst>
+<dst lb="8" cb="2" le="8" ce="27">
+<exp pvirg="true"/>
+<Var nm="adapterFound" value="true">
+<bt name="bool"/>
+<n9 lb="8" cb="22"/>
+</Var>
+</dst>
+<wy lb="11" cb="2" le="31" ce="2">
+<xop lb="11" cb="9" le="11" ce="63" kind="!=">
+<mce lb="11" cb="9" le="11" ce="58" nbparm="2" id="5f30a8c28bcbe854cce05c38525ab639_2100c6bd33d4a2cca938e616d0debeff">
+<exp pvirg="true"/>
+<mex lb="11" cb="9" le="11" ce="22" id="5f30a8c28bcbe854cce05c38525ab639_2100c6bd33d4a2cca938e616d0debeff" nm="EnumAdapters1" arrow="1">
+<n32 lb="11" cb="9">
+<n32 lb="11" cb="9">
+<drx lb="11" cb="9" kind="lvalue" nm="dxgiFactory"/>
+</n32>
+</n32>
+</mex>
+<n32 lb="11" cb="36">
+<n32 lb="11" cb="36">
+<drx lb="11" cb="36" kind="lvalue" nm="adapterIndex"/>
+</n32>
+</n32>
+<uo lb="11" cb="50" le="11" ce="51" kind="&amp;">
+<drx lb="11" cb="51" kind="lvalue" nm="adapter"/>
+</uo>
+</mce>
+<n46 lb="11" cb="63" le="11" ce="63">
+<exp pvirg="true"/>
+<ocast lb="11" cb="63" le="11" ce="63">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="11" cb="63">
+<n45 lb="11" cb="63">
+<flit/>
+</n45>
+</n32>
+</ocast>
+</n46>
+</xop>
+<u lb="11" cb="85" le="31" ce="2">
+<dst lb="12" cb="3" le="12" ce="26">
+<exp pvirg="true"/>
+<Var nm="desc" value="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_9b92497b47b8534bebc2c5d94fb726dc"/>
+</rt>
+</ety>
+</Tdef>
+<n10 lb="12" cb="22">
+<typeptr id="5f30a8c28bcbe854cce05c38525ab639_e065ce71d9e3ec0e0e18be30abaa14aa"/>
+<temp/>
+</n10>
+</Var>
+</dst>
+<mce lb="13" cb="3" le="13" ce="26" nbparm="1" id="5f30a8c28bcbe854cce05c38525ab639_1f431440f2087b1a96e7dc7d7d768f2e">
+<exp pvirg="true"/>
+<mex lb="13" cb="3" le="13" ce="12" id="5f30a8c28bcbe854cce05c38525ab639_1f431440f2087b1a96e7dc7d7d768f2e" nm="GetDesc1" arrow="1">
+<n32 lb="13" cb="3">
+<drx lb="13" cb="3" kind="lvalue" nm="adapter"/>
+</n32>
+</mex>
+<uo lb="13" cb="21" le="13" ce="22" kind="&amp;">
+<drx lb="13" cb="22" kind="lvalue" nm="desc"/>
+</uo>
+</mce>
+<xop lb="24" cb="3" le="24" ce="89" kind="=">
+<drx lb="24" cb="3" kind="lvalue" nm="hr"/>
+<ce lb="24" cb="8" le="24" ce="89" nbparm="4" id="2cd4e6b730954360c006482b86a79774_58dc248162359b57658d5dadfb24112b">
+<exp pvirg="true"/>
+<n32 lb="24" cb="8">
+<drx lb="24" cb="8" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_58dc248162359b57658d5dadfb24112b" nm="D3D12CreateDevice"/>
+</n32>
+<n32 lb="24" cb="26">
+<n32 lb="24" cb="26">
+<drx lb="24" cb="26" kind="lvalue" nm="adapter"/>
+</n32>
+</n32>
+<drx lb="24" cb="35" id="2fffffddcd3c95038f77e770bc674107_1b0d37125ad9e0a332b1ffe271bce81a" nm="D3D_FEATURE_LEVEL_11_0"/>
+<n22 lb="24" cb="59" le="24" ce="79">
+<exp pvirg="true"/>
+</n22>
+<n32 lb="24" cb="82">
+<n16 lb="24" cb="82">
+<exp pvirg="true"/>
+</n16>
+</n32>
+</ce>
+</xop>
+<if lb="25" cb="3" le="28" ce="3">
+<n46 lb="25" cb="7" le="25" ce="7">
+<exp pvirg="true"/>
+<xop lb="25" cb="7" le="25" ce="7" kind="&gt;=">
+<n46 lb="25" cb="7" le="25" ce="7">
+<exp pvirg="true"/>
+<ocast lb="25" cb="7" le="25" ce="7">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="25" cb="7" le="25" ce="7">
+<n46 lb="25" cb="7" le="25" ce="7">
+<exp pvirg="true"/>
+<drx lb="25" cb="7" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="25" cb="7">
+<n45 lb="25" cb="7"/>
+</n32>
+</xop>
+</n46>
+<u lb="25" cb="22" le="28" ce="3">
+<xop lb="26" cb="4" le="26" ce="19" kind="=">
+<drx lb="26" cb="4" kind="lvalue" nm="adapterFound"/>
+<n9 lb="26" cb="19"/>
+</xop>
+<bks lb="27" cb="4"/>
+</u>
+</if>
+<uo lb="30" cb="3" le="30" ce="15" kind="++">
+<drx lb="30" cb="3" kind="lvalue" nm="adapterIndex"/>
+</uo>
+</u>
+</wy>
+<if lb="33" cb="2" le="35" ce="2">
+<uo lb="33" cb="6" le="33" ce="7" kind="!">
+<n32 lb="33" cb="7">
+<drx lb="33" cb="7" kind="lvalue" nm="adapterFound"/>
+</n32>
+</uo>
+<u lb="33" cb="21" le="35" ce="2">
+<n37 lb="34" cb="3" le="34" ce="41">
+<n26 lb="34" cb="3" le="34" ce="41">
+<n8 lb="34" cb="3" le="34" ce="41" >
+<temp/>
+<n10 lb="34" cb="3" le="34" ce="41">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="34" cb="22">
+<n52 lb="34" cb="22">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</n37>
+</u>
+</if>
+<xop lb="38" cb="2" le="42" ce="2" kind="=">
+<drx lb="38" cb="2" kind="lvalue" nm="hr"/>
+<ce lb="38" cb="7" le="42" ce="2" nbparm="4" id="2cd4e6b730954360c006482b86a79774_58dc248162359b57658d5dadfb24112b">
+<exp pvirg="true"/>
+<n32 lb="38" cb="7">
+<drx lb="38" cb="7" kind="lvalue" id="2cd4e6b730954360c006482b86a79774_58dc248162359b57658d5dadfb24112b" nm="D3D12CreateDevice"/>
+</n32>
+<n32 lb="39" cb="3">
+<n32 lb="39" cb="3">
+<drx lb="39" cb="3" kind="lvalue" nm="adapter"/>
+</n32>
+</n32>
+<drx lb="40" cb="3" id="2fffffddcd3c95038f77e770bc674107_1b0d37125ad9e0a332b1ffe271bce81a" nm="D3D_FEATURE_LEVEL_11_0"/>
+<n22 lb="41" cb="3" le="41" ce="3">
+<exp pvirg="true"/>
+<uo lb="41" cb="3" le="41" ce="3" kind="*">
+<n32 lb="41" cb="3" le="41" ce="3">
+<uo lb="41" cb="3" le="41" ce="3" kind="*">
+<n46 lb="41" cb="3" le="41" ce="3">
+<exp pvirg="true"/>
+<uo lb="41" cb="3" le="41" ce="3" kind="&amp;">
+<mex lb="41" cb="3" kind="lvalue" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" nm="device" arrow="1">
+<n19 lb="41" cb="3"/>
+</mex>
+</uo>
+</n46>
+</uo>
+</n32>
+</uo>
+</n22>
+<ce lb="41" cb="3" le="41" ce="3" nbparm="1" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd">
+<exp pvirg="true"/>
+<n32 lb="41" cb="3">
+<drx lb="41" cb="3" kind="lvalue" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" nm="IID_PPV_ARGS_Helper">
+<template_arguments>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_600c634aa0140641a97236c4b8b2e118"/>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="41" cb="3" le="41" ce="3" kind="&amp;">
+<mex lb="41" cb="3" kind="lvalue" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" nm="device" arrow="1">
+<n19 lb="41" cb="3"/>
+</mex>
+</uo>
+</ce>
+</ce>
+</xop>
+<if lb="44" cb="2" le="46" ce="2">
+<n46 lb="44" cb="6" le="44" ce="6">
+<exp pvirg="true"/>
+<xop lb="44" cb="6" le="44" ce="6" kind="&lt;">
+<n46 lb="44" cb="6" le="44" ce="6">
+<exp pvirg="true"/>
+<ocast lb="44" cb="6" le="44" ce="6">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="44" cb="6" le="44" ce="6">
+<n46 lb="44" cb="6" le="44" ce="6">
+<exp pvirg="true"/>
+<drx lb="44" cb="6" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="44" cb="6">
+<n45 lb="44" cb="6"/>
+</n32>
+</xop>
+</n46>
+<u lb="44" cb="18" le="46" ce="2">
+<n37 lb="45" cb="3" le="45" ce="54">
+<thr lb="45" cb="3" le="45" ce="54">
+<exp pvirg="true"/>
+<n10 lb="45" cb="9" le="45" ce="54">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_96eb67a20f78ae33fd41a3e13b09b2b0"/>
+<temp/>
+<mte lb="45" cb="9" le="45" ce="54">
+<exp pvirg="true"/>
+<n26 lb="45" cb="9" le="45" ce="54">
+<n8 lb="45" cb="9" le="45" ce="54" >
+<temp/>
+<n10 lb="45" cb="9" le="45" ce="54">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="45" cb="28">
+<n52 lb="45" cb="28">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</mte>
+</n10>
+</thr>
+</n37>
+</u>
+</if>
+</u>
+
+</Stmt>
+</c>
+<d name="~Device" id="fe3f003e8b0b958d7382ed1fc76d7dfe_c5562517811cb8933a61f4fdbcd036e0" file="1" linestart="49" lineend="52" previous="6d0356338d8ffb73442c812d962de0f3_c5562517811cb8933a61f4fdbcd036e0" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="50" cb="1" le="52" ce="1">
+<u lb="51" cb="2" le="51" ce="2">
+<if lb="51" cb="2" le="51" ce="2">
+<n32 lb="51" cb="2" le="51" ce="2">
+<n32 lb="51" cb="2" le="51" ce="2">
+<n46 lb="51" cb="2" le="51" ce="2">
+<exp pvirg="true"/>
+<mex lb="51" cb="2" kind="lvalue" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" nm="device" arrow="1">
+<n19 lb="51" cb="2"/>
+</mex>
+</n46>
+</n32>
+</n32>
+<u lb="51" cb="2" le="51" ce="2">
+<mce lb="51" cb="2" le="51" ce="2" nbparm="0" id="dde68f5d57e0d9fe580d7edc4c07fc7d_c7eaa06e01789ec64278d47ac4cb6beb">
+<exp pvirg="true"/>
+<mex lb="51" cb="2" le="51" ce="2" id="dde68f5d57e0d9fe580d7edc4c07fc7d_c7eaa06e01789ec64278d47ac4cb6beb" nm="Release" arrow="1">
+<n32 lb="51" cb="2" le="51" ce="2">
+<n32 lb="51" cb="2" le="51" ce="2">
+<n46 lb="51" cb="2" le="51" ce="2">
+<exp pvirg="true"/>
+<mex lb="51" cb="2" kind="lvalue" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" nm="device" arrow="1">
+<n19 lb="51" cb="2"/>
+</mex>
+</n46>
+</n32>
+</n32>
+</mex>
+</mce>
+<xop lb="51" cb="2" le="51" ce="2" kind="=">
+<n46 lb="51" cb="2" le="51" ce="2">
+<exp pvirg="true"/>
+<mex lb="51" cb="2" kind="lvalue" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" nm="device" arrow="1">
+<n19 lb="51" cb="2"/>
+</mex>
+</n46>
+<n32 lb="51" cb="2">
+<n45 lb="51" cb="2">
+<flit/>
+</n45>
+</n32>
+</xop>
+</u>
+</if>
+</u>
+<n59 lb="51" cb="22"/>
+</u>
+
+</Stmt>
+</d>
+<m name="GetDevice" id="fe3f003e8b0b958d7382ed1fc76d7dfe_e220b0f87042353012870c0b557dd42a" file="1" linestart="54" lineend="57" previous="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="ID3D12Device *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_600c634aa0140641a97236c4b8b2e118"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="55" cb="1" le="57" ce="1">
+<rx lb="56" cb="2" le="56" ce="9" pvirg="true">
+<n32 lb="56" cb="9">
+<mex lb="56" cb="9" kind="lvalue" id="6d0356338d8ffb73442c812d962de0f3_b7c52492f86123ffa08c62cb9b6de729" nm="device" arrow="1">
+<n19 lb="56" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

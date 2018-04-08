@@ -1,0 +1,2332 @@
+<Root>
+<Comments>
+<c f="1" b="34" e="34"/>
+<c f="1" b="35" e="34"/>
+<c f="1" b="37" e="37"/>
+<c f="1" b="38" e="38"/>
+<c f="1" b="39" e="38"/>
+<c f="1" b="41" e="41"/>
+<c f="1" b="42" e="41"/>
+<c f="1" b="44" e="44"/>
+<c f="1" b="45" e="44"/>
+<c f="1" b="48" e="48"/>
+<c f="1" b="49" e="48"/>
+<c f="1" b="51" e="51"/>
+<c f="1" b="52" e="51"/>
+<c f="1" b="101" e="101"/>
+<c f="1" b="102" e="101"/>
+<c f="1" b="105" e="105"/>
+<c f="1" b="106" e="105"/>
+<c f="1" b="110" e="110"/>
+<c f="1" b="111" e="110"/>
+<c f="1" b="123" e="123"/>
+<c f="1" b="124" e="123"/>
+<c f="1" b="133" e="133"/>
+<c f="1" b="134" e="133"/>
+<c f="1" b="148" e="148"/>
+<c f="1" b="149" e="149"/>
+<c f="1" b="150" e="150"/>
+<c f="1" b="152" e="150"/>
+</Comments>
+<Macros>
+<m f="1" bl="9" bc="109" el="9" ec="109"/>
+<m f="1" bl="9" bc="115" el="9" ec="142"/>
+<m f="1" bl="10" bc="6" el="10" ec="15"/>
+<m f="1" bl="21" bc="2" el="21" ec="28"/>
+<m f="1" bl="24" bc="3" el="24" ec="38"/>
+<m f="1" bl="39" bc="51" el="39" ec="51"/>
+<m f="1" bl="46" bc="36" el="46" ec="36"/>
+<m f="1" bl="118" bc="6" el="118" ec="15"/>
+<m f="1" bl="127" bc="6" el="127" ec="15"/>
+<m f="1" bl="139" bc="6" el="139" ec="15"/>
+<m f="1" bl="154" bc="83" el="154" ec="119"/>
+<m f="1" bl="155" bc="7" el="155" ec="16"/>
+</Macros>
+<Directives>
+<m f="1" bl="1" bc="1"/>
+<m f="1" bl="2" bc="1"/>
+<m f="1" bl="3" bc="1"/>
+</Directives>
+<Comments>
+<c f="2" b="19" e="19"/>
+<c f="2" b="20" e="19"/>
+<c f="2" b="28" e="28"/>
+<c f="2" b="29" e="28"/>
+</Comments>
+<Macros/>
+<Directives>
+<m f="2" bl="2" bc="1"/>
+<m f="2" bl="3" bc="1"/>
+</Directives>
+<tun>
+<ft name="force_string" id="9c7bfe2585299bac9afdf4f8fcabf213_1ee82994ad0c9f1fca4ce50d53668e3d" file="3" linestart="202" lineend="207">
+<template_parameters>
+<ttp name="T" id="9c7bfe2585299bac9afdf4f8fcabf213_a1c66e3d743ae49d6028dd849827a60f" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f name="force_string" id="9c7bfe2585299bac9afdf4f8fcabf213_b65549fddab9f2a1d27d075218843205" file="3" linestart="203" lineend="207" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="auto">
+<auto/>
+</fpt>
+<p name="arg" proto="T" access2="none">
+<ttp/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="203" cb="26" le="207" ce="1">
+<dst lb="204" cb="2" le="204" ce="27">
+<exp pvirg="true"/>
+<Var nm="sStream" value="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_aba35b20ea03dd03e503380b9186c293"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+<n10 lb="204" cb="20">
+<typeptr id="d39d1a132b0c16493c7eb88386173838_9b338e7b149242250646c2951a67f10d">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="ce7d66c4fb37f82f4844d16a4c953408_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="ce7d66c4fb37f82f4844d16a4c953408_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</Var>
+</dst>
+<xop lb="205" cb="2" le="205" ce="13" kind="&lt;&lt;">
+<drx lb="205" cb="2" kind="lvalue" nm="sStream"/>
+<drx lb="205" cb="13" kind="lvalue" nm="arg"/>
+</xop>
+<rx lb="206" cb="2" le="206" ce="21" pvirg="true">
+<mce lb="206" cb="9" le="206" ce="21" nbparm="0" id="d39d1a132b0c16493c7eb88386173838_5c585cd54b1505e5cc2719ca66747cf3">
+<exp pvirg="true"/>
+<mex lb="206" cb="9" le="206" ce="17" id="d39d1a132b0c16493c7eb88386173838_5c585cd54b1505e5cc2719ca66747cf3" nm="str" point="1">
+<n32 lb="206" cb="9">
+<drx lb="206" cb="9" kind="lvalue" nm="sStream"/>
+</n32>
+</mex>
+</mce>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</ft>
+<f name="SaveToFile" id="9c7bfe2585299bac9afdf4f8fcabf213_d6e11051430e7bebdb39960410083244" file="3" linestart="209" lineend="215" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="file" proto="const std::string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="data" proto="const std::string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="210" cb="1" le="215" ce="1">
+<dst lb="211" cb="2" le="211" ce="18">
+<exp pvirg="true"/>
+<Var nm="fs" value="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_213a2eae7406c1710df59d36c4fa8251"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</Var>
+</dst>
+</u>
+
+</Stmt>
+</f>
+<f name="Arrange_OHM_Data" id="9c7bfe2585299bac9afdf4f8fcabf213_8081edc32e06221e8b1f1a5e49cbc210" file="3" linestart="217" lineend="217" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dataArr" proto="const std::string *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="item" proto="WMIDataItem *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="127e87f3fe218c3d64431a10d9efcfa2_0b4b308618552d68c7a68e5f1d26bea8"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</f>
+<cr access="public" depth="0" kind="class" name="CommandListHandler" id="e05fd5e16bc3842aff8c5c675e14ad1d_6d45653ba89ea53aa3b81341fc9d9aa0" file="2" linestart="5" lineend="30">
+<cr access="public" kind="class" name="CommandListHandler" id="e05fd5e16bc3842aff8c5c675e14ad1d_5f1fc69eb0833669f932c726c4ca0c99" file="2" linestart="5" lineend="5"/>
+<asd access="public"/>
+<c name="CommandListHandler" id="e05fd5e16bc3842aff8c5c675e14ad1d_8188d722ae1f2d2e6cf4d19187a739af" file="2" linestart="7" lineend="7" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~CommandListHandler" id="e05fd5e16bc3842aff8c5c675e14ad1d_18561e2391880c01e8d33a7f001b3571" file="2" linestart="8" lineend="8" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="SetState" id="e05fd5e16bc3842aff8c5c675e14ad1d_f44c7b233e86576e669dcf4e93abdf63" file="2" linestart="10" lineend="10" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="renderTargets" proto="ID3D12Resource **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rtvDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rtvDescriptorSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="dsDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rootSignature" proto="ID3D12RootSignature &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_37b63d448ca4c3170f837e615606ac60"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="mainDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="viewport" proto="D3D12_VIEWPORT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_638312da4146b5763f23f986f151ab7d"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="scissorRect" proto="D3D12_RECT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="3a9628eb92dec208c7cf18367a17ac39_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="vertexBufferView" proto="D3D12_VERTEX_BUFFER_VIEW &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_36d7a8ce5750da52eb50fd88343e3937"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="indexBufferView" proto="D3D12_INDEX_BUFFER_VIEW &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_cd2b874bfc4ca42c02c754300085d7c7"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="RecordDrawCalls" id="e05fd5e16bc3842aff8c5c675e14ad1d_02b7685018178f46360c82747f2ba3ff" file="2" linestart="11" lineend="11" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cubeContainer" proto="const CubeContainer &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ff567f0cbd6be79384038675cd41f98b_8773b35ebc01fc157a3cb69463e7df3f"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="numCubeIndices" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="queryHeap" proto="ID3D12QueryHeap *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_50ebf7c1845a91706544d8dbab33d588"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="11" cb="108">
+<n16 lb="11" cb="108">
+<exp pvirg="true"/>
+</n16>
+</n32>
+
+</Stmt>
+</p>
+<p name="queryIndex" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+<Stmt>
+<uo lb="11" cb="134" le="11" ce="135" kind="-">
+<n45 lb="11" cb="135">
+<flit/>
+</n45>
+</uo>
+
+</Stmt>
+</p>
+</m>
+<m name="RecordOpen" id="e05fd5e16bc3842aff8c5c675e14ad1d_78b58a86b44c4bf1af598967bca813a0" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="renderTargets" proto="ID3D12Resource **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="RecordClosing" id="e05fd5e16bc3842aff8c5c675e14ad1d_755a9fa9274b1c601c9d1c8a9ef98ca9" file="2" linestart="13" lineend="13" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="renderTargets" proto="ID3D12Resource **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="queryHeap" proto="ID3D12QueryHeap *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_50ebf7c1845a91706544d8dbab33d588"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="13" cb="84">
+<n16 lb="13" cb="84">
+<exp pvirg="true"/>
+</n16>
+</n32>
+
+</Stmt>
+</p>
+<p name="queryCount" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+<Stmt>
+<uo lb="13" cb="110" le="13" ce="111" kind="-">
+<n45 lb="13" cb="111">
+<flit/>
+</n45>
+</uo>
+
+</Stmt>
+</p>
+<p name="queryResult" proto="ID3D12Resource *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="13" cb="144">
+<n16 lb="13" cb="144">
+<exp pvirg="true"/>
+</n16>
+</n32>
+
+</Stmt>
+</p>
+</m>
+<m name="RecordClearScreenBuffers" id="e05fd5e16bc3842aff8c5c675e14ad1d_33b2c5f32a2d06ac17d5260ffb0b3e59" file="2" linestart="14" lineend="14" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="rtvDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rtvDescriptorSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="dsDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="Open" id="e05fd5e16bc3842aff8c5c675e14ad1d_71b0009082913eb5a3ed5d44f61c4d09" file="2" linestart="15" lineend="15" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="pipeline" proto="ID3D12PipelineState &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_cb823a70614c99d096c8062fb4558cab"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="Close" id="e05fd5e16bc3842aff8c5c675e14ad1d_e8cf60769ff282681ad91c4ce2d6e881" file="2" linestart="16" lineend="16" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="GetCommandList" id="e05fd5e16bc3842aff8c5c675e14ad1d_1b696894ce3364285c53e108f216f2a9" file="2" linestart="17" lineend="17" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="ID3D12GraphicsCommandList *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_96c5e2f4f5b968938fd01f9b844bb526"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetGPUCommandDebugString" id="e05fd5e16bc3842aff8c5c675e14ad1d_56cec735008de9b4d1d562f1d47a8089" file="2" linestart="20" lineend="20" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="std::string &amp;">
+<lrf>
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</lrf>
+</fpt>
+<Stmt>
+<u lb="20" cb="42" le="20" ce="68"/>
+
+</Stmt>
+</m>
+<asd access="private"/>
+<fl name="m_frameBufferIndex" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" file="2" linestart="23" lineend="23" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_commandAllocators" id="e05fd5e16bc3842aff8c5c675e14ad1d_ba9f031af19612ba8da2751044270926" file="2" linestart="24" lineend="24" access="private" proto="std::vector&lt;ID3D12CommandAllocator *&gt;">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_d2a969a839da99b5e503035f65545854"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</ety>
+</fl>
+<fl name="m_commandList" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" file="2" linestart="25" lineend="25" isPtr="true" isLiteral="true" access="private" proto="ID3D12GraphicsCommandList *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_96c5e2f4f5b968938fd01f9b844bb526"/>
+</rt>
+</pt>
+</fl>
+<m name="CreateCommandAllocators" id="e05fd5e16bc3842aff8c5c675e14ad1d_cf25208e70fec9e3cff718d9672ae182" file="2" linestart="26" lineend="26" access="private" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<fl name="gpuCommandDebug" id="e05fd5e16bc3842aff8c5c675e14ad1d_2a1194e89ef507c9660a46c33e7fba14" file="2" linestart="29" lineend="29" access="private" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<c name="CommandListHandler" id="e05fd5e16bc3842aff8c5c675e14ad1d_259069783b7e47320236cee3adc65cd2" file="2" linestart="5" lineend="5" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const CommandListHandler &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="e05fd5e16bc3842aff8c5c675e14ad1d_6d45653ba89ea53aa3b81341fc9d9aa0"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="CommandListHandler" id="429cb41a46d23f00be98f2633ddbfaad_8188d722ae1f2d2e6cf4d19187a739af" file="1" linestart="5" lineend="17" previous="e05fd5e16bc3842aff8c5c675e14ad1d_8188d722ae1f2d2e6cf4d19187a739af" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="6" cb="1" le="17" ce="1">
+<mce lb="7" cb="2" le="7" ce="50" nbparm="2" id="e05fd5e16bc3842aff8c5c675e14ad1d_cf25208e70fec9e3cff718d9672ae182">
+<exp pvirg="true"/>
+<mex lb="7" cb="2" id="e05fd5e16bc3842aff8c5c675e14ad1d_cf25208e70fec9e3cff718d9672ae182" nm="CreateCommandAllocators" arrow="1">
+<n19 lb="7" cb="2"/>
+</mex>
+<drx lb="7" cb="26" kind="lvalue" nm="device"/>
+<n32 lb="7" cb="34">
+<drx lb="7" cb="34" kind="lvalue" nm="frameBufferCount"/>
+</n32>
+</mce>
+<dst lb="8" cb="2" le="8" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<if lb="10" cb="2" le="13" ce="2">
+<n46 lb="10" cb="6" le="10" ce="6">
+<exp pvirg="true"/>
+<xop lb="10" cb="6" le="10" ce="6" kind="&lt;">
+<n46 lb="10" cb="6" le="10" ce="6">
+<exp pvirg="true"/>
+<ocast lb="10" cb="6" le="10" ce="6">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="10" cb="6" le="10" ce="6">
+<n46 lb="10" cb="6" le="10" ce="6">
+<exp pvirg="true"/>
+<drx lb="10" cb="6" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="10" cb="6">
+<n45 lb="10" cb="6">
+<flit/>
+</n45>
+</n32>
+</xop>
+</n46>
+<u lb="11" cb="2" le="13" ce="2">
+<n37 lb="12" cb="3" le="12" ce="56">
+<thr lb="12" cb="3" le="12" ce="56">
+<exp pvirg="true"/>
+<n10 lb="12" cb="9" le="12" ce="56">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_96eb67a20f78ae33fd41a3e13b09b2b0"/>
+<temp/>
+<mte lb="12" cb="9" le="12" ce="56">
+<exp pvirg="true"/>
+<n26 lb="12" cb="9" le="12" ce="56">
+<n8 lb="12" cb="9" le="12" ce="56" >
+<temp/>
+<n10 lb="12" cb="9" le="12" ce="56">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="12" cb="28">
+<n52 lb="12" cb="28">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</mte>
+</n10>
+</thr>
+</n37>
+</u>
+</if>
+<mce lb="15" cb="2" le="15" ce="8" nbparm="0" id="e05fd5e16bc3842aff8c5c675e14ad1d_e8cf60769ff282681ad91c4ce2d6e881">
+<exp pvirg="true"/>
+<mex lb="15" cb="2" id="e05fd5e16bc3842aff8c5c675e14ad1d_e8cf60769ff282681ad91c4ce2d6e881" nm="Close" arrow="1">
+<n19 lb="15" cb="2"/>
+</mex>
+</mce>
+<xop lb="16" cb="2" le="16" ce="23" kind="=">
+<mex lb="16" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="16" cb="2"/>
+</mex>
+<n45 lb="16" cb="23"/>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<d name="~CommandListHandler" id="429cb41a46d23f00be98f2633ddbfaad_18561e2391880c01e8d33a7f001b3571" file="1" linestart="19" lineend="26" previous="e05fd5e16bc3842aff8c5c675e14ad1d_18561e2391880c01e8d33a7f001b3571" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="20" cb="1" le="26" ce="1">
+<u lb="21" cb="2" le="21" ce="2">
+<if lb="21" cb="2" le="21" ce="2">
+<n32 lb="21" cb="2" le="21" ce="2">
+<n32 lb="21" cb="2" le="21" ce="2">
+<n46 lb="21" cb="2" le="21" ce="2">
+<exp pvirg="true"/>
+<mex lb="21" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="21" cb="2"/>
+</mex>
+</n46>
+</n32>
+</n32>
+<u lb="21" cb="2" le="21" ce="2">
+<mce lb="21" cb="2" le="21" ce="2" nbparm="0" id="dde68f5d57e0d9fe580d7edc4c07fc7d_c7eaa06e01789ec64278d47ac4cb6beb">
+<exp pvirg="true"/>
+<mex lb="21" cb="2" le="21" ce="2" id="dde68f5d57e0d9fe580d7edc4c07fc7d_c7eaa06e01789ec64278d47ac4cb6beb" nm="Release" arrow="1">
+<n32 lb="21" cb="2" le="21" ce="2">
+<n32 lb="21" cb="2" le="21" ce="2">
+<n46 lb="21" cb="2" le="21" ce="2">
+<exp pvirg="true"/>
+<mex lb="21" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="21" cb="2"/>
+</mex>
+</n46>
+</n32>
+</n32>
+</mex>
+</mce>
+<xop lb="21" cb="2" le="21" ce="2" kind="=">
+<n46 lb="21" cb="2" le="21" ce="2">
+<exp pvirg="true"/>
+<mex lb="21" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="21" cb="2"/>
+</mex>
+</n46>
+<n32 lb="21" cb="2">
+<n45 lb="21" cb="2">
+<flit/>
+</n45>
+</n32>
+</xop>
+</u>
+</if>
+</u>
+<n59 lb="21" cb="29"/>
+<fx lb="23" cb="2" le="25" ce="2">
+<dst lb="23" cb="7" le="23" ce="17">
+<exp pvirg="true"/>
+<Var nm="i" value="true">
+<auto/>
+<n45 lb="23" cb="16"/>
+</Var>
+</dst>
+<uo lb="23" cb="51" le="23" ce="53" kind="++">
+<drx lb="23" cb="53" kind="lvalue" nm="i"/>
+</uo>
+<u lb="23" cb="56" le="25" ce="2">
+<u lb="24" cb="3" le="24" ce="3"/>
+<n59 lb="24" cb="39"/>
+</u>
+</fx>
+</u>
+
+</Stmt>
+</d>
+<m name="SetState" id="429cb41a46d23f00be98f2633ddbfaad_f44c7b233e86576e669dcf4e93abdf63" file="1" linestart="28" lineend="61" previous="e05fd5e16bc3842aff8c5c675e14ad1d_f44c7b233e86576e669dcf4e93abdf63" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="renderTargets" proto="ID3D12Resource **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rtvDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rtvDescriptorSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="dsDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rootSignature" proto="ID3D12RootSignature &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_37b63d448ca4c3170f837e615606ac60"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="mainDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="viewport" proto="D3D12_VIEWPORT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_638312da4146b5763f23f986f151ab7d"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="scissorRect" proto="D3D12_RECT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="3a9628eb92dec208c7cf18367a17ac39_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="vertexBufferView" proto="D3D12_VERTEX_BUFFER_VIEW &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_36d7a8ce5750da52eb50fd88343e3937"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="indexBufferView" proto="D3D12_INDEX_BUFFER_VIEW &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_cd2b874bfc4ca42c02c754300085d7c7"/>
+</rt>
+</ety>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="29" cb="1" le="61" ce="1">
+<dst lb="30" cb="2" le="30" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<dst lb="32" cb="2" le="32" ce="143">
+<exp pvirg="true"/>
+<Var nm="rtvHandle" value="true">
+<auto/>
+<n10 lb="32" cb="19" le="32" ce="142">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_a976b582b02d0dfb238664ab284f9787"/>
+<temp/>
+<mte lb="32" cb="19" le="32" ce="142">
+<exp pvirg="true"/>
+<n11 lb="32" cb="19" le="32" ce="142">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_aa56cb0e93a143097f7516a3f49e17a5"/>
+<temp/>
+<mte lb="32" cb="49" le="32" ce="102">
+<exp pvirg="true"/>
+<n32 lb="32" cb="49" le="32" ce="102">
+<mce lb="32" cb="49" le="32" ce="102" nbparm="0" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e">
+<exp pvirg="true"/>
+<mex lb="32" cb="49" le="32" ce="67" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e" nm="GetCPUDescriptorHandleForHeapStart" point="1">
+<drx lb="32" cb="49" kind="lvalue" nm="rtvDescriptorHeap"/>
+</mex>
+</mce>
+</n32>
+</mte>
+<n32 lb="32" cb="105">
+<mex lb="32" cb="105" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="32" cb="105"/>
+</mex>
+</n32>
+<n32 lb="32" cb="125">
+<n32 lb="32" cb="125">
+<drx lb="32" cb="125" kind="lvalue" nm="rtvDescriptorSize"/>
+</n32>
+</n32>
+</n11>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="35" cb="2" le="35" ce="103">
+<exp pvirg="true"/>
+<Var nm="dsvHandle" value="true">
+<auto/>
+<n10 lb="35" cb="19" le="35" ce="102">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_a976b582b02d0dfb238664ab284f9787"/>
+<temp/>
+<mte lb="35" cb="19" le="35" ce="102">
+<exp pvirg="true"/>
+<n26 lb="35" cb="19" le="35" ce="102">
+<n10 lb="35" cb="19" le="35" ce="102">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_2a6a3bb5e542f6b2ee910ada3109c8f4"/>
+<temp/>
+<mte lb="35" cb="49" le="35" ce="101">
+<exp pvirg="true"/>
+<n32 lb="35" cb="49" le="35" ce="101">
+<mce lb="35" cb="49" le="35" ce="101" nbparm="0" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e">
+<exp pvirg="true"/>
+<mex lb="35" cb="49" le="35" ce="66" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e" nm="GetCPUDescriptorHandleForHeapStart" point="1">
+<drx lb="35" cb="49" kind="lvalue" nm="dsDescriptorHeap"/>
+</mex>
+</mce>
+</n32>
+</mte>
+</n10>
+</n26>
+</mte>
+</n10>
+</Var>
+</dst>
+<mce lb="39" cb="2" le="39" ce="68" nbparm="4" id="2cd4e6b730954360c006482b86a79774_5579070c571bc5e0f5d0f5cf3f7270cf">
+<exp pvirg="true"/>
+<mex lb="39" cb="2" le="39" ce="17" id="2cd4e6b730954360c006482b86a79774_5579070c571bc5e0f5d0f5cf3f7270cf" nm="OMSetRenderTargets" arrow="1">
+<n32 lb="39" cb="2">
+<mex lb="39" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="39" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="39" cb="36">
+<n45 lb="39" cb="36">
+<flit/>
+</n45>
+</n32>
+<n32 lb="39" cb="39" le="39" ce="40">
+<uo lb="39" cb="39" le="39" ce="40" kind="&amp;">
+<drx lb="39" cb="40" kind="lvalue" nm="rtvHandle"/>
+</uo>
+</n32>
+<n45 lb="39" cb="51">
+<flit/>
+</n45>
+<n32 lb="39" cb="58" le="39" ce="59">
+<uo lb="39" cb="58" le="39" ce="59" kind="&amp;">
+<drx lb="39" cb="59" kind="lvalue" nm="dsvHandle"/>
+</uo>
+</n32>
+</mce>
+<mce lb="42" cb="2" le="42" ce="56" nbparm="1" id="2cd4e6b730954360c006482b86a79774_2cb8c279919ad9648b80c7c01f6b1de8">
+<exp pvirg="true"/>
+<mex lb="42" cb="2" le="42" ce="17" id="2cd4e6b730954360c006482b86a79774_2cb8c279919ad9648b80c7c01f6b1de8" nm="SetGraphicsRootSignature" arrow="1">
+<n32 lb="42" cb="2">
+<mex lb="42" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="42" cb="2"/>
+</mex>
+</n32>
+</mex>
+<uo lb="42" cb="42" le="42" ce="43" kind="&amp;">
+<drx lb="42" cb="43" kind="lvalue" nm="rootSignature"/>
+</uo>
+</mce>
+<dst lb="45" cb="2" le="45" ce="67">
+<exp pvirg="true"/>
+<Var nm="descriptorHeaps" value="true">
+<cat>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</pt>
+</cat>
+<il lb="45" cb="44" le="45" ce="66">
+<exp pvirg="true"/>
+<uo lb="45" cb="46" le="45" ce="47" kind="&amp;">
+<drx lb="45" cb="47" kind="lvalue" nm="mainDescriptorHeap"/>
+</uo>
+</il>
+</Var>
+</dst>
+<mce lb="46" cb="2" le="46" ce="78" nbparm="2" id="2cd4e6b730954360c006482b86a79774_d0086975d81e762ed5df4f89237704d7">
+<exp pvirg="true"/>
+<mex lb="46" cb="2" le="46" ce="17" id="2cd4e6b730954360c006482b86a79774_d0086975d81e762ed5df4f89237704d7" nm="SetDescriptorHeaps" arrow="1">
+<n32 lb="46" cb="2">
+<mex lb="46" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="46" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n46 lb="46" cb="36" le="46" ce="36">
+<exp pvirg="true"/>
+<xop lb="46" cb="36" le="46" ce="36" kind="+">
+<n55 lb="46" cb="36" le="46" ce="36">
+<sizeof/>
+<n46 lb="46" cb="36" le="46" ce="36">
+<exp pvirg="true"/>
+<uo lb="46" cb="36" le="46" ce="36" kind="*">
+<ce lb="46" cb="36" le="46" ce="36" nbparm="1" id="41231daa292650fb896da6a567662ee1_65c94fd634b9af4b09b8e5df1d1ecbe5">
+<exp pvirg="true"/>
+<n32 lb="46" cb="36">
+<drx lb="46" cb="36" kind="lvalue" id="41231daa292650fb896da6a567662ee1_65c94fd634b9af4b09b8e5df1d1ecbe5" nm="__countof_helper">
+<template_arguments>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</pt>
+<integer value="1"/>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="46" cb="36" kind="lvalue" nm="descriptorHeaps"/>
+</ce>
+</uo>
+</n46>
+</n55>
+<n32 lb="46" cb="36">
+<n45 lb="46" cb="36"/>
+</n32>
+</xop>
+</n46>
+<n32 lb="46" cb="63">
+<n32 lb="46" cb="63">
+<drx lb="46" cb="63" kind="lvalue" nm="descriptorHeaps"/>
+</n32>
+</n32>
+</mce>
+<mce lb="49" cb="2" le="49" ce="106" nbparm="2" id="2cd4e6b730954360c006482b86a79774_244ec8898d968d5eef9a3fb020157c36">
+<exp pvirg="true"/>
+<mex lb="49" cb="2" le="49" ce="17" id="2cd4e6b730954360c006482b86a79774_244ec8898d968d5eef9a3fb020157c36" nm="SetGraphicsRootDescriptorTable" arrow="1">
+<n32 lb="49" cb="2">
+<mex lb="49" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="49" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="49" cb="48">
+<n45 lb="49" cb="48">
+<flit/>
+</n45>
+</n32>
+<n10 lb="49" cb="51" le="49" ce="105">
+<typeptr id="2cd4e6b730954360c006482b86a79774_7f4852b1591e4b5add1753dd677d5fa7"/>
+<temp/>
+<mte lb="49" cb="51" le="49" ce="105">
+<exp pvirg="true"/>
+<mce lb="49" cb="51" le="49" ce="105" nbparm="0" id="2cd4e6b730954360c006482b86a79774_788f52e7da138f65720e590415099060">
+<exp pvirg="true"/>
+<mex lb="49" cb="51" le="49" ce="70" id="2cd4e6b730954360c006482b86a79774_788f52e7da138f65720e590415099060" nm="GetGPUDescriptorHandleForHeapStart" point="1">
+<drx lb="49" cb="51" kind="lvalue" nm="mainDescriptorHeap"/>
+</mex>
+</mce>
+</mte>
+</n10>
+</mce>
+<mce lb="52" cb="2" le="52" ce="44" nbparm="2" id="2cd4e6b730954360c006482b86a79774_5586c3be956f0fac5217a180507cfc32">
+<exp pvirg="true"/>
+<mex lb="52" cb="2" le="52" ce="17" id="2cd4e6b730954360c006482b86a79774_5586c3be956f0fac5217a180507cfc32" nm="RSSetViewports" arrow="1">
+<n32 lb="52" cb="2">
+<mex lb="52" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="52" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="52" cb="32">
+<n45 lb="52" cb="32"/>
+</n32>
+<n32 lb="52" cb="35" le="52" ce="36">
+<uo lb="52" cb="35" le="52" ce="36" kind="&amp;">
+<drx lb="52" cb="36" kind="lvalue" nm="viewport"/>
+</uo>
+</n32>
+</mce>
+<mce lb="54" cb="2" le="54" ce="50" nbparm="2" id="2cd4e6b730954360c006482b86a79774_b011f71a712669d323c925879866b641">
+<exp pvirg="true"/>
+<mex lb="54" cb="2" le="54" ce="17" id="2cd4e6b730954360c006482b86a79774_b011f71a712669d323c925879866b641" nm="RSSetScissorRects" arrow="1">
+<n32 lb="54" cb="2">
+<mex lb="54" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="54" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="54" cb="35">
+<n45 lb="54" cb="35"/>
+</n32>
+<n32 lb="54" cb="38" le="54" ce="39">
+<uo lb="54" cb="38" le="54" ce="39" kind="&amp;">
+<drx lb="54" cb="39" kind="lvalue" nm="scissorRect"/>
+</uo>
+</n32>
+</mce>
+<mce lb="56" cb="2" le="56" ce="75" nbparm="1" id="2cd4e6b730954360c006482b86a79774_8cd3c717b879f3d4a0cf5d0618606c17">
+<exp pvirg="true"/>
+<mex lb="56" cb="2" le="56" ce="17" id="2cd4e6b730954360c006482b86a79774_8cd3c717b879f3d4a0cf5d0618606c17" nm="IASetPrimitiveTopology" arrow="1">
+<n32 lb="56" cb="2">
+<mex lb="56" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="56" cb="2"/>
+</mex>
+</n32>
+</mex>
+<drx lb="56" cb="40" id="2fffffddcd3c95038f77e770bc674107_8946337a278e96c0a64b1d6d3e3667c6" nm="D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST"/>
+</mce>
+<mce lb="58" cb="2" le="58" ce="59" nbparm="3" id="2cd4e6b730954360c006482b86a79774_79ceb5f47837135a2a69fea5b3c1dfd5">
+<exp pvirg="true"/>
+<mex lb="58" cb="2" le="58" ce="17" id="2cd4e6b730954360c006482b86a79774_79ceb5f47837135a2a69fea5b3c1dfd5" nm="IASetVertexBuffers" arrow="1">
+<n32 lb="58" cb="2">
+<mex lb="58" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="58" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="58" cb="36">
+<n45 lb="58" cb="36"/>
+</n32>
+<n32 lb="58" cb="39">
+<n45 lb="58" cb="39"/>
+</n32>
+<n32 lb="58" cb="42" le="58" ce="43">
+<uo lb="58" cb="42" le="58" ce="43" kind="&amp;">
+<drx lb="58" cb="43" kind="lvalue" nm="vertexBufferView"/>
+</uo>
+</n32>
+</mce>
+<mce lb="60" cb="2" le="60" ce="50" nbparm="1" id="2cd4e6b730954360c006482b86a79774_48463f2ee1efddc9d6f7d29cd43290ef">
+<exp pvirg="true"/>
+<mex lb="60" cb="2" le="60" ce="17" id="2cd4e6b730954360c006482b86a79774_48463f2ee1efddc9d6f7d29cd43290ef" nm="IASetIndexBuffer" arrow="1">
+<n32 lb="60" cb="2">
+<mex lb="60" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="60" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="60" cb="34" le="60" ce="35">
+<uo lb="60" cb="34" le="60" ce="35" kind="&amp;">
+<drx lb="60" cb="35" kind="lvalue" nm="indexBufferView"/>
+</uo>
+</n32>
+</mce>
+</u>
+
+</Stmt>
+</m>
+<m name="RecordDrawCalls" id="429cb41a46d23f00be98f2633ddbfaad_02b7685018178f46360c82747f2ba3ff" file="1" linestart="63" lineend="81" previous="e05fd5e16bc3842aff8c5c675e14ad1d_02b7685018178f46360c82747f2ba3ff" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cubeContainer" proto="const CubeContainer &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ff567f0cbd6be79384038675cd41f98b_8773b35ebc01fc157a3cb69463e7df3f"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="numCubeIndices" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="queryHeap" proto="ID3D12QueryHeap *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_50ebf7c1845a91706544d8dbab33d588"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="11" cb="108">
+<n16 lb="11" cb="108">
+<exp pvirg="true"/>
+</n16>
+</n32>
+
+</Stmt>
+</p>
+<p name="queryIndex" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+<Stmt>
+<uo lb="11" cb="134" le="11" ce="135" kind="-">
+<n45 lb="11" cb="135">
+<flit/>
+</n45>
+</uo>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="64" cb="1" le="81" ce="1">
+<if lb="65" cb="2" le="67" ce="2">
+<n32 lb="65" cb="6" le="65" ce="39">
+<mex lb="65" cb="6" le="65" ce="39" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_43da036b0d8f708df40e619e170b025d" nm="pipelineStatistics" point="1">
+<ce lb="65" cb="6" le="65" ce="37" nbparm="0" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba">
+<exp pvirg="true"/>
+<n32 lb="65" cb="6" le="65" ce="25">
+<drx lb="65" cb="6" le="65" ce="25" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba" nm="GetInstance"/>
+</n32>
+</ce>
+</mex>
+</n32>
+<u lb="65" cb="59" le="67" ce="2">
+<mce lb="66" cb="3" le="66" ce="88" nbparm="3" id="2cd4e6b730954360c006482b86a79774_690effbbe18fc9b9b5ac97d20c51a753">
+<exp pvirg="true"/>
+<mex lb="66" cb="3" le="66" ce="18" id="2cd4e6b730954360c006482b86a79774_690effbbe18fc9b9b5ac97d20c51a753" nm="BeginQuery" arrow="1">
+<n32 lb="66" cb="3">
+<mex lb="66" cb="3" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="66" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="66" cb="29">
+<drx lb="66" cb="29" kind="lvalue" nm="queryHeap"/>
+</n32>
+<drx lb="66" cb="40" id="2cd4e6b730954360c006482b86a79774_afb5ee8a646c022e54d81d14ac1730c1" nm="D3D12_QUERY_TYPE_PIPELINE_STATISTICS"/>
+<n32 lb="66" cb="78">
+<n32 lb="66" cb="78">
+<drx lb="66" cb="78" kind="lvalue" nm="queryIndex"/>
+</n32>
+</n32>
+</mce>
+</u>
+</if>
+<mce lb="69" cb="2" le="69" ce="94" nbparm="2" id="2cd4e6b730954360c006482b86a79774_17541344c4e3bbb884685e546028a2db">
+<exp pvirg="true"/>
+<mex lb="69" cb="2" le="69" ce="17" id="2cd4e6b730954360c006482b86a79774_17541344c4e3bbb884685e546028a2db" nm="SetGraphicsRootConstantBufferView" arrow="1">
+<n32 lb="69" cb="2">
+<mex lb="69" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="69" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="69" cb="51">
+<n45 lb="69" cb="51"/>
+</n32>
+<mce lb="69" cb="54" le="69" ce="93" nbparm="0" id="ff567f0cbd6be79384038675cd41f98b_7bf81dd81c8c0e92e51502df007790e7">
+<exp pvirg="true"/>
+<mex lb="69" cb="54" le="69" ce="68" id="ff567f0cbd6be79384038675cd41f98b_7bf81dd81c8c0e92e51502df007790e7" nm="GetViewMatVirtualAddress" point="1">
+<drx lb="69" cb="54" kind="lvalue" nm="cubeContainer"/>
+</mex>
+</mce>
+</mce>
+<mce lb="70" cb="2" le="70" ce="94" nbparm="2" id="2cd4e6b730954360c006482b86a79774_17541344c4e3bbb884685e546028a2db">
+<exp pvirg="true"/>
+<mex lb="70" cb="2" le="70" ce="17" id="2cd4e6b730954360c006482b86a79774_17541344c4e3bbb884685e546028a2db" nm="SetGraphicsRootConstantBufferView" arrow="1">
+<n32 lb="70" cb="2">
+<mex lb="70" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="70" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="70" cb="51">
+<n45 lb="70" cb="51">
+<flit/>
+</n45>
+</n32>
+<mce lb="70" cb="54" le="70" ce="93" nbparm="0" id="ff567f0cbd6be79384038675cd41f98b_e65beffa35190e03ec12eb9d896eccc8">
+<exp pvirg="true"/>
+<mex lb="70" cb="54" le="70" ce="68" id="ff567f0cbd6be79384038675cd41f98b_e65beffa35190e03ec12eb9d896eccc8" nm="GetProjMatVirtualAddress" point="1">
+<drx lb="70" cb="54" kind="lvalue" nm="cubeContainer"/>
+</mex>
+</mce>
+</mce>
+<dst lb="72" cb="2" le="72" ce="50">
+<exp pvirg="true"/>
+<Var nm="cubeCount" value="true">
+<auto/>
+<mce lb="72" cb="19" le="72" ce="49" nbparm="0" id="33c826770be6a5c668eec595c19b1004_4d302b215534245d1eabe876b749053e">
+<exp pvirg="true"/>
+<mex lb="72" cb="19" le="72" ce="44" id="33c826770be6a5c668eec595c19b1004_4d302b215534245d1eabe876b749053e" nm="size" point="1">
+<mce lb="72" cb="19" le="72" ce="42" nbparm="0" id="ff567f0cbd6be79384038675cd41f98b_8163ee207a115af83820843cccca529c">
+<exp pvirg="true"/>
+<mex lb="72" cb="19" le="72" ce="33" id="ff567f0cbd6be79384038675cd41f98b_8163ee207a115af83820843cccca529c" nm="GetCubes" point="1">
+<drx lb="72" cb="19" kind="lvalue" nm="cubeContainer"/>
+</mex>
+</mce>
+</mex>
+</mce>
+</Var>
+</dst>
+<fx lb="73" cb="2" le="76" ce="2">
+<dst lb="73" cb="7" le="73" ce="17">
+<exp pvirg="true"/>
+<Var nm="i" value="true">
+<auto/>
+<n45 lb="73" cb="16">
+<flit/>
+</n45>
+</Var>
+</dst>
+<xop lb="73" cb="19" le="73" ce="23" kind="&lt;">
+<n32 lb="73" cb="19">
+<n32 lb="73" cb="19">
+<drx lb="73" cb="19" kind="lvalue" nm="i"/>
+</n32>
+</n32>
+<n32 lb="73" cb="23">
+<drx lb="73" cb="23" kind="lvalue" nm="cubeCount"/>
+</n32>
+</xop>
+<uo lb="73" cb="34" le="73" ce="36" kind="++">
+<drx lb="73" cb="36" kind="lvalue" nm="i"/>
+</uo>
+<u lb="73" cb="39" le="76" ce="2">
+<mce lb="74" cb="3" le="74" ce="117" nbparm="2" id="2cd4e6b730954360c006482b86a79774_17541344c4e3bbb884685e546028a2db">
+<exp pvirg="true"/>
+<mex lb="74" cb="3" le="74" ce="18" id="2cd4e6b730954360c006482b86a79774_17541344c4e3bbb884685e546028a2db" nm="SetGraphicsRootConstantBufferView" arrow="1">
+<n32 lb="74" cb="3">
+<mex lb="74" cb="3" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="74" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="74" cb="52">
+<n45 lb="74" cb="52"/>
+</n32>
+<mce lb="74" cb="55" le="74" ce="116" nbparm="2" id="ff567f0cbd6be79384038675cd41f98b_d54c3aff52eac9d8a648cf1a8921314c">
+<exp pvirg="true"/>
+<mex lb="74" cb="55" le="74" ce="69" id="ff567f0cbd6be79384038675cd41f98b_d54c3aff52eac9d8a648cf1a8921314c" nm="GetWorldMatVirtualAddress" point="1">
+<drx lb="74" cb="55" kind="lvalue" nm="cubeContainer"/>
+</mex>
+<n32 lb="74" cb="95">
+<drx lb="74" cb="95" kind="lvalue" nm="i"/>
+</n32>
+<n32 lb="74" cb="98">
+<mex lb="74" cb="98" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="74" cb="98"/>
+</mex>
+</n32>
+</mce>
+</mce>
+<mce lb="75" cb="3" le="75" ce="65" nbparm="5" id="2cd4e6b730954360c006482b86a79774_465c77ba9770c05e0d2d272554d26c82">
+<exp pvirg="true"/>
+<mex lb="75" cb="3" le="75" ce="18" id="2cd4e6b730954360c006482b86a79774_465c77ba9770c05e0d2d272554d26c82" nm="DrawIndexedInstanced" arrow="1">
+<n32 lb="75" cb="3">
+<mex lb="75" cb="3" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="75" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="75" cb="39">
+<n32 lb="75" cb="39">
+<drx lb="75" cb="39" kind="lvalue" nm="numCubeIndices"/>
+</n32>
+</n32>
+<n32 lb="75" cb="55">
+<n45 lb="75" cb="55"/>
+</n32>
+<n32 lb="75" cb="58">
+<n45 lb="75" cb="58"/>
+</n32>
+<n45 lb="75" cb="61"/>
+<n32 lb="75" cb="64">
+<n45 lb="75" cb="64"/>
+</n32>
+</mce>
+</u>
+</fx>
+<if lb="78" cb="2" le="80" ce="2">
+<n32 lb="78" cb="6" le="78" ce="39">
+<mex lb="78" cb="6" le="78" ce="39" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_43da036b0d8f708df40e619e170b025d" nm="pipelineStatistics" point="1">
+<ce lb="78" cb="6" le="78" ce="37" nbparm="0" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba">
+<exp pvirg="true"/>
+<n32 lb="78" cb="6" le="78" ce="25">
+<drx lb="78" cb="6" le="78" ce="25" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba" nm="GetInstance"/>
+</n32>
+</ce>
+</mex>
+</n32>
+<u lb="78" cb="59" le="80" ce="2">
+<mce lb="79" cb="3" le="79" ce="86" nbparm="3" id="2cd4e6b730954360c006482b86a79774_54b23c9b6b9b087958d186a2f71bb47f">
+<exp pvirg="true"/>
+<mex lb="79" cb="3" le="79" ce="18" id="2cd4e6b730954360c006482b86a79774_54b23c9b6b9b087958d186a2f71bb47f" nm="EndQuery" arrow="1">
+<n32 lb="79" cb="3">
+<mex lb="79" cb="3" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="79" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="79" cb="27">
+<drx lb="79" cb="27" kind="lvalue" nm="queryHeap"/>
+</n32>
+<drx lb="79" cb="38" id="2cd4e6b730954360c006482b86a79774_afb5ee8a646c022e54d81d14ac1730c1" nm="D3D12_QUERY_TYPE_PIPELINE_STATISTICS"/>
+<n32 lb="79" cb="76">
+<n32 lb="79" cb="76">
+<drx lb="79" cb="76" kind="lvalue" nm="queryIndex"/>
+</n32>
+</n32>
+</mce>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="RecordOpen" id="429cb41a46d23f00be98f2633ddbfaad_78b58a86b44c4bf1af598967bca813a0" file="1" linestart="83" lineend="86" previous="e05fd5e16bc3842aff8c5c675e14ad1d_78b58a86b44c4bf1af598967bca813a0" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="renderTargets" proto="ID3D12Resource **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="84" cb="1" le="86" ce="1">
+<mce lb="85" cb="2" le="85" ce="174" nbparm="2" id="2cd4e6b730954360c006482b86a79774_69a5a10fadb74d9a3d4fce3051f6c942">
+<exp pvirg="true"/>
+<mex lb="85" cb="2" le="85" ce="17" id="2cd4e6b730954360c006482b86a79774_69a5a10fadb74d9a3d4fce3051f6c942" nm="ResourceBarrier" arrow="1">
+<n32 lb="85" cb="2">
+<mex lb="85" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="85" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="85" cb="33">
+<n45 lb="85" cb="33">
+<flit/>
+</n45>
+</n32>
+<n32 lb="85" cb="36" le="85" ce="173">
+<uo lb="85" cb="36" le="85" ce="173" kind="&amp;">
+<mte lb="85" cb="37" le="85" ce="173">
+<exp pvirg="true"/>
+<ce lb="85" cb="37" le="85" ce="173" nbparm="5" id="e412ad6d17e523f3a4ef846b69077d20_618cbb4e91c33266460d15759a29cc6f">
+<exp pvirg="true"/>
+<n32 lb="85" cb="37" le="85" ce="63">
+<drx lb="85" cb="37" le="85" ce="63" kind="lvalue" id="e412ad6d17e523f3a4ef846b69077d20_618cbb4e91c33266460d15759a29cc6f" nm="Transition"/>
+</n32>
+<n32 lb="85" cb="74" le="85" ce="106">
+<n2 lb="85" cb="74" le="85" ce="106">
+<exp pvirg="true"/>
+<n32 lb="85" cb="74">
+<drx lb="85" cb="74" kind="lvalue" nm="renderTargets"/>
+</n32>
+<n32 lb="85" cb="88">
+<mex lb="85" cb="88" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="85" cb="88"/>
+</mex>
+</n32>
+</n2>
+</n32>
+<drx lb="85" cb="109" id="2cd4e6b730954360c006482b86a79774_b24baeec2275272c923edcb45acf6fde" nm="D3D12_RESOURCE_STATE_PRESENT"/>
+<drx lb="85" cb="139" id="2cd4e6b730954360c006482b86a79774_b912a9c86259dedc40e60dac64410852" nm="D3D12_RESOURCE_STATE_RENDER_TARGET"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ce>
+</mte>
+</uo>
+</n32>
+</mce>
+</u>
+
+</Stmt>
+</m>
+<m name="RecordClosing" id="429cb41a46d23f00be98f2633ddbfaad_755a9fa9274b1c601c9d1c8a9ef98ca9" file="1" linestart="88" lineend="95" previous="e05fd5e16bc3842aff8c5c675e14ad1d_755a9fa9274b1c601c9d1c8a9ef98ca9" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="renderTargets" proto="ID3D12Resource **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="queryHeap" proto="ID3D12QueryHeap *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_50ebf7c1845a91706544d8dbab33d588"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="13" cb="84">
+<n16 lb="13" cb="84">
+<exp pvirg="true"/>
+</n16>
+</n32>
+
+</Stmt>
+</p>
+<p name="queryCount" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+<Stmt>
+<uo lb="13" cb="110" le="13" ce="111" kind="-">
+<n45 lb="13" cb="111">
+<flit/>
+</n45>
+</uo>
+
+</Stmt>
+</p>
+<p name="queryResult" proto="ID3D12Resource *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="13" cb="144">
+<n16 lb="13" cb="144">
+<exp pvirg="true"/>
+</n16>
+</n32>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="89" cb="1" le="95" ce="1">
+<if lb="90" cb="2" le="92" ce="2">
+<n32 lb="90" cb="6" le="90" ce="39">
+<mex lb="90" cb="6" le="90" ce="39" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_43da036b0d8f708df40e619e170b025d" nm="pipelineStatistics" point="1">
+<ce lb="90" cb="6" le="90" ce="37" nbparm="0" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba">
+<exp pvirg="true"/>
+<n32 lb="90" cb="6" le="90" ce="25">
+<drx lb="90" cb="6" le="90" ce="25" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba" nm="GetInstance"/>
+</n32>
+</ce>
+</mex>
+</n32>
+<u lb="90" cb="59" le="92" ce="2">
+<mce lb="91" cb="3" le="91" ce="113" nbparm="6" id="2cd4e6b730954360c006482b86a79774_10081640170cdddff2be2df7442fabce">
+<exp pvirg="true"/>
+<mex lb="91" cb="3" le="91" ce="18" id="2cd4e6b730954360c006482b86a79774_10081640170cdddff2be2df7442fabce" nm="ResolveQueryData" arrow="1">
+<n32 lb="91" cb="3">
+<mex lb="91" cb="3" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="91" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="91" cb="35">
+<drx lb="91" cb="35" kind="lvalue" nm="queryHeap"/>
+</n32>
+<drx lb="91" cb="46" id="2cd4e6b730954360c006482b86a79774_afb5ee8a646c022e54d81d14ac1730c1" nm="D3D12_QUERY_TYPE_PIPELINE_STATISTICS"/>
+<n32 lb="91" cb="84">
+<n45 lb="91" cb="84">
+<flit/>
+</n45>
+</n32>
+<n32 lb="91" cb="87">
+<n32 lb="91" cb="87">
+<drx lb="91" cb="87" kind="lvalue" nm="queryCount"/>
+</n32>
+</n32>
+<n32 lb="91" cb="99">
+<drx lb="91" cb="99" kind="lvalue" nm="queryResult"/>
+</n32>
+<n32 lb="91" cb="112">
+<n45 lb="91" cb="112"/>
+</n32>
+</mce>
+</u>
+</if>
+<mce lb="94" cb="2" le="94" ce="174" nbparm="2" id="2cd4e6b730954360c006482b86a79774_69a5a10fadb74d9a3d4fce3051f6c942">
+<exp pvirg="true"/>
+<mex lb="94" cb="2" le="94" ce="17" id="2cd4e6b730954360c006482b86a79774_69a5a10fadb74d9a3d4fce3051f6c942" nm="ResourceBarrier" arrow="1">
+<n32 lb="94" cb="2">
+<mex lb="94" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="94" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="94" cb="33">
+<n45 lb="94" cb="33"/>
+</n32>
+<n32 lb="94" cb="36" le="94" ce="173">
+<uo lb="94" cb="36" le="94" ce="173" kind="&amp;">
+<mte lb="94" cb="37" le="94" ce="173">
+<exp pvirg="true"/>
+<ce lb="94" cb="37" le="94" ce="173" nbparm="5" id="e412ad6d17e523f3a4ef846b69077d20_618cbb4e91c33266460d15759a29cc6f">
+<exp pvirg="true"/>
+<n32 lb="94" cb="37" le="94" ce="63">
+<drx lb="94" cb="37" le="94" ce="63" kind="lvalue" id="e412ad6d17e523f3a4ef846b69077d20_618cbb4e91c33266460d15759a29cc6f" nm="Transition"/>
+</n32>
+<n32 lb="94" cb="74" le="94" ce="106">
+<n2 lb="94" cb="74" le="94" ce="106">
+<exp pvirg="true"/>
+<n32 lb="94" cb="74">
+<drx lb="94" cb="74" kind="lvalue" nm="renderTargets"/>
+</n32>
+<n32 lb="94" cb="88">
+<mex lb="94" cb="88" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="94" cb="88"/>
+</mex>
+</n32>
+</n2>
+</n32>
+<drx lb="94" cb="109" id="2cd4e6b730954360c006482b86a79774_b912a9c86259dedc40e60dac64410852" nm="D3D12_RESOURCE_STATE_RENDER_TARGET"/>
+<drx lb="94" cb="145" id="2cd4e6b730954360c006482b86a79774_b24baeec2275272c923edcb45acf6fde" nm="D3D12_RESOURCE_STATE_PRESENT"/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ce>
+</mte>
+</uo>
+</n32>
+</mce>
+</u>
+
+</Stmt>
+</m>
+<m name="RecordClearScreenBuffers" id="429cb41a46d23f00be98f2633ddbfaad_33b2c5f32a2d06ac17d5260ffb0b3e59" file="1" linestart="97" lineend="108" previous="e05fd5e16bc3842aff8c5c675e14ad1d_33b2c5f32a2d06ac17d5260ffb0b3e59" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="rtvDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="rtvDescriptorSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="dsDescriptorHeap" proto="ID3D12DescriptorHeap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bdbf8b1d7ecaf294ab690fbef105e4d1"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="98" cb="1" le="108" ce="1">
+<dst lb="99" cb="2" le="99" ce="143">
+<exp pvirg="true"/>
+<Var nm="rtvHandle" value="true">
+<auto/>
+<n10 lb="99" cb="19" le="99" ce="142">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_a976b582b02d0dfb238664ab284f9787"/>
+<temp/>
+<mte lb="99" cb="19" le="99" ce="142">
+<exp pvirg="true"/>
+<n11 lb="99" cb="19" le="99" ce="142">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_aa56cb0e93a143097f7516a3f49e17a5"/>
+<temp/>
+<mte lb="99" cb="49" le="99" ce="102">
+<exp pvirg="true"/>
+<n32 lb="99" cb="49" le="99" ce="102">
+<mce lb="99" cb="49" le="99" ce="102" nbparm="0" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e">
+<exp pvirg="true"/>
+<mex lb="99" cb="49" le="99" ce="67" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e" nm="GetCPUDescriptorHandleForHeapStart" point="1">
+<drx lb="99" cb="49" kind="lvalue" nm="rtvDescriptorHeap"/>
+</mex>
+</mce>
+</n32>
+</mte>
+<n32 lb="99" cb="105">
+<mex lb="99" cb="105" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="99" cb="105"/>
+</mex>
+</n32>
+<n32 lb="99" cb="125">
+<n32 lb="99" cb="125">
+<drx lb="99" cb="125" kind="lvalue" nm="rtvDescriptorSize"/>
+</n32>
+</n32>
+</n11>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="102" cb="2" le="102" ce="55">
+<exp pvirg="true"/>
+<Var nm="clearColor" value="true">
+<cat>
+<QualType const="true">
+<bt name="float"/>
+</QualType>
+</cat>
+<il lb="102" cb="29" le="102" ce="54">
+<exp pvirg="true"/>
+<n40 lb="102" cb="31">
+<flit/>
+</n40>
+<n40 lb="102" cb="37"/>
+<n40 lb="102" cb="43"/>
+<n40 lb="102" cb="49">
+<flit/>
+</n40>
+</il>
+</Var>
+</dst>
+<mce lb="103" cb="2" le="103" ce="72" nbparm="4" id="2cd4e6b730954360c006482b86a79774_fa81567cce4d9da8fb4d6dd07ac0b301">
+<exp pvirg="true"/>
+<mex lb="103" cb="2" le="103" ce="17" id="2cd4e6b730954360c006482b86a79774_fa81567cce4d9da8fb4d6dd07ac0b301" nm="ClearRenderTargetView" arrow="1">
+<n32 lb="103" cb="2">
+<mex lb="103" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="103" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n10 lb="103" cb="39">
+<typeptr id="2cd4e6b730954360c006482b86a79774_fba797601ef59c950556980be63fae16"/>
+<temp/>
+<n32 lb="103" cb="39">
+<n32 lb="103" cb="39">
+<drx lb="103" cb="39" kind="lvalue" nm="rtvHandle"/>
+</n32>
+</n32>
+</n10>
+<n32 lb="103" cb="50">
+<drx lb="103" cb="50" kind="lvalue" nm="clearColor"/>
+</n32>
+<n32 lb="103" cb="62">
+<n45 lb="103" cb="62"/>
+</n32>
+<n32 lb="103" cb="65">
+<n16 lb="103" cb="65">
+<exp pvirg="true"/>
+</n16>
+</n32>
+</mce>
+<mce lb="106" cb="2" le="106" ce="137" nbparm="6" id="2cd4e6b730954360c006482b86a79774_7c5a364911c3c32ea2ccff286a65c08d">
+<exp pvirg="true"/>
+<mex lb="106" cb="2" le="106" ce="17" id="2cd4e6b730954360c006482b86a79774_7c5a364911c3c32ea2ccff286a65c08d" nm="ClearDepthStencilView" arrow="1">
+<n32 lb="106" cb="2">
+<mex lb="106" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="106" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n10 lb="106" cb="39" le="106" ce="91">
+<typeptr id="2cd4e6b730954360c006482b86a79774_0e409cb87cc97df82fce3f1fd3a2cd18"/>
+<temp/>
+<mte lb="106" cb="39" le="106" ce="91">
+<exp pvirg="true"/>
+<mce lb="106" cb="39" le="106" ce="91" nbparm="0" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e">
+<exp pvirg="true"/>
+<mex lb="106" cb="39" le="106" ce="56" id="2cd4e6b730954360c006482b86a79774_d51b954c1f84e896d9a51300c9b2270e" nm="GetCPUDescriptorHandleForHeapStart" point="1">
+<drx lb="106" cb="39" kind="lvalue" nm="dsDescriptorHeap"/>
+</mex>
+</mce>
+</mte>
+</n10>
+<drx lb="106" cb="94" id="2cd4e6b730954360c006482b86a79774_534449a41c279db290697e78a0b46f19" nm="D3D12_CLEAR_FLAG_DEPTH"/>
+<n40 lb="106" cb="118"/>
+<n32 lb="106" cb="124">
+<n45 lb="106" cb="124"/>
+</n32>
+<n32 lb="106" cb="127">
+<n45 lb="106" cb="127"/>
+</n32>
+<n32 lb="106" cb="130">
+<n16 lb="106" cb="130">
+<exp pvirg="true"/>
+</n16>
+</n32>
+</mce>
+</u>
+
+</Stmt>
+</m>
+<m name="Open" id="429cb41a46d23f00be98f2633ddbfaad_71b0009082913eb5a3ed5d44f61c4d09" file="1" linestart="111" lineend="131" previous="e05fd5e16bc3842aff8c5c675e14ad1d_71b0009082913eb5a3ed5d44f61c4d09" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="pipeline" proto="ID3D12PipelineState &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_cb823a70614c99d096c8062fb4558cab"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="112" cb="1" le="131" ce="1">
+<dst lb="113" cb="2" le="113" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<xop lb="114" cb="2" le="114" ce="23" kind="=">
+<mex lb="114" cb="2" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_c4983c63f803af8a40b1d7116602ba61" nm="m_frameBufferIndex" arrow="1">
+<n19 lb="114" cb="2"/>
+</mex>
+<n32 lb="114" cb="23">
+<drx lb="114" cb="23" kind="lvalue" nm="frameBufferIndex"/>
+</n32>
+</xop>
+<if lb="118" cb="2" le="121" ce="2">
+<n46 lb="118" cb="6" le="118" ce="6">
+<exp pvirg="true"/>
+<xop lb="118" cb="6" le="118" ce="6" kind="&lt;">
+<n46 lb="118" cb="6" le="118" ce="6">
+<exp pvirg="true"/>
+<ocast lb="118" cb="6" le="118" ce="6">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="118" cb="6" le="118" ce="6">
+<n46 lb="118" cb="6" le="118" ce="6">
+<exp pvirg="true"/>
+<drx lb="118" cb="6" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="118" cb="6">
+<n45 lb="118" cb="6">
+<flit/>
+</n45>
+</n32>
+</xop>
+</n46>
+<u lb="119" cb="2" le="121" ce="2">
+<n37 lb="120" cb="3" le="120" ce="60">
+<thr lb="120" cb="3" le="120" ce="60">
+<exp pvirg="true"/>
+<n10 lb="120" cb="9" le="120" ce="60">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_96eb67a20f78ae33fd41a3e13b09b2b0"/>
+<temp/>
+<mte lb="120" cb="9" le="120" ce="60">
+<exp pvirg="true"/>
+<n26 lb="120" cb="9" le="120" ce="60">
+<n8 lb="120" cb="9" le="120" ce="60" >
+<temp/>
+<n10 lb="120" cb="9" le="120" ce="60">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="120" cb="28">
+<n52 lb="120" cb="28">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</mte>
+</n10>
+</thr>
+</n37>
+</u>
+</if>
+<dst lb="124" cb="2" le="124" ce="52">
+<exp pvirg="true"/>
+<Var nm="tmp" value="true">
+<auto/>
+</Var>
+</dst>
+<if lb="127" cb="2" le="130" ce="2">
+<n46 lb="127" cb="6" le="127" ce="6">
+<exp pvirg="true"/>
+<xop lb="127" cb="6" le="127" ce="6" kind="&lt;">
+<n46 lb="127" cb="6" le="127" ce="6">
+<exp pvirg="true"/>
+<ocast lb="127" cb="6" le="127" ce="6">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="127" cb="6" le="127" ce="6">
+<n46 lb="127" cb="6" le="127" ce="6">
+<exp pvirg="true"/>
+<drx lb="127" cb="6" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="127" cb="6">
+<n45 lb="127" cb="6"/>
+</n32>
+</xop>
+</n46>
+<u lb="128" cb="2" le="130" ce="2">
+<n37 lb="129" cb="3" le="129" ce="55">
+<thr lb="129" cb="3" le="129" ce="55">
+<exp pvirg="true"/>
+<n10 lb="129" cb="9" le="129" ce="55">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_96eb67a20f78ae33fd41a3e13b09b2b0"/>
+<temp/>
+<mte lb="129" cb="9" le="129" ce="55">
+<exp pvirg="true"/>
+<n26 lb="129" cb="9" le="129" ce="55">
+<n8 lb="129" cb="9" le="129" ce="55" >
+<temp/>
+<n10 lb="129" cb="9" le="129" ce="55">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="129" cb="28">
+<n52 lb="129" cb="28">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</mte>
+</n10>
+</thr>
+</n37>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="Close" id="429cb41a46d23f00be98f2633ddbfaad_e8cf60769ff282681ad91c4ce2d6e881" file="1" linestart="134" lineend="143" previous="e05fd5e16bc3842aff8c5c675e14ad1d_e8cf60769ff282681ad91c4ce2d6e881" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="135" cb="1" le="143" ce="1">
+<dst lb="136" cb="2" le="136" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<xop lb="137" cb="2" le="137" ce="28" kind="=">
+<drx lb="137" cb="2" kind="lvalue" nm="hr"/>
+<mce lb="137" cb="7" le="137" ce="28" nbparm="0" id="2cd4e6b730954360c006482b86a79774_55f79b448cea3cc06194de0e5cd3ef02">
+<exp pvirg="true"/>
+<mex lb="137" cb="7" le="137" ce="22" id="2cd4e6b730954360c006482b86a79774_55f79b448cea3cc06194de0e5cd3ef02" nm="Close" arrow="1">
+<n32 lb="137" cb="7">
+<mex lb="137" cb="7" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="137" cb="7"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</xop>
+<if lb="139" cb="2" le="142" ce="2">
+<n46 lb="139" cb="6" le="139" ce="6">
+<exp pvirg="true"/>
+<xop lb="139" cb="6" le="139" ce="6" kind="&lt;">
+<n46 lb="139" cb="6" le="139" ce="6">
+<exp pvirg="true"/>
+<ocast lb="139" cb="6" le="139" ce="6">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="139" cb="6" le="139" ce="6">
+<n46 lb="139" cb="6" le="139" ce="6">
+<exp pvirg="true"/>
+<drx lb="139" cb="6" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="139" cb="6">
+<n45 lb="139" cb="6">
+<flit/>
+</n45>
+</n32>
+</xop>
+</n46>
+<u lb="140" cb="2" le="142" ce="2">
+<n37 lb="141" cb="3" le="141" ce="58">
+<thr lb="141" cb="3" le="141" ce="58">
+<exp pvirg="true"/>
+<n10 lb="141" cb="9" le="141" ce="58">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_96eb67a20f78ae33fd41a3e13b09b2b0"/>
+<temp/>
+<mte lb="141" cb="9" le="141" ce="58">
+<exp pvirg="true"/>
+<n26 lb="141" cb="9" le="141" ce="58">
+<n8 lb="141" cb="9" le="141" ce="58" >
+<temp/>
+<n10 lb="141" cb="9" le="141" ce="58">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="141" cb="28">
+<n52 lb="141" cb="28">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</mte>
+</n10>
+</thr>
+</n37>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="CreateCommandAllocators" id="429cb41a46d23f00be98f2633ddbfaad_cf25208e70fec9e3cff718d9672ae182" file="1" linestart="145" lineend="159" previous="e05fd5e16bc3842aff8c5c675e14ad1d_cf25208e70fec9e3cff718d9672ae182" access="private" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="146" cb="1" le="159" ce="1">
+<dst lb="147" cb="2" le="147" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<fx lb="153" cb="2" le="158" ce="2">
+<dst lb="153" cb="7" le="153" ce="16">
+<exp pvirg="true"/>
+<Var nm="i" value="true">
+<bt name="int"/>
+<n45 lb="153" cb="15">
+<flit/>
+</n45>
+</Var>
+</dst>
+<xop lb="153" cb="18" le="153" ce="22" kind="&lt;">
+<n32 lb="153" cb="18">
+<drx lb="153" cb="18" kind="lvalue" nm="i"/>
+</n32>
+<n32 lb="153" cb="22">
+<drx lb="153" cb="22" kind="lvalue" nm="frameBufferCount"/>
+</n32>
+</xop>
+<uo lb="153" cb="40" le="153" ce="41" kind="++">
+<drx lb="153" cb="40" kind="lvalue" nm="i"/>
+</uo>
+<u lb="153" cb="45" le="158" ce="2">
+<if lb="155" cb="3" le="157" ce="3">
+<n46 lb="155" cb="7" le="155" ce="7">
+<exp pvirg="true"/>
+<xop lb="155" cb="7" le="155" ce="7" kind="&lt;">
+<n46 lb="155" cb="7" le="155" ce="7">
+<exp pvirg="true"/>
+<ocast lb="155" cb="7" le="155" ce="7">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+<n32 lb="155" cb="7" le="155" ce="7">
+<n46 lb="155" cb="7" le="155" ce="7">
+<exp pvirg="true"/>
+<drx lb="155" cb="7" kind="lvalue" nm="hr"/>
+</n46>
+</n32>
+</ocast>
+</n46>
+<n32 lb="155" cb="7">
+<n45 lb="155" cb="7"/>
+</n32>
+</xop>
+</n46>
+<u lb="155" cb="19" le="157" ce="3">
+<n37 lb="156" cb="4" le="156" ce="63">
+<thr lb="156" cb="4" le="156" ce="63">
+<exp pvirg="true"/>
+<n10 lb="156" cb="10" le="156" ce="63">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_96eb67a20f78ae33fd41a3e13b09b2b0"/>
+<temp/>
+<mte lb="156" cb="10" le="156" ce="63">
+<exp pvirg="true"/>
+<n26 lb="156" cb="10" le="156" ce="63">
+<n8 lb="156" cb="10" le="156" ce="63" >
+<temp/>
+<n10 lb="156" cb="10" le="156" ce="63">
+<typeptr id="cdafc1bad3828cedbe9e322a376cd82a_442ca6b1fd7b210533e6a2bc95ffbeff"/>
+<temp/>
+<n32 lb="156" cb="29">
+<n52 lb="156" cb="29">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</n26>
+</mte>
+</n10>
+</thr>
+</n37>
+</u>
+</if>
+</u>
+</fx>
+</u>
+
+</Stmt>
+</m>
+<m name="GetCommandList" id="429cb41a46d23f00be98f2633ddbfaad_1b696894ce3364285c53e108f216f2a9" file="1" linestart="161" lineend="163" previous="e05fd5e16bc3842aff8c5c675e14ad1d_1b696894ce3364285c53e108f216f2a9" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="ID3D12GraphicsCommandList *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_96c5e2f4f5b968938fd01f9b844bb526"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="161" cb="71" le="163" ce="1">
+<rx lb="162" cb="2" le="162" ce="9" pvirg="true">
+<n32 lb="162" cb="9">
+<mex lb="162" cb="9" kind="lvalue" id="e05fd5e16bc3842aff8c5c675e14ad1d_4aea641f0fcd2412accba583079db5c6" nm="m_commandList" arrow="1">
+<n19 lb="162" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

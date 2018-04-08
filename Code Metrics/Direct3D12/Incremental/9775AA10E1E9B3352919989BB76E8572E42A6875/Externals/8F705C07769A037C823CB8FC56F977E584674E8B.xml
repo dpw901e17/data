@@ -1,0 +1,238 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="DXGI_SAMPLE_DESC" id="f4011534ff60140da4dd9ab08772ede8_452901a4152b6048815b24ee8d5fcda9" file="3" linestart="19" lineend="23">
+<m name="operator=" id="f4011534ff60140da4dd9ab08772ede8_0d3c50a06188a9a689db0e2d89534249" file="3" linestart="19" lineend="19" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="DXGI_SAMPLE_DESC &amp;">
+<lrf>
+<rt>
+<cr id="f4011534ff60140da4dd9ab08772ede8_452901a4152b6048815b24ee8d5fcda9"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const DXGI_SAMPLE_DESC &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="f4011534ff60140da4dd9ab08772ede8_452901a4152b6048815b24ee8d5fcda9"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<e access="none" name="DXGI_FORMAT" id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf" file="4" linestart="10" lineend="135" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="DXGI_FORMAT_R8G8B8A8_UNORM" id="492d57907f43bc981c88c9f2c7078e81_3c62ca4092133910837f3033fce97997" file="4" linestart="40" lineend="40">
+<et>
+<e id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="4" kind="interface" name="ID3D12CommandQueue" id="2cd4e6b730954360c006482b86a79774_ac4f284a2922562e0bd24d8d4ff0a758" file="5" linestart="6320" lineend="6377" previous="2cd4e6b730954360c006482b86a79774_c8ed1d6f77c486484ab5c696f3f3ec20">
+<base access="public">
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_3ae474e18933a88ed975bc54bb7edfab"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="DXGI_MODE_DESC" id="27e33aebc01893e596cdf9fed581a0f9_cadd8fcc46da3c77ffeba977ba4109db" file="6" linestart="83" lineend="91">
+<fl name="Width" id="27e33aebc01893e596cdf9fed581a0f9_455fd0adcc05e534fba6b3dc3e9e4c0e" file="6" linestart="85" lineend="85" isLiteral="true" access="public" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<fl name="Height" id="27e33aebc01893e596cdf9fed581a0f9_d0cf923429049f54191b3ddda740f13c" file="6" linestart="86" lineend="86" isLiteral="true" access="public" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<fl name="Format" id="27e33aebc01893e596cdf9fed581a0f9_d7d512671e2f7495a5c02f3b17f6e30a" file="6" linestart="88" lineend="88" isLiteral="true" access="public" proto="DXGI_FORMAT">
+<Tdef>
+<ety>
+<et>
+<e id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf"/>
+</et>
+</ety>
+</Tdef>
+</fl>
+<m name="operator=" id="27e33aebc01893e596cdf9fed581a0f9_54b4fad42aa4ffee22e3b2da5fcab86d" file="6" linestart="83" lineend="83" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="DXGI_MODE_DESC &amp;">
+<lrf>
+<rt>
+<cr id="27e33aebc01893e596cdf9fed581a0f9_cadd8fcc46da3c77ffeba977ba4109db"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const DXGI_MODE_DESC &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="27e33aebc01893e596cdf9fed581a0f9_cadd8fcc46da3c77ffeba977ba4109db"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<e access="none" name="DXGI_SWAP_EFFECT" id="5f30a8c28bcbe854cce05c38525ab639_1daae13afde87a1e618da0a7a1b19ede" file="7" linestart="259" lineend="265" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="DXGI_SWAP_EFFECT_FLIP_DISCARD" id="5f30a8c28bcbe854cce05c38525ab639_f6afa493d61fbc1ac8336a3678c48aae" file="7" linestart="264" lineend="264">
+<et>
+<e id="5f30a8c28bcbe854cce05c38525ab639_1daae13afde87a1e618da0a7a1b19ede"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" pod="true" kind="struct" name="DXGI_SWAP_CHAIN_DESC" id="5f30a8c28bcbe854cce05c38525ab639_4fc2cc46f51ab3d1d823742cb2d86657" file="7" linestart="285" lineend="295">
+<fl name="BufferDesc" id="5f30a8c28bcbe854cce05c38525ab639_60db56467021cc4142c9e91a50b6b4d9" file="7" linestart="287" lineend="287" isLiteral="true" access="public" proto="DXGI_MODE_DESC">
+<Tdef>
+<ety>
+<rt>
+<cr id="27e33aebc01893e596cdf9fed581a0f9_cadd8fcc46da3c77ffeba977ba4109db"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+<fl name="SampleDesc" id="5f30a8c28bcbe854cce05c38525ab639_db6cde9a295fd5ca03a4602acded8b11" file="7" linestart="288" lineend="288" isLiteral="true" access="public" proto="DXGI_SAMPLE_DESC">
+<Tdef>
+<ety>
+<rt>
+<cr id="f4011534ff60140da4dd9ab08772ede8_452901a4152b6048815b24ee8d5fcda9"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+<fl name="BufferUsage" id="5f30a8c28bcbe854cce05c38525ab639_4ee00614ed8aed083b73d3f571d7300f" file="7" linestart="289" lineend="289" isLiteral="true" access="public" proto="DXGI_USAGE">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+</fl>
+<fl name="BufferCount" id="5f30a8c28bcbe854cce05c38525ab639_fcd7939c6424d75b1238f20b703a6314" file="7" linestart="290" lineend="290" isLiteral="true" access="public" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<fl name="OutputWindow" id="5f30a8c28bcbe854cce05c38525ab639_22bd83305af3585707a88e10eed09038" file="7" linestart="291" lineend="291" isPtr="true" isLiteral="true" access="public" proto="HWND">
+<Tdef>
+<pt>
+<ety>
+<rt>
+<cr id="3a9628eb92dec208c7cf18367a17ac39_5847ad6971421591ff7da5abaa1ba10e"/>
+</rt>
+</ety>
+</pt>
+</Tdef>
+</fl>
+<fl name="Windowed" id="5f30a8c28bcbe854cce05c38525ab639_d969c51fcd303e5192fea7e206553f5a" file="7" linestart="292" lineend="292" isLiteral="true" access="public" proto="BOOL">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fl>
+<fl name="SwapEffect" id="5f30a8c28bcbe854cce05c38525ab639_113fd0ec0098656a524628acaa97f9d2" file="7" linestart="293" lineend="293" isLiteral="true" access="public" proto="DXGI_SWAP_EFFECT">
+<Tdef>
+<ety>
+<et>
+<e id="5f30a8c28bcbe854cce05c38525ab639_1daae13afde87a1e618da0a7a1b19ede"/>
+</et>
+</ety>
+</Tdef>
+</fl>
+</cr>
+<cr access="none" depth="3" kind="interface" name="IDXGISwapChain" id="5f30a8c28bcbe854cce05c38525ab639_73e2087b983a7df9dd738fbb9cd2e81f" file="7" linestart="1710" lineend="1763" previous="5f30a8c28bcbe854cce05c38525ab639_1628f9031850048902bb78d155f2a6ce">
+<base access="public">
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_f2341bad0cf22df6147bb15931c82781"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="2" kind="interface" name="IDXGIFactory" id="5f30a8c28bcbe854cce05c38525ab639_75f8fd1510fb1c59518024e403ce6fcf" file="7" linestart="1985" lineend="2015" previous="5f30a8c28bcbe854cce05c38525ab639_cc16740954b6ee6e61d8da00bbdd6e46">
+<base access="public">
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_da04483d825369ea62ff99eb308b9954"/>
+</rt>
+</base>
+<m name="CreateSwapChain" id="5f30a8c28bcbe854cce05c38525ab639_1a78351f9de0a6a3a19c2d3095cf5eeb" file="7" linestart="2002" lineend="2008" pure="true" virtual="true" access="public">
+<Attributed/>
+<p name="pDevice" proto="IUnknown *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="dde68f5d57e0d9fe580d7edc4c07fc7d_6b30c935079209804768d2401c9e7119"/>
+</rt>
+</pt>
+</p>
+<p name="pDesc" proto="DXGI_SWAP_CHAIN_DESC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_4fc2cc46f51ab3d1d823742cb2d86657"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="ppSwapChain" proto="IDXGISwapChain **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_73e2087b983a7df9dd738fbb9cd2e81f"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="6" kind="interface" name="IDXGISwapChain3" id="1bd63887d10c80c782d0a17fd97c6362_16b5246b12e696b899117e6c5a796a04" file="8" linestart="107" lineend="139" previous="1bd63887d10c80c782d0a17fd97c6362_a23905b281e2d6104db36c70533574ee">
+<base access="public">
+<rt>
+<cr id="a4107ce12dadf9eabe10776c64a6c828_5dc5cfafbcee33e151ae0e925e3dc2fe"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="6" kind="interface" name="IDXGIFactory4" id="1bd63887d10c80c782d0a17fd97c6362_f0dafd81b095f32d516e3c57b5eff11b" file="8" linestart="857" lineend="875" previous="1bd63887d10c80c782d0a17fd97c6362_049bd341ae28704aa2866d12cf9fb2fa">
+<base access="public">
+<rt>
+<cr id="a4107ce12dadf9eabe10776c64a6c828_9cdca60bae8fd1c6e8d8fe550587721b"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" kind="class" name="Window" id="b70e58bdf82471f3d8851d8f818eba6f_7429fbb6add7dc37b382754532528870" file="9" linestart="8" lineend="21">
+<m name="GetHandle" id="b70e58bdf82471f3d8851d8f818eba6f_1d18d3b68c823f471962941eba830ad5" file="9" linestart="12" lineend="12" access="public">
+<fpt cc="x86_thiscall" const="true" proto="HWND">
+<Tdef>
+<pt>
+<ety>
+<rt>
+<cr id="3a9628eb92dec208c7cf18367a17ac39_5847ad6971421591ff7da5abaa1ba10e"/>
+</rt>
+</ety>
+</pt>
+</Tdef>
+</fpt>
+</m>
+<m name="width" id="b70e58bdf82471f3d8851d8f818eba6f_d2d1678bac56dddb79129bf09269791d" file="9" linestart="13" lineend="13" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+<m name="height" id="b70e58bdf82471f3d8851d8f818eba6f_0f3048a3c56e022a25da85d0c91f0925" file="9" linestart="14" lineend="14" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+</cr>
+</Externals>

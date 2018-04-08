@@ -1,0 +1,428 @@
+<Externals>
+<e access="none" name="DXGI_FORMAT" id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf" file="3" linestart="10" lineend="135" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="DXGI_FORMAT_D32_FLOAT" id="492d57907f43bc981c88c9f2c7078e81_9406d521132615f70c1f8799e6f85d67" file="3" linestart="52" lineend="52">
+<et>
+<e id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="1" kind="interface" name="ID3D12Object" id="2cd4e6b730954360c006482b86a79774_7e7c895a1060e9347ce15162efdf82b5" file="4" linestart="1285" lineend="1306" previous="2cd4e6b730954360c006482b86a79774_94c3548d2fc6848665dd5620d4624af3">
+<base access="public">
+<rt>
+<cr id="dde68f5d57e0d9fe580d7edc4c07fc7d_6b30c935079209804768d2401c9e7119"/>
+</rt>
+</base>
+<m name="SetName" id="2cd4e6b730954360c006482b86a79774_0770b31958ad2c00077896c2ef5fdeb9" file="4" linestart="1303" lineend="1304" pure="true" virtual="true" access="public">
+<Attributed/>
+<p name="Name" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+</p>
+</m>
+</cr>
+<e access="none" name="D3D12_HEAP_TYPE" id="2cd4e6b730954360c006482b86a79774_e6de6af1e9cb6ae71ecfa725ae92f7de" file="4" linestart="2020" lineend="2026" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="D3D12_HEAP_TYPE_DEFAULT" id="2cd4e6b730954360c006482b86a79774_1655295909d6c2345e91ccc52913e4b9" file="4" linestart="2022" lineend="2022">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_e6de6af1e9cb6ae71ecfa725ae92f7de"/>
+</et>
+</ec>
+<ec name="D3D12_HEAP_TYPE_UPLOAD" id="2cd4e6b730954360c006482b86a79774_b76eaae421eb6f882f7e7296fded0088" file="4" linestart="2023" lineend="2023">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_e6de6af1e9cb6ae71ecfa725ae92f7de"/>
+</et>
+</ec>
+</e>
+<e access="none" name="D3D12_HEAP_FLAGS" id="2cd4e6b730954360c006482b86a79774_f7462b611096b16f50eb60ceec048096" file="4" linestart="2055" lineend="2070" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="D3D12_HEAP_FLAG_NONE" id="2cd4e6b730954360c006482b86a79774_7d2036c520e7b93e99afdd6a154ab097" file="4" linestart="2057" lineend="2057">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_f7462b611096b16f50eb60ceec048096"/>
+</et>
+</ec>
+</e>
+<e access="none" name="D3D12_RESOURCE_FLAGS" id="2cd4e6b730954360c006482b86a79774_5234d62c1d254f9f645d96a48f388569" file="4" linestart="2101" lineend="2110" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL" id="2cd4e6b730954360c006482b86a79774_9c9169d3f27befd947ee782e294e383a" file="4" linestart="2105" lineend="2105">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_5234d62c1d254f9f645d96a48f388569"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" pod="true" kind="struct" name="D3D12_RESOURCE_DESC" id="2cd4e6b730954360c006482b86a79774_862923654275607091075798604c2f81" file="4" linestart="2113" lineend="2125"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="D3D12_DEPTH_STENCIL_VALUE" id="2cd4e6b730954360c006482b86a79774_3860bef65326f9de528335a2deca261c" file="4" linestart="2127" lineend="2131">
+<fl name="Depth" id="2cd4e6b730954360c006482b86a79774_549dc944786af5188ab67db61ea38b8f" file="4" linestart="2129" lineend="2129" isLiteral="true" access="public" proto="FLOAT">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Stencil" id="2cd4e6b730954360c006482b86a79774_123ec6fb724f4b33bdbc4fcf884f0ae2" file="4" linestart="2130" lineend="2130" isLiteral="true" access="public" proto="UINT8">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="D3D12_CLEAR_VALUE" id="2cd4e6b730954360c006482b86a79774_ecbbfa6fa25285ebfedb062d9029028c" file="4" linestart="2133" lineend="2141">
+<fl name="Format" id="2cd4e6b730954360c006482b86a79774_cb874f75d4e6f9a159006123fdeab53a" file="4" linestart="2135" lineend="2135" isLiteral="true" access="public" proto="DXGI_FORMAT">
+<Tdef>
+<ety>
+<et>
+<e id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf"/>
+</et>
+</ety>
+</Tdef>
+</fl>
+<cr parent="2cd4e6b730954360c006482b86a79774_ecbbfa6fa25285ebfedb062d9029028c" access="public" depth="0" pod="true" kind="union" name="" id="2cd4e6b730954360c006482b86a79774_0642b43eb85f34f7de92a405826f220f" file="4" linestart="2136" lineend="2140">
+<fl name="DepthStencil" id="2cd4e6b730954360c006482b86a79774_98e18f97160c76349c8728fdf61c6b83" file="4" linestart="2139" lineend="2139" isLiteral="true" access="public" proto="D3D12_DEPTH_STENCIL_VALUE">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_3860bef65326f9de528335a2deca261c"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+</cr>
+<fl name="" id="2cd4e6b730954360c006482b86a79774_4d2a0541941535cb8440aea4be0b7bd7" file="4" linestart="2136" lineend="2136" isLiteral="true" access="public" proto="D3D12_CLEAR_VALUE::(anonymous union at c:\program files (x86)\windows kits\10\include\10.0.15063.0\um/d3d12.h:2136:5)">
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_0642b43eb85f34f7de92a405826f220f"/>
+</rt>
+</fl>
+</cr>
+<e access="none" name="D3D12_RESOURCE_STATES" id="2cd4e6b730954360c006482b86a79774_b2bbe4889d7a067cef6ab6aa8edcd44d" file="4" linestart="2236" lineend="2256" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="D3D12_RESOURCE_STATE_DEPTH_WRITE" id="2cd4e6b730954360c006482b86a79774_ca138fd9e6977a7052db3490ddc7848d" file="4" linestart="2243" lineend="2243">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_b2bbe4889d7a067cef6ab6aa8edcd44d"/>
+</et>
+</ec>
+<ec name="D3D12_RESOURCE_STATE_COPY_DEST" id="2cd4e6b730954360c006482b86a79774_5abe1fd0365dd024cf7045c532076734" file="4" linestart="2249" lineend="2249">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_b2bbe4889d7a067cef6ab6aa8edcd44d"/>
+</et>
+</ec>
+<ec name="D3D12_RESOURCE_STATE_GENERIC_READ" id="2cd4e6b730954360c006482b86a79774_b58281466bb170f2101546cc66fd6a31" file="4" linestart="2253" lineend="2253">
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_b2bbe4889d7a067cef6ab6aa8edcd44d"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="4" kind="interface" name="ID3D12Resource" id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200" file="4" linestart="3744" lineend="3779" previous="2cd4e6b730954360c006482b86a79774_d23c8f517bf6fd86d8a65f7fa17a5609">
+<base access="public">
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_3ae474e18933a88ed975bc54bb7edfab"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="2" kind="interface" name="ID3D12Device" id="2cd4e6b730954360c006482b86a79774_600c634aa0140641a97236c4b8b2e118" file="4" linestart="6608" lineend="6814" previous="2cd4e6b730954360c006482b86a79774_9d7b2b6166a9570fd442efef041411d9">
+<base access="public">
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_7e7c895a1060e9347ce15162efdf82b5"/>
+</rt>
+</base>
+<m name="CreateCommittedResource" id="2cd4e6b730954360c006482b86a79774_8b72b55501a64eb56aa625ebbeba555a" file="4" linestart="6715" lineend="6722" pure="true" virtual="true" access="public">
+<Attributed/>
+<p name="pHeapProperties" proto="const D3D12_HEAP_PROPERTIES *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_a26398f8a827871e64c39c9d111d41b8"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="HeapFlags" proto="D3D12_HEAP_FLAGS" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_f7462b611096b16f50eb60ceec048096"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="pDesc" proto="const D3D12_RESOURCE_DESC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_862923654275607091075798604c2f81"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="InitialResourceState" proto="D3D12_RESOURCE_STATES" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_b2bbe4889d7a067cef6ab6aa8edcd44d"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="pOptimizedClearValue" proto="const D3D12_CLEAR_VALUE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_ecbbfa6fa25285ebfedb062d9029028c"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="riidResource" proto="const IID &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="d818d3cf7c326d6400b7e5083be2897b_f89893169cf243a3173a4e8aff5ae00c"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</QualType>
+</lrf>
+</p>
+<p name="ppvResource" proto="void **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<bt name="void"/>
+</pt>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="struct" name="CD3DX12_HEAP_PROPERTIES" id="e412ad6d17e523f3a4ef846b69077d20_3219a10212080e17652cee750428f0de" file="5" linestart="433" lineend="469">
+<base access="public">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_a26398f8a827871e64c39c9d111d41b8"/>
+</rt>
+</ety>
+</Tdef>
+</base>
+<c name="CD3DX12_HEAP_PROPERTIES" id="e412ad6d17e523f3a4ef846b69077d20_360440c5f0f1fa276344903495e2c6d5" file="5" linestart="452" lineend="462" explicit="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="type" proto="D3D12_HEAP_TYPE" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_e6de6af1e9cb6ae71ecfa725ae92f7de"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="creationNodeMask" proto="UINT" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="nodeMask" proto="UINT" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</c>
+</cr>
+<cr access="none" depth="1" kind="struct" name="CD3DX12_RESOURCE_DESC" id="e412ad6d17e523f3a4ef846b69077d20_b07b5df0e49c56ee001b5b788dfe94ea" file="5" linestart="1774" lineend="1882">
+<base access="public">
+<Tdef>
+<ety>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_862923654275607091075798604c2f81"/>
+</rt>
+</ety>
+</Tdef>
+</base>
+<m name="Buffer" id="e412ad6d17e523f3a4ef846b69077d20_710aafc70acd3886a127caa216d780bb" file="5" linestart="1813" lineend="1820" access="public" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="CD3DX12_RESOURCE_DESC">
+<rt>
+<cr id="e412ad6d17e523f3a4ef846b69077d20_b07b5df0e49c56ee001b5b788dfe94ea"/>
+</rt>
+</fpt>
+<p name="width" proto="UINT64" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</p>
+<p name="flags" proto="D3D12_RESOURCE_FLAGS" isLiteral="true" init="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_5234d62c1d254f9f645d96a48f388569"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="alignment" proto="UINT64" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</p>
+</m>
+<m name="Tex2D" id="e412ad6d17e523f3a4ef846b69077d20_02ba312f549bc72b952260c785423dec" file="5" linestart="1833" lineend="1847" access="public" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="CD3DX12_RESOURCE_DESC">
+<rt>
+<cr id="e412ad6d17e523f3a4ef846b69077d20_b07b5df0e49c56ee001b5b788dfe94ea"/>
+</rt>
+</fpt>
+<p name="format" proto="DXGI_FORMAT" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="492d57907f43bc981c88c9f2c7078e81_2b95cdcfd1414e62917c382901007ecf"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="width" proto="UINT64" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</p>
+<p name="height" proto="UINT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="arraySize" proto="UINT16" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned short"/>
+</Tdef>
+</p>
+<p name="mipLevels" proto="UINT16" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned short"/>
+</Tdef>
+</p>
+<p name="sampleCount" proto="UINT" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="sampleQuality" proto="UINT" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="flags" proto="D3D12_RESOURCE_FLAGS" isLiteral="true" init="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_5234d62c1d254f9f645d96a48f388569"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="layout" proto="D3D12_TEXTURE_LAYOUT" isLiteral="true" init="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="2cd4e6b730954360c006482b86a79774_0a81fe6b338f2fb5294fba5e90ae6d67"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="alignment" proto="UINT64" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="Device" id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc" file="6" linestart="7" lineend="18">
+<m name="GetDevice" id="6d0356338d8ffb73442c812d962de0f3_e220b0f87042353012870c0b557dd42a" file="6" linestart="14" lineend="14" access="public">
+<fpt cc="x86_thiscall" const="true" proto="ID3D12Device *">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_600c634aa0140641a97236c4b8b2e118"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<f name="IID_PPV_ARGS_Helper" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" file="7" linestart="402" lineend="407" previous="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void **">
+<pt>
+<pt>
+<bt name="void"/>
+</pt>
+</pt>
+</fpt>
+<p name="pp" proto="T **" isPtr="true" access2="none">
+<pt>
+<pt>
+<ttp/>
+</pt>
+</pt>
+</p>
+</f>
+<ft name="IID_PPV_ARGS_Helper" id="37ba6461e091f45290ef7766ecd25b9e_29aa05abf1689c9557c0dc92f05aef33" file="7" linestart="402" lineend="407" previous="37ba6461e091f45290ef7766ecd25b9e_29aa05abf1689c9557c0dc92f05aef33">
+<template_parameters>
+<ttp name="T" id="37ba6461e091f45290ef7766ecd25b9e_c8c839ff8e50aa3f8d844eb875331601" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f name="IID_PPV_ARGS_Helper" id="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" file="7" linestart="402" lineend="407" previous="37ba6461e091f45290ef7766ecd25b9e_704a177af71aaf0ebd2ad279a1956bbd" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void **">
+<pt>
+<pt>
+<bt name="void"/>
+</pt>
+</pt>
+</fpt>
+<p name="pp" proto="T **" isPtr="true" access2="none">
+<pt>
+<pt>
+<ttp/>
+</pt>
+</pt>
+</p>
+</f>
+</ft>
+</Externals>

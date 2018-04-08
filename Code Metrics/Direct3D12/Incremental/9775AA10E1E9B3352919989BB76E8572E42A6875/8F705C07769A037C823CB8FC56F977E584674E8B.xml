@@ -1,0 +1,484 @@
+<Root>
+<Comments>
+<c f="1" b="4" e="4"/>
+<c f="1" b="5" e="4"/>
+<c f="1" b="5" e="5"/>
+<c f="1" b="6" e="5"/>
+<c f="1" b="6" e="6"/>
+<c f="1" b="7" e="6"/>
+<c f="1" b="7" e="7"/>
+<c f="1" b="8" e="7"/>
+<c f="1" b="8" e="8"/>
+<c f="1" b="9" e="9"/>
+<c f="1" b="10" e="10"/>
+<c f="1" b="11" e="10"/>
+<c f="1" b="14" e="14"/>
+<c f="1" b="15" e="14"/>
+<c f="1" b="15" e="15"/>
+<c f="1" b="16" e="15"/>
+<c f="1" b="16" e="16"/>
+<c f="1" b="17" e="16"/>
+<c f="1" b="17" e="17"/>
+<c f="1" b="18" e="17"/>
+<c f="1" b="18" e="18"/>
+<c f="1" b="20" e="18"/>
+<c f="1" b="25" e="25"/>
+<c f="1" b="26" e="25"/>
+<c f="1" b="28" e="28"/>
+<c f="1" b="29" e="28"/>
+</Comments>
+<Macros>
+<m f="1" bl="14" bc="30" el="14" ec="30"/>
+</Macros>
+<Directives>
+<m f="1" bl="1" bc="1"/>
+</Directives>
+<Comments/>
+<Macros/>
+<Directives>
+<m f="2" bl="2" bc="1"/>
+<m f="2" bl="3" bc="1"/>
+<m f="2" bl="4" bc="1"/>
+</Directives>
+<tun>
+<cr access="none" depth="0" kind="class" name="SwapChainHandler" id="85cba8bdf12d6466adf735d220cd061a_bcadb2b324f7f6d3e76f937acb757817" file="2" linestart="6" lineend="17">
+<cr access="public" kind="class" name="SwapChainHandler" id="85cba8bdf12d6466adf735d220cd061a_8590d9fd85f67d763785e507d3667f1f" file="2" linestart="6" lineend="6"/>
+<asd access="public"/>
+<c name="SwapChainHandler" id="85cba8bdf12d6466adf735d220cd061a_8824240af6a4f07057f25cc66f321be0" file="2" linestart="8" lineend="8" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dxgiFactory" proto="IDXGIFactory4 *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_f0dafd81b095f32d516e3c57b5eff11b"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="sampleDesc" proto="DXGI_SAMPLE_DESC" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<rt>
+<cr id="f4011534ff60140da4dd9ab08772ede8_452901a4152b6048815b24ee8d5fcda9"/>
+</rt>
+</ety>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="window" proto="Window" access2="none">
+<rt>
+<cr id="b70e58bdf82471f3d8851d8f818eba6f_7429fbb6add7dc37b382754532528870"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="commandQueue" proto="ID3D12CommandQueue *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_ac4f284a2922562e0bd24d8d4ff0a758"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~SwapChainHandler" id="85cba8bdf12d6466adf735d220cd061a_ea9d95f9f599a9bad16911d0bb085033" file="2" linestart="9" lineend="9" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="GetSwapChain" id="85cba8bdf12d6466adf735d220cd061a_2914c5118f895a64e387c1a86c4f85a7" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="IDXGISwapChain3 *">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_16b5246b12e696b899117e6c5a796a04"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<asd access="private"/>
+<fl name="swapChain" id="85cba8bdf12d6466adf735d220cd061a_856f641df5d0b487bb2e884d435efc88" file="2" linestart="15" lineend="15" isPtr="true" isLiteral="true" access="private" proto="IDXGISwapChain3 *">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_16b5246b12e696b899117e6c5a796a04"/>
+</rt>
+</pt>
+</fl>
+<c name="SwapChainHandler" id="85cba8bdf12d6466adf735d220cd061a_c119e899d1182c1484308274052f5e5b" file="2" linestart="6" lineend="6" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const SwapChainHandler &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="85cba8bdf12d6466adf735d220cd061a_bcadb2b324f7f6d3e76f937acb757817"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="SwapChainHandler" id="b6cecaffb9b3e3fc97124df70a64f3b7_8824240af6a4f07057f25cc66f321be0" file="1" linestart="3" lineend="30" previous="85cba8bdf12d6466adf735d220cd061a_8824240af6a4f07057f25cc66f321be0" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dxgiFactory" proto="IDXGIFactory4 *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_f0dafd81b095f32d516e3c57b5eff11b"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="sampleDesc" proto="DXGI_SAMPLE_DESC" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<rt>
+<cr id="f4011534ff60140da4dd9ab08772ede8_452901a4152b6048815b24ee8d5fcda9"/>
+</rt>
+</ety>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="window" proto="Window" access2="none">
+<rt>
+<cr id="b70e58bdf82471f3d8851d8f818eba6f_7429fbb6add7dc37b382754532528870"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="commandQueue" proto="ID3D12CommandQueue *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_ac4f284a2922562e0bd24d8d4ff0a758"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="3" cb="164" le="30" ce="1">
+<dst lb="5" cb="2" le="5" ce="36">
+<exp pvirg="true"/>
+<Var nm="backBufferDesc" value="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="27e33aebc01893e596cdf9fed581a0f9_cadd8fcc46da3c77ffeba977ba4109db"/>
+</rt>
+</ety>
+</Tdef>
+<il lb="5" cb="34" le="5" ce="35">
+<exp pvirg="true"/>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<il lb="5" cb="35">
+<exp pvirg="true"/>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+</il>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+</il>
+</Var>
+</dst>
+<xop lb="6" cb="2" le="6" ce="38" kind="=">
+<mex lb="6" cb="2" le="6" ce="17" kind="lvalue" id="27e33aebc01893e596cdf9fed581a0f9_455fd0adcc05e534fba6b3dc3e9e4c0e" nm="Width" point="1">
+<drx lb="6" cb="2" kind="lvalue" nm="backBufferDesc"/>
+</mex>
+<mce lb="6" cb="25" le="6" ce="38" nbparm="0" id="b70e58bdf82471f3d8851d8f818eba6f_d2d1678bac56dddb79129bf09269791d">
+<exp pvirg="true"/>
+<mex lb="6" cb="25" le="6" ce="32" id="b70e58bdf82471f3d8851d8f818eba6f_d2d1678bac56dddb79129bf09269791d" nm="width" point="1">
+<n32 lb="6" cb="25">
+<drx lb="6" cb="25" kind="lvalue" nm="window"/>
+</n32>
+</mex>
+</mce>
+</xop>
+<xop lb="7" cb="3" le="7" ce="41" kind="=">
+<mex lb="7" cb="3" le="7" ce="18" kind="lvalue" id="27e33aebc01893e596cdf9fed581a0f9_d0cf923429049f54191b3ddda740f13c" nm="Height" point="1">
+<drx lb="7" cb="3" kind="lvalue" nm="backBufferDesc"/>
+</mex>
+<mce lb="7" cb="27" le="7" ce="41" nbparm="0" id="b70e58bdf82471f3d8851d8f818eba6f_0f3048a3c56e022a25da85d0c91f0925">
+<exp pvirg="true"/>
+<mex lb="7" cb="27" le="7" ce="34" id="b70e58bdf82471f3d8851d8f818eba6f_0f3048a3c56e022a25da85d0c91f0925" nm="height" point="1">
+<n32 lb="7" cb="27">
+<drx lb="7" cb="27" kind="lvalue" nm="window"/>
+</n32>
+</mex>
+</mce>
+</xop>
+<xop lb="8" cb="2" le="8" ce="26" kind="=">
+<mex lb="8" cb="2" le="8" ce="17" kind="lvalue" id="27e33aebc01893e596cdf9fed581a0f9_d7d512671e2f7495a5c02f3b17f6e30a" nm="Format" point="1">
+<drx lb="8" cb="2" kind="lvalue" nm="backBufferDesc"/>
+</mex>
+<drx lb="8" cb="26" id="492d57907f43bc981c88c9f2c7078e81_3c62ca4092133910837f3033fce97997" nm="DXGI_FORMAT_R8G8B8A8_UNORM"/>
+</xop>
+<dst lb="11" cb="2" le="11" ce="41">
+<exp pvirg="true"/>
+<Var nm="swapChainDesc" value="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_4fc2cc46f51ab3d1d823742cb2d86657"/>
+</rt>
+</ety>
+</Tdef>
+<il lb="11" cb="39" le="11" ce="40">
+<exp pvirg="true"/>
+<il lb="11" cb="40">
+<exp pvirg="true"/>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<il lb="11" cb="40">
+<exp pvirg="true"/>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+</il>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+</il>
+<il lb="11" cb="40">
+<exp pvirg="true"/>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+</il>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+<n44>
+<exp pvirg="true"/>
+</n44>
+</il>
+</Var>
+</dst>
+<xop lb="12" cb="2" le="12" ce="30" kind="=">
+<mex lb="12" cb="2" le="12" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_fcd7939c6424d75b1238f20b703a6314" nm="BufferCount" point="1">
+<drx lb="12" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<n32 lb="12" cb="30">
+<n32 lb="12" cb="30">
+<drx lb="12" cb="30" kind="lvalue" nm="frameBufferCount"/>
+</n32>
+</n32>
+</xop>
+<ocx lb="13" cb="2" le="13" ce="29" nbparm="2" id="27e33aebc01893e596cdf9fed581a0f9_54b4fad42aa4ffee22e3b2da5fcab86d">
+<exp pvirg="true"/>
+<n32 lb="13" cb="27">
+<drx lb="13" cb="27" kind="lvalue" id="27e33aebc01893e596cdf9fed581a0f9_54b4fad42aa4ffee22e3b2da5fcab86d" nm="operator="/>
+</n32>
+<mex lb="13" cb="2" le="13" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_60db56467021cc4142c9e91a50b6b4d9" nm="BufferDesc" point="1">
+<drx lb="13" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<n32 lb="13" cb="29">
+<drx lb="13" cb="29" kind="lvalue" nm="backBufferDesc"/>
+</n32>
+</ocx>
+<xop lb="14" cb="2" le="14" ce="30" kind="=">
+<mex lb="14" cb="2" le="14" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_4ee00614ed8aed083b73d3f571d7300f" nm="BufferUsage" point="1">
+<drx lb="14" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<n32 lb="14" cb="30">
+<n45 lb="14" cb="30">
+<flit/>
+</n45>
+</n32>
+</xop>
+<xop lb="15" cb="2" le="15" ce="29" kind="=">
+<mex lb="15" cb="2" le="15" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_113fd0ec0098656a524628acaa97f9d2" nm="SwapEffect" point="1">
+<drx lb="15" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<drx lb="15" cb="29" id="5f30a8c28bcbe854cce05c38525ab639_f6afa493d61fbc1ac8336a3678c48aae" nm="DXGI_SWAP_EFFECT_FLIP_DISCARD"/>
+</xop>
+<xop lb="16" cb="2" le="16" ce="48" kind="=">
+<mex lb="16" cb="2" le="16" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_22bd83305af3585707a88e10eed09038" nm="OutputWindow" point="1">
+<drx lb="16" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<mce lb="16" cb="31" le="16" ce="48" nbparm="0" id="b70e58bdf82471f3d8851d8f818eba6f_1d18d3b68c823f471962941eba830ad5">
+<exp pvirg="true"/>
+<mex lb="16" cb="31" le="16" ce="38" id="b70e58bdf82471f3d8851d8f818eba6f_1d18d3b68c823f471962941eba830ad5" nm="GetHandle" point="1">
+<n32 lb="16" cb="31">
+<drx lb="16" cb="31" kind="lvalue" nm="window"/>
+</n32>
+</mex>
+</mce>
+</xop>
+<ocx lb="17" cb="2" le="17" ce="29" nbparm="2" id="f4011534ff60140da4dd9ab08772ede8_0d3c50a06188a9a689db0e2d89534249">
+<exp pvirg="true"/>
+<n32 lb="17" cb="27">
+<drx lb="17" cb="27" kind="lvalue" id="f4011534ff60140da4dd9ab08772ede8_0d3c50a06188a9a689db0e2d89534249" nm="operator="/>
+</n32>
+<mex lb="17" cb="2" le="17" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_db6cde9a295fd5ca03a4602acded8b11" nm="SampleDesc" point="1">
+<drx lb="17" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<n32 lb="17" cb="29">
+<drx lb="17" cb="29" kind="lvalue" nm="sampleDesc"/>
+</n32>
+</ocx>
+<xop lb="18" cb="2" le="18" ce="27" kind="=">
+<mex lb="18" cb="2" le="18" ce="16" kind="lvalue" id="5f30a8c28bcbe854cce05c38525ab639_d969c51fcd303e5192fea7e206553f5a" nm="Windowed" point="1">
+<drx lb="18" cb="2" kind="lvalue" nm="swapChainDesc"/>
+</mex>
+<n32 lb="18" cb="27">
+<n9 lb="18" cb="27"/>
+</n32>
+</xop>
+<dst lb="20" cb="2" le="20" ce="31">
+<exp pvirg="true"/>
+<Var nm="tempSwapChain">
+<pt>
+<rt>
+<cr id="5f30a8c28bcbe854cce05c38525ab639_73e2087b983a7df9dd738fbb9cd2e81f"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<mce lb="22" cb="2" le="26" ce="2" nbparm="3" id="5f30a8c28bcbe854cce05c38525ab639_1a78351f9de0a6a3a19c2d3095cf5eeb">
+<exp pvirg="true"/>
+<mex lb="22" cb="2" le="22" ce="15" id="5f30a8c28bcbe854cce05c38525ab639_1a78351f9de0a6a3a19c2d3095cf5eeb" nm="CreateSwapChain" arrow="1">
+<n32 lb="22" cb="2">
+<n32 lb="22" cb="2">
+<drx lb="22" cb="2" kind="lvalue" nm="dxgiFactory"/>
+</n32>
+</n32>
+</mex>
+<n32 lb="23" cb="3">
+<n32 lb="23" cb="3">
+<drx lb="23" cb="3" kind="lvalue" nm="commandQueue"/>
+</n32>
+</n32>
+<uo lb="24" cb="3" le="24" ce="4" kind="&amp;">
+<drx lb="24" cb="4" kind="lvalue" nm="swapChainDesc"/>
+</uo>
+<uo lb="25" cb="3" le="25" ce="4" kind="&amp;">
+<drx lb="25" cb="4" kind="lvalue" nm="tempSwapChain"/>
+</uo>
+</mce>
+<xop lb="29" cb="2" le="29" ce="57" kind="=">
+<mex lb="29" cb="2" kind="lvalue" id="85cba8bdf12d6466adf735d220cd061a_856f641df5d0b487bb2e884d435efc88" nm="swapChain" arrow="1">
+<n19 lb="29" cb="2"/>
+</mex>
+<scast lb="29" cb="14" le="29" ce="57">
+<cast cast="BaseToDerived">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_16b5246b12e696b899117e6c5a796a04"/>
+</rt>
+</pt>
+</cast>
+<n32 lb="29" cb="44">
+<drx lb="29" cb="44" kind="lvalue" nm="tempSwapChain"/>
+</n32>
+</scast>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<d name="~SwapChainHandler" id="b6cecaffb9b3e3fc97124df70a64f3b7_ea9d95f9f599a9bad16911d0bb085033" file="1" linestart="32" lineend="34" previous="85cba8bdf12d6466adf735d220cd061a_ea9d95f9f599a9bad16911d0bb085033" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="32" cb="39" le="34" ce="1"/>
+
+</Stmt>
+</d>
+<m name="GetSwapChain" id="b6cecaffb9b3e3fc97124df70a64f3b7_2914c5118f895a64e387c1a86c4f85a7" file="1" linestart="36" lineend="38" previous="85cba8bdf12d6466adf735d220cd061a_2914c5118f895a64e387c1a86c4f85a7" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="IDXGISwapChain3 *">
+<pt>
+<rt>
+<cr id="1bd63887d10c80c782d0a17fd97c6362_16b5246b12e696b899117e6c5a796a04"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="36" cb="51" le="38" ce="1">
+<rx lb="37" cb="2" le="37" ce="9" pvirg="true">
+<n32 lb="37" cb="9">
+<mex lb="37" cb="9" kind="lvalue" id="85cba8bdf12d6466adf735d220cd061a_856f641df5d0b487bb2e884d435efc88" nm="swapChain" arrow="1">
+<n19 lb="37" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

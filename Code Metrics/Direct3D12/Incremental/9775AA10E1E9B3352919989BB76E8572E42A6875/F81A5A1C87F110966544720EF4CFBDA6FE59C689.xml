@@ -1,0 +1,1684 @@
+<Root>
+<Comments>
+<c f="1" b="12" e="12"/>
+<c f="1" b="13" e="12"/>
+<c f="1" b="15" e="15"/>
+<c f="1" b="16" e="15"/>
+<c f="1" b="20" e="20"/>
+<c f="1" b="21" e="20"/>
+<c f="1" b="24" e="24"/>
+<c f="1" b="25" e="24"/>
+<c f="1" b="27" e="27"/>
+<c f="1" b="28" e="27"/>
+<c f="1" b="30" e="30"/>
+<c f="1" b="31" e="30"/>
+<c f="1" b="35" e="35"/>
+<c f="1" b="36" e="35"/>
+<c f="1" b="58" e="58"/>
+<c f="1" b="59" e="58"/>
+<c f="1" b="72" e="72"/>
+<c f="1" b="73" e="72"/>
+<c f="1" b="76" e="76"/>
+<c f="1" b="77" e="76"/>
+<c f="1" b="79" e="79"/>
+<c f="1" b="80" e="79"/>
+<c f="1" b="83" e="83"/>
+<c f="1" b="84" e="83"/>
+</Comments>
+<Macros>
+<m f="1" bl="25" bc="3" el="25" ec="3"/>
+</Macros>
+<Directives>
+<m f="1" bl="1" bc="1"/>
+<m f="1" bl="2" bc="1"/>
+</Directives>
+<Comments>
+<c f="2" b="3" e="3"/>
+<c f="2" b="5" e="3"/>
+<c f="2" b="17" e="17"/>
+<c f="2" b="18" e="17"/>
+<c f="2" b="22" e="22"/>
+<c f="2" b="23" e="22"/>
+</Comments>
+<Macros/>
+<Directives>
+<m f="2" bl="2" bc="1"/>
+</Directives>
+<tun>
+<Comments/>
+<Macros/>
+<Directives>
+<m f="3" bl="2" bc="1"/>
+<m f="3" bl="3" bc="1"/>
+<m f="3" bl="4" bc="1"/>
+<m f="3" bl="5" bc="1"/>
+<m f="3" bl="7" bc="1"/>
+<m f="3" bl="8" bc="1"/>
+<m f="3" bl="9" bc="1"/>
+<m f="3" bl="10" bc="1"/>
+<m f="3" bl="11" bc="1"/>
+</Directives>
+<cr access="public" depth="0" kind="class" name="CubeContainer" id="ff567f0cbd6be79384038675cd41f98b_8773b35ebc01fc157a3cb69463e7df3f" file="3" linestart="14" lineend="43">
+<cr access="public" kind="class" name="CubeContainer" id="ff567f0cbd6be79384038675cd41f98b_dbc893ebc8bdfa74a92c6ae6a9253071" file="3" linestart="14" lineend="14"/>
+<asd access="public"/>
+<c name="CubeContainer" id="ff567f0cbd6be79384038675cd41f98b_2c113f8f33d80a481117d8fb781648bc" file="3" linestart="16" lineend="16" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="const Device &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="6d0356338d8ffb73442c812d962de0f3_546fbf6c080cc4f8944db6f06533b0bc"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="numberOfFrameBuffers" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="scene" proto="const Scene &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d6e5690374a121cc766574531036f6fa_9ff6d0cd960e57fb2c3443ab0ed6ff0f"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="aspectRatio" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="commandList" proto="ID3D12GraphicsCommandList *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_96c5e2f4f5b968938fd01f9b844bb526"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<c name="CubeContainer" id="ff567f0cbd6be79384038675cd41f98b_5463061d94fac5ee5737c1becdcfdaf6" file="3" linestart="17" lineend="17" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cubeContainer" proto="const CubeContainer &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ff567f0cbd6be79384038675cd41f98b_8773b35ebc01fc157a3cb69463e7df3f"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="startIndex" proto="const size_t" const="true" isLiteral="true" isPrimitive="true" access2="none">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</QualType>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="count" proto="const size_t" const="true" isLiteral="true" isPrimitive="true" access2="none">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</QualType>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~CubeContainer" id="ff567f0cbd6be79384038675cd41f98b_0ccf46d2f9755c0bf27f435697590038" file="3" linestart="18" lineend="18" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="UpdateFrame" id="ff567f0cbd6be79384038675cd41f98b_2c64b553c0a705ac6046ca8762cfc3bd" file="3" linestart="20" lineend="20" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="frameIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="GetWorldMatVirtualAddress" id="ff567f0cbd6be79384038675cd41f98b_d54c3aff52eac9d8a648cf1a8921314c" file="3" linestart="21" lineend="21" access="public">
+<fpt cc="x86_thiscall" const="true" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fpt>
+<p name="cubeIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="GetViewMatVirtualAddress" id="ff567f0cbd6be79384038675cd41f98b_7bf81dd81c8c0e92e51502df007790e7" file="3" linestart="22" lineend="22" access="public">
+<fpt cc="x86_thiscall" const="true" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fpt>
+</m>
+<m name="GetProjMatVirtualAddress" id="ff567f0cbd6be79384038675cd41f98b_e65beffa35190e03ec12eb9d896eccc8" file="3" linestart="23" lineend="23" access="public">
+<fpt cc="x86_thiscall" const="true" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fpt>
+</m>
+<m name="GetUploadHeapResources" id="ff567f0cbd6be79384038675cd41f98b_d796cabbc681891ffea8c18b3888bb46" file="3" linestart="25" lineend="25" access="public">
+<fpt cc="x86_thiscall" const="true" proto="const std::vector&lt;ID3D12Resource *&gt;">
+<QualType const="true">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</ety>
+</QualType>
+</fpt>
+</m>
+<m name="GetProjectionMatrix" id="ff567f0cbd6be79384038675cd41f98b_7c536cfa6d59c826e53fbfb01e55e1e6" file="3" linestart="26" lineend="26" access="public">
+<fpt cc="x86_thiscall" const="true" proto="const DirectX::XMFLOAT4X4">
+<QualType const="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</QualType>
+</fpt>
+</m>
+<m name="GetViewMatrix" id="ff567f0cbd6be79384038675cd41f98b_ee6c94a1f93a10ad1a02703454b4f0e5" file="3" linestart="27" lineend="27" access="public">
+<fpt cc="x86_thiscall" const="true" proto="const DirectX::XMFLOAT4X4">
+<QualType const="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</QualType>
+</fpt>
+</m>
+<m name="GetCubes" id="ff567f0cbd6be79384038675cd41f98b_8163ee207a115af83820843cccca529c" file="3" linestart="28" lineend="28" access="public">
+<fpt cc="x86_thiscall" const="true" proto="const int &amp;">
+<lrf>
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<asd access="private"/>
+<fl name="uploadHeapResources" id="ff567f0cbd6be79384038675cd41f98b_45a8d2855f60e2b8c0435c6d015c839f" file="3" linestart="32" lineend="32" access="private" proto="std::vector&lt;ID3D12Resource *&gt;">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</ety>
+</fl>
+<fl name="cubes" id="ff567f0cbd6be79384038675cd41f98b_8fc8b22b0bb3d3c9627a23ad8658983f" file="3" linestart="33" lineend="33" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="constantBufferPerObjectAllignedSize" id="ff567f0cbd6be79384038675cd41f98b_5a3750812a9f3bfe804ac1f4281781b2" file="3" linestart="34" lineend="34" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<m name="CreateProjectionMatrix" id="ff567f0cbd6be79384038675cd41f98b_6ce71c4dad494a1ef27e300f2bbae6b8" file="3" linestart="36" lineend="36" access="private">
+<fpt cc="x86_thiscall" proto="DirectX::XMFLOAT4X4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</fpt>
+<p name="cam" proto="Camera" isLiteral="true" access2="none">
+<rt>
+<cr id="7c6017b3ca6f000b1df9460e60b60edf_595d25b3bf5445d848703c75d46e07ef"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="aspectRatio" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="CreateViewMatrix" id="ff567f0cbd6be79384038675cd41f98b_f31c3bab3f2ee327b1e2e1cbc212ff09" file="3" linestart="37" lineend="37" access="private">
+<fpt cc="x86_thiscall" proto="DirectX::XMFLOAT4X4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</fpt>
+<p name="cam" proto="Camera" isLiteral="true" access2="none">
+<rt>
+<cr id="7c6017b3ca6f000b1df9460e60b60edf_595d25b3bf5445d848703c75d46e07ef"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<fl name="cameraViewMat" id="ff567f0cbd6be79384038675cd41f98b_86f0002371c47cb4d56ddbc3767ae91f" file="3" linestart="38" lineend="38" access="private" proto="DirectX::XMFLOAT4X4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</fl>
+<fl name="cameraProjMat" id="ff567f0cbd6be79384038675cd41f98b_10c24d39891ad9a0b32edceaa4cfde70" file="3" linestart="39" lineend="39" access="private" proto="DirectX::XMFLOAT4X4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</fl>
+<fl name="viewVirtualAddress" id="ff567f0cbd6be79384038675cd41f98b_031653ec0927eb7d295f1c7b52da4a68" file="3" linestart="40" lineend="40" isLiteral="true" access="private" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fl>
+<fl name="projVirtualAddress" id="ff567f0cbd6be79384038675cd41f98b_48de692bdc20f8d679c548636b8cc577" file="3" linestart="41" lineend="41" isLiteral="true" access="private" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fl>
+</cr>
+<ft name="force_string" id="9c7bfe2585299bac9afdf4f8fcabf213_1ee82994ad0c9f1fca4ce50d53668e3d" file="4" linestart="202" lineend="207">
+<template_parameters>
+<ttp name="T" id="9c7bfe2585299bac9afdf4f8fcabf213_a1c66e3d743ae49d6028dd849827a60f" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f name="force_string" id="9c7bfe2585299bac9afdf4f8fcabf213_b65549fddab9f2a1d27d075218843205" file="4" linestart="203" lineend="207" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="auto">
+<auto/>
+</fpt>
+<p name="arg" proto="T" access2="none">
+<ttp/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="203" cb="26" le="207" ce="1">
+<dst lb="204" cb="2" le="204" ce="27">
+<exp pvirg="true"/>
+<Var nm="sStream" value="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_aba35b20ea03dd03e503380b9186c293"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+<n10 lb="204" cb="20">
+<typeptr id="d39d1a132b0c16493c7eb88386173838_9b338e7b149242250646c2951a67f10d">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="ce7d66c4fb37f82f4844d16a4c953408_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="ce7d66c4fb37f82f4844d16a4c953408_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</Var>
+</dst>
+<xop lb="205" cb="2" le="205" ce="13" kind="&lt;&lt;">
+<drx lb="205" cb="2" kind="lvalue" nm="sStream"/>
+<drx lb="205" cb="13" kind="lvalue" nm="arg"/>
+</xop>
+<rx lb="206" cb="2" le="206" ce="21" pvirg="true">
+<mce lb="206" cb="9" le="206" ce="21" nbparm="0" id="d39d1a132b0c16493c7eb88386173838_5c585cd54b1505e5cc2719ca66747cf3">
+<exp pvirg="true"/>
+<mex lb="206" cb="9" le="206" ce="17" id="d39d1a132b0c16493c7eb88386173838_5c585cd54b1505e5cc2719ca66747cf3" nm="str" point="1">
+<n32 lb="206" cb="9">
+<drx lb="206" cb="9" kind="lvalue" nm="sStream"/>
+</n32>
+</mex>
+</mce>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</ft>
+<f name="SaveToFile" id="9c7bfe2585299bac9afdf4f8fcabf213_d6e11051430e7bebdb39960410083244" file="4" linestart="209" lineend="215" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="file" proto="const std::string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="data" proto="const std::string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="210" cb="1" le="215" ce="1">
+<dst lb="211" cb="2" le="211" ce="18">
+<exp pvirg="true"/>
+<Var nm="fs" value="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_213a2eae7406c1710df59d36c4fa8251"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</Var>
+</dst>
+</u>
+
+</Stmt>
+</f>
+<f name="Arrange_OHM_Data" id="9c7bfe2585299bac9afdf4f8fcabf213_8081edc32e06221e8b1f1a5e49cbc210" file="4" linestart="217" lineend="217" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dataArr" proto="const std::string *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="item" proto="WMIDataItem *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="127e87f3fe218c3d64431a10d9efcfa2_0b4b308618552d68c7a68e5f1d26bea8"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</f>
+<cr access="public" depth="0" kind="class" name="Cube" id="cf7a42d4362123a17d5d3488f5fa4432_737176372a2be37b8b2eb2d07db24362" file="2" linestart="5" lineend="30">
+<cr access="public" kind="class" name="Cube" id="cf7a42d4362123a17d5d3488f5fa4432_6a3c778bf7c041f4cbab235398625e11" file="2" linestart="5" lineend="5"/>
+<asd access="public"/>
+<c name="Cube" id="cf7a42d4362123a17d5d3488f5fa4432_1902461cb62d0405b7463c01d78e4fee" file="2" linestart="7" lineend="8" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="index" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="uploadHeapResources" proto="std::vector&lt;ID3D12Resource *&gt;" access2="none">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="renderObject" proto="const RenderObject &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="4ab476162b2eba7a8dc2949c9e33ed5a_0b6e21e8fd71ea332db9fb42432fa866"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="scale" proto="const float" const="true" isLiteral="true" isPrimitive="true" access2="none">
+<QualType const="true">
+<bt name="float"/>
+</QualType>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~Cube" id="cf7a42d4362123a17d5d3488f5fa4432_46614162c566cc7a8e7177ff8c9b5352" file="2" linestart="9" lineend="9" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="GetMappedGpuAddress" id="cf7a42d4362123a17d5d3488f5fa4432_ea6b304bf0c11dab6f928a8450534b95" file="2" linestart="11" lineend="11" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="UINT8 *">
+<pt>
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</pt>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="GetVirtualGpuAddress" id="cf7a42d4362123a17d5d3488f5fa4432_58a32c947c6363f79fcace19a79f8732" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="UpdateWVPMatrix" id="cf7a42d4362123a17d5d3488f5fa4432_0c4e157e8a3b2f24478044f519267e6e" file="2" linestart="13" lineend="13" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<asd access="private"/>
+<fl name="cubeWorldMat" id="cf7a42d4362123a17d5d3488f5fa4432_db3555f5f734d33b3d3d3f949217ddf8" file="2" linestart="18" lineend="18" access="private" proto="DirectX::XMFLOAT4X4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</fl>
+<fl name="cubeRotMat" id="cf7a42d4362123a17d5d3488f5fa4432_31001c08e5b4f4b17356492319a5fdf6" file="2" linestart="19" lineend="19" access="private" proto="DirectX::XMFLOAT4X4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_cab7ae7616fbdaca8c0ad8fb9e878aad"/>
+</rt>
+</ety>
+</fl>
+<fl name="cubePosition" id="cf7a42d4362123a17d5d3488f5fa4432_a65f1362bb2b04581b8f218e4b90bc0d" file="2" linestart="20" lineend="20" access="private" proto="DirectX::XMFLOAT4">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_6181c5d6409058ce867ab9088a5965c1"/>
+</rt>
+</ety>
+</fl>
+<fl name="mappedGpuAddresses" id="cf7a42d4362123a17d5d3488f5fa4432_033b51d8c07af04586bd2f3eec361add" file="2" linestart="23" lineend="23" access="private" proto="std::vector&lt;UINT8 *&gt;">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<pt>
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</pt>
+</template_arguments>
+</tss>
+</ety>
+</fl>
+<fl name="virtualGpuAdresses" id="cf7a42d4362123a17d5d3488f5fa4432_3c3051d9901f59ef3efd372aaff392b0" file="2" linestart="24" lineend="24" access="private" proto="std::vector&lt;D3D12_GPU_VIRTUAL_ADDRESS&gt;">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</template_arguments>
+</tss>
+</ety>
+</fl>
+<fl name="index" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" file="2" linestart="26" lineend="26" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="constantBufferPerObjectAllignedSize" id="cf7a42d4362123a17d5d3488f5fa4432_86652b042fc5295b8fe188fd429b742b" file="2" linestart="27" lineend="27" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_Scale" id="cf7a42d4362123a17d5d3488f5fa4432_7cae401c4871ed9484dd628f4aa25e60" file="2" linestart="28" lineend="28" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<c name="Cube" id="cf7a42d4362123a17d5d3488f5fa4432_edd04fc39c5ddd7a336d1ee7bb187b23" file="2" linestart="5" lineend="5" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const Cube &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="cf7a42d4362123a17d5d3488f5fa4432_737176372a2be37b8b2eb2d07db24362"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="Cube" id="1b3157ae135aad355ccfcf6684217a55_1902461cb62d0405b7463c01d78e4fee" file="1" linestart="4" lineend="40" previous="cf7a42d4362123a17d5d3488f5fa4432_1902461cb62d0405b7463c01d78e4fee" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="i" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="uploadHeapResources" proto="std::vector&lt;ID3D12Resource *&gt;" access2="none">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<pt>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_8a3da047e374b8315122b2206c1a7200"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="renderObject" proto="const RenderObject &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="4ab476162b2eba7a8dc2949c9e33ed5a_0b6e21e8fd71ea332db9fb42432fa866"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="scale" proto="const float" const="true" isLiteral="true" isPrimitive="true" access2="none">
+<QualType const="true">
+<bt name="float"/>
+</QualType>
+<Stmt>
+
+</Stmt>
+</p>
+<initlist id="cf7a42d4362123a17d5d3488f5fa4432_7cae401c4871ed9484dd628f4aa25e60">
+<Stmt>
+<n32 lb="5" cb="65">
+<drx lb="5" cb="65" kind="lvalue" nm="scale"/>
+</n32>
+
+</Stmt>
+</initlist>
+<Stmt>
+<u lb="6" cb="1" le="40" ce="1">
+<dst lb="7" cb="2" le="7" ce="12">
+<exp pvirg="true"/>
+<Var nm="hr" value="true">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Var>
+</dst>
+<xop lb="9" cb="2" le="9" ce="10" kind="=">
+<mex lb="9" cb="2" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="9" cb="2"/>
+</mex>
+<n32 lb="9" cb="10">
+<drx lb="9" cb="10" kind="lvalue" nm="i"/>
+</n32>
+</xop>
+<dst lb="10" cb="2" le="10" ce="52">
+<exp pvirg="true"/>
+<Var nm="frameBufferCount" value="true">
+<auto/>
+<mce lb="10" cb="26" le="10" ce="51" nbparm="0" id="33c826770be6a5c668eec595c19b1004_4d302b215534245d1eabe876b749053e">
+<exp pvirg="true"/>
+<mex lb="10" cb="26" le="10" ce="46" id="33c826770be6a5c668eec595c19b1004_4d302b215534245d1eabe876b749053e" nm="size" point="1">
+<n32 lb="10" cb="26">
+<drx lb="10" cb="26" kind="lvalue" nm="uploadHeapResources"/>
+</n32>
+</mex>
+</mce>
+</Var>
+</dst>
+<fx lb="13" cb="2" le="33" ce="2">
+<dst lb="13" cb="7" le="13" ce="17">
+<exp pvirg="true"/>
+<Var nm="i" value="true">
+<auto/>
+<n45 lb="13" cb="16">
+<flit/>
+</n45>
+</Var>
+</dst>
+<xop lb="13" cb="19" le="13" ce="23" kind="&lt;">
+<n32 lb="13" cb="19">
+<n32 lb="13" cb="19">
+<drx lb="13" cb="19" kind="lvalue" nm="i"/>
+</n32>
+</n32>
+<n32 lb="13" cb="23">
+<drx lb="13" cb="23" kind="lvalue" nm="frameBufferCount"/>
+</n32>
+</xop>
+<uo lb="13" cb="41" le="13" ce="43" kind="++">
+<drx lb="13" cb="43" kind="lvalue" nm="i"/>
+</uo>
+<u lb="13" cb="46" le="33" ce="2">
+<dst lb="16" cb="3" le="16" ce="24">
+<exp pvirg="true"/>
+<Var nm="baseGpuAddress">
+<pt>
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</pt>
+</Var>
+</dst>
+<dst lb="17" cb="3" le="17" ce="32">
+<exp pvirg="true"/>
+<Var nm="readRange" value="true">
+<rt>
+<cr id="e412ad6d17e523f3a4ef846b69077d20_77c6d394f8b633dc4486d9e10ba1d0e0"/>
+</rt>
+<n10 lb="17" cb="17" le="17" ce="31">
+<typeptr id="e412ad6d17e523f3a4ef846b69077d20_e9268e8b8a677ae98e98c9413f3a13b5"/>
+<temp/>
+<n32 lb="17" cb="27">
+<n45 lb="17" cb="27"/>
+</n32>
+<n32 lb="17" cb="30">
+<n45 lb="17" cb="30"/>
+</n32>
+</n10>
+</Var>
+</dst>
+<xop lb="18" cb="3" le="18" ce="92" kind="=">
+<drx lb="18" cb="3" kind="lvalue" nm="hr"/>
+<mce lb="18" cb="8" le="18" ce="92" nbparm="3" id="2cd4e6b730954360c006482b86a79774_0ccadc037953b0f3a2e81b187b749d88">
+<exp pvirg="true"/>
+<mex lb="18" cb="8" le="18" ce="32" id="2cd4e6b730954360c006482b86a79774_0ccadc037953b0f3a2e81b187b749d88" nm="Map" arrow="1">
+<n32 lb="18" cb="8" le="18" ce="29">
+<ocx lb="18" cb="8" le="18" ce="29" nbparm="2" id="33c826770be6a5c668eec595c19b1004_ae7695ce3b759ed003feb35e26351606">
+<exp pvirg="true"/>
+<n32 lb="18" cb="27" le="18" ce="29">
+<drx lb="18" cb="27" le="18" ce="29" kind="lvalue" id="33c826770be6a5c668eec595c19b1004_ae7695ce3b759ed003feb35e26351606" nm="operator[]"/>
+</n32>
+<drx lb="18" cb="8" kind="lvalue" nm="uploadHeapResources"/>
+<n32 lb="18" cb="28">
+<n32 lb="18" cb="28">
+<drx lb="18" cb="28" kind="lvalue" nm="i"/>
+</n32>
+</n32>
+</ocx>
+</n32>
+</mex>
+<n32 lb="18" cb="36">
+<n45 lb="18" cb="36"/>
+</n32>
+<n32 lb="18" cb="39" le="18" ce="40">
+<uo lb="18" cb="39" le="18" ce="40" kind="&amp;">
+<drx lb="18" cb="40" kind="lvalue" nm="readRange"/>
+</uo>
+</n32>
+<rcast lb="18" cb="51" le="18" ce="91">
+<cast cast="BitCast">
+<pt>
+<pt>
+<bt name="void"/>
+</pt>
+</pt>
+</cast>
+<uo lb="18" cb="76" le="18" ce="77" kind="&amp;">
+<drx lb="18" cb="77" kind="lvalue" nm="baseGpuAddress"/>
+</uo>
+</rcast>
+</mce>
+</xop>
+<dst lb="21" cb="3" le="21" ce="87">
+<exp pvirg="true"/>
+<Var nm="mappedGpuAddress">
+<auto/>
+<xop lb="21" cb="27" le="21" ce="82" kind="+">
+<n32 lb="21" cb="27">
+<drx lb="21" cb="27" kind="lvalue" nm="baseGpuAddress"/>
+</n32>
+<xop lb="21" cb="44" le="21" ce="82" kind="*">
+<n32 lb="21" cb="44">
+<mex lb="21" cb="44" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_86652b042fc5295b8fe188fd429b742b" nm="constantBufferPerObjectAllignedSize" arrow="1">
+<n19 lb="21" cb="44"/>
+</mex>
+</n32>
+<n32 lb="21" cb="82">
+<mex lb="21" cb="82" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="21" cb="82"/>
+</mex>
+</n32>
+</xop>
+</xop>
+</Var>
+</dst>
+<ce lb="25" cb="3" le="25" ce="3" nbparm="3" id="b5c6a7794668dae6c3e2ce3e3f89493e_01f056bb0311297cf054435e7cf7ee95">
+<exp pvirg="true"/>
+<n32 lb="25" cb="3">
+<drx lb="25" cb="3" kind="lvalue" id="b5c6a7794668dae6c3e2ce3e3f89493e_01f056bb0311297cf054435e7cf7ee95" nm="memset"/>
+</n32>
+<n32 lb="25" cb="3" le="25" ce="3">
+<n46 lb="25" cb="3" le="25" ce="3">
+<exp pvirg="true"/>
+<uo lb="25" cb="3" le="25" ce="3" kind="&amp;">
+<mex lb="25" cb="3" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_db3555f5f734d33b3d3d3f949217ddf8" nm="cubeWorldMat" arrow="1">
+<n19 lb="25" cb="3"/>
+</mex>
+</uo>
+</n46>
+</n32>
+<n45 lb="25" cb="3"/>
+<n46 lb="25" cb="3" le="25" ce="3">
+<exp pvirg="true"/>
+<n55 lb="25" cb="3" le="25" ce="3">
+<sizeof/>
+<n46 lb="25" cb="3" le="25" ce="3">
+<exp pvirg="true"/>
+<mex lb="25" cb="3" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_db3555f5f734d33b3d3d3f949217ddf8" nm="cubeWorldMat" arrow="1">
+<n19 lb="25" cb="3"/>
+</mex>
+</n46>
+</n55>
+</n46>
+</ce>
+<ce lb="28" cb="3" le="28" ce="63" nbparm="3" id="b5c6a7794668dae6c3e2ce3e3f89493e_60bc7b595257868b3d58e003eb334889">
+<exp pvirg="true"/>
+<n32 lb="28" cb="3">
+<drx lb="28" cb="3" kind="lvalue" id="b5c6a7794668dae6c3e2ce3e3f89493e_60bc7b595257868b3d58e003eb334889" nm="memcpy"/>
+</n32>
+<n32 lb="28" cb="10">
+<n32 lb="28" cb="10">
+<drx lb="28" cb="10" kind="lvalue" nm="mappedGpuAddress"/>
+</n32>
+</n32>
+<n32 lb="28" cb="28" le="28" ce="29">
+<uo lb="28" cb="28" le="28" ce="29" kind="&amp;">
+<mex lb="28" cb="29" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_db3555f5f734d33b3d3d3f949217ddf8" nm="cubeWorldMat" arrow="1">
+<n19 lb="28" cb="29"/>
+</mex>
+</uo>
+</n32>
+<n55 lb="28" cb="43" le="28" ce="62">
+<sizeof/>
+<n46 lb="28" cb="49" le="28" ce="62">
+<exp pvirg="true"/>
+<mex lb="28" cb="50" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_db3555f5f734d33b3d3d3f949217ddf8" nm="cubeWorldMat" arrow="1">
+<n19 lb="28" cb="50"/>
+</mex>
+</n46>
+</n55>
+</ce>
+<dst lb="31" cb="3" le="31" ce="119">
+<exp pvirg="true"/>
+<Var nm="virtualGpuAdress" value="true">
+<auto/>
+<xop lb="31" cb="27" le="31" ce="114" kind="+">
+<mce lb="31" cb="27" le="31" ce="72" nbparm="0" id="2cd4e6b730954360c006482b86a79774_b0681a91191dc81754e4f863e6d538e0">
+<exp pvirg="true"/>
+<mex lb="31" cb="27" le="31" ce="51" id="2cd4e6b730954360c006482b86a79774_b0681a91191dc81754e4f863e6d538e0" nm="GetGPUVirtualAddress" arrow="1">
+<n32 lb="31" cb="27" le="31" ce="48">
+<ocx lb="31" cb="27" le="31" ce="48" nbparm="2" id="33c826770be6a5c668eec595c19b1004_ae7695ce3b759ed003feb35e26351606">
+<exp pvirg="true"/>
+<n32 lb="31" cb="46" le="31" ce="48">
+<drx lb="31" cb="46" le="31" ce="48" kind="lvalue" id="33c826770be6a5c668eec595c19b1004_ae7695ce3b759ed003feb35e26351606" nm="operator[]"/>
+</n32>
+<drx lb="31" cb="27" kind="lvalue" nm="uploadHeapResources"/>
+<n32 lb="31" cb="47">
+<n32 lb="31" cb="47">
+<drx lb="31" cb="47" kind="lvalue" nm="i"/>
+</n32>
+</n32>
+</ocx>
+</n32>
+</mex>
+</mce>
+<n32 lb="31" cb="76" le="31" ce="114">
+<xop lb="31" cb="76" le="31" ce="114" kind="*">
+<n32 lb="31" cb="76">
+<mex lb="31" cb="76" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_86652b042fc5295b8fe188fd429b742b" nm="constantBufferPerObjectAllignedSize" arrow="1">
+<n19 lb="31" cb="76"/>
+</mex>
+</n32>
+<n32 lb="31" cb="114">
+<mex lb="31" cb="114" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="31" cb="114"/>
+</mex>
+</n32>
+</xop>
+</n32>
+</xop>
+</Var>
+</dst>
+</u>
+</fx>
+<ce lb="36" cb="2" le="36" ce="67" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_3a9ecf848dc9aa4c76a29b8b8207cb49">
+<exp pvirg="true"/>
+<n32 lb="36" cb="2" le="36" ce="11">
+<drx lb="36" cb="2" le="36" ce="11" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_3a9ecf848dc9aa4c76a29b8b8207cb49" nm="XMStoreFloat4x4"/>
+</n32>
+<uo lb="36" cb="27" le="36" ce="28" kind="&amp;">
+<mex lb="36" cb="28" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_31001c08e5b4f4b17356492319a5fdf6" nm="cubeRotMat" arrow="1">
+<n19 lb="36" cb="28"/>
+</mex>
+</uo>
+<mte lb="36" cb="40" le="36" ce="66">
+<exp pvirg="true"/>
+<n32 lb="36" cb="40" le="36" ce="66">
+<ce lb="36" cb="40" le="36" ce="66" nbparm="0" id="2ca9ad7d54635bd14c95d8d5b934011b_0550bc85f0d599a1529e268b7928e290">
+<exp pvirg="true"/>
+<n32 lb="36" cb="40" le="36" ce="49">
+<drx lb="36" cb="40" le="36" ce="49" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_0550bc85f0d599a1529e268b7928e290" nm="XMMatrixIdentity"/>
+</n32>
+</ce>
+</n32>
+</mte>
+</ce>
+<ocx lb="38" cb="2" le="38" ce="93" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_4a6642eb138adc928bad9f80520d74f3">
+<exp pvirg="true"/>
+<n32 lb="38" cb="15">
+<drx lb="38" cb="15" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_4a6642eb138adc928bad9f80520d74f3" nm="operator="/>
+</n32>
+<mex lb="38" cb="2" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_a65f1362bb2b04581b8f218e4b90bc0d" nm="cubePosition" arrow="1">
+<n19 lb="38" cb="2"/>
+</mex>
+<mte lb="38" cb="17" le="38" ce="93">
+<exp pvirg="true"/>
+<n32 lb="38" cb="17" le="38" ce="93">
+<n11 lb="38" cb="17" le="38" ce="93">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_cd33e0220bf03164a46c8ca54977c17f"/>
+<temp/>
+<mce lb="38" cb="35" le="38" ce="50" nbparm="0" id="4ab476162b2eba7a8dc2949c9e33ed5a_59d9d34e59de1df0ba90746235c00d9b">
+<exp pvirg="true"/>
+<mex lb="38" cb="35" le="38" ce="48" id="4ab476162b2eba7a8dc2949c9e33ed5a_59d9d34e59de1df0ba90746235c00d9b" nm="x" point="1">
+<drx lb="38" cb="35" kind="lvalue" nm="renderObject"/>
+</mex>
+</mce>
+<mce lb="38" cb="53" le="38" ce="68" nbparm="0" id="4ab476162b2eba7a8dc2949c9e33ed5a_3c9a74e5a5591d1c2a6624d7a67004db">
+<exp pvirg="true"/>
+<mex lb="38" cb="53" le="38" ce="66" id="4ab476162b2eba7a8dc2949c9e33ed5a_3c9a74e5a5591d1c2a6624d7a67004db" nm="y" point="1">
+<drx lb="38" cb="53" kind="lvalue" nm="renderObject"/>
+</mex>
+</mce>
+<mce lb="38" cb="71" le="38" ce="86" nbparm="0" id="4ab476162b2eba7a8dc2949c9e33ed5a_d60d59afea3bb7e94277a25e3d07c85f">
+<exp pvirg="true"/>
+<mex lb="38" cb="71" le="38" ce="84" id="4ab476162b2eba7a8dc2949c9e33ed5a_d60d59afea3bb7e94277a25e3d07c85f" nm="z" point="1">
+<drx lb="38" cb="71" kind="lvalue" nm="renderObject"/>
+</mex>
+</mce>
+<n40 lb="38" cb="89">
+<flit/>
+</n40>
+</n11>
+</n32>
+</mte>
+</ocx>
+</u>
+
+</Stmt>
+</c>
+<d name="~Cube" id="1b3157ae135aad355ccfcf6684217a55_46614162c566cc7a8e7177ff8c9b5352" file="1" linestart="42" lineend="44" previous="cf7a42d4362123a17d5d3488f5fa4432_46614162c566cc7a8e7177ff8c9b5352" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="43" cb="1" le="44" ce="1"/>
+
+</Stmt>
+</d>
+<m name="GetMappedGpuAddress" id="1b3157ae135aad355ccfcf6684217a55_ea6b304bf0c11dab6f928a8450534b95" file="1" linestart="46" lineend="49" previous="cf7a42d4362123a17d5d3488f5fa4432_ea6b304bf0c11dab6f928a8450534b95" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="UINT8 *">
+<pt>
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</pt>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="47" cb="1" le="49" ce="1"/>
+
+</Stmt>
+</m>
+<m name="GetVirtualGpuAddress" id="1b3157ae135aad355ccfcf6684217a55_58a32c947c6363f79fcace19a79f8732" file="1" linestart="51" lineend="54" previous="cf7a42d4362123a17d5d3488f5fa4432_58a32c947c6363f79fcace19a79f8732" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="D3D12_GPU_VIRTUAL_ADDRESS">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="52" cb="1" le="54" ce="1"/>
+
+</Stmt>
+</m>
+<m name="UpdateWVPMatrix" id="1b3157ae135aad355ccfcf6684217a55_0c4e157e8a3b2f24478044f519267e6e" file="1" linestart="56" lineend="85" previous="cf7a42d4362123a17d5d3488f5fa4432_0c4e157e8a3b2f24478044f519267e6e" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="frameBufferIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="57" cb="1" le="85" ce="1">
+<dst lb="59" cb="2" le="59" ce="27">
+<exp pvirg="true"/>
+<Var nm="rotMat" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="59" cb="21">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_f81bd39ed6941a3cfc7feed9ff169887"/>
+<temp/>
+</n10>
+</Var>
+</dst>
+<if lb="60" cb="2" le="69" ce="2" else="true" elselb="67" elsecb="7">
+<n32 lb="60" cb="6" le="60" ce="39">
+<mex lb="60" cb="6" le="60" ce="39" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_98f092c88b48b094098ef444b8ecae85" nm="rotateCubes" point="1">
+<ce lb="60" cb="6" le="60" ce="37" nbparm="0" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba">
+<exp pvirg="true"/>
+<n32 lb="60" cb="6" le="60" ce="25">
+<drx lb="60" cb="6" le="60" ce="25" kind="lvalue" id="695c29935dc467a7ad334b7796cb1881_6e51289c05d424a944f9339627f0d5ba" nm="GetInstance"/>
+</n32>
+</ce>
+</mex>
+</n32>
+<u lb="60" cb="52" le="66" ce="2">
+<dst lb="61" cb="3" le="61" ce="100">
+<exp pvirg="true"/>
+<Var nm="rotXMat" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="61" cb="31" le="61" ce="99">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="61" cb="31" le="61" ce="99">
+<exp pvirg="true"/>
+<n32 lb="61" cb="31" le="61" ce="99">
+<ce lb="61" cb="31" le="61" ce="99" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_8585a3cc63deec3bb194554c09dc4cf9">
+<exp pvirg="true"/>
+<n32 lb="61" cb="31" le="61" ce="40">
+<drx lb="61" cb="31" le="61" ce="40" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_8585a3cc63deec3bb194554c09dc4cf9" nm="XMMatrixRotationX"/>
+</n32>
+<n32 lb="61" cb="58" le="61" ce="98">
+<xop lb="61" cb="58" le="61" ce="98" kind="*">
+<n32 lb="61" cb="58" le="61" ce="76">
+<xop lb="61" cb="58" le="61" ce="76" kind="*">
+<n40 lb="61" cb="58">
+<flit/>
+</n40>
+<n32 lb="61" cb="66" le="61" ce="76">
+<n46 lb="61" cb="66" le="61" ce="76">
+<exp pvirg="true"/>
+<xop lb="61" cb="67" le="61" ce="75" kind="+">
+<n32 lb="61" cb="67">
+<mex lb="61" cb="67" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="61" cb="67"/>
+</mex>
+</n32>
+<n45 lb="61" cb="75">
+<flit/>
+</n45>
+</xop>
+</n46>
+</n32>
+</xop>
+</n32>
+<ce lb="61" cb="80" le="61" ce="98" nbparm="2" id="e35c51c298000ae8635dae26a95e1423_d7d421e22f0231ebb6819e04a30f9018">
+<exp pvirg="true"/>
+<n32 lb="61" cb="80" le="61" ce="85">
+<drx lb="61" cb="80" le="61" ce="85" kind="lvalue" id="e35c51c298000ae8635dae26a95e1423_d7d421e22f0231ebb6819e04a30f9018" nm="pow">
+<template_arguments>
+<bt name="int"/>
+<bt name="int"/>
+<bt name="void"/>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="61" cb="89" le="61" ce="90" kind="-">
+<n45 lb="61" cb="90"/>
+</uo>
+<n32 lb="61" cb="93">
+<mex lb="61" cb="93" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="61" cb="93"/>
+</mex>
+</n32>
+</ce>
+</xop>
+</n32>
+</ce>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="62" cb="3" le="62" ce="100">
+<exp pvirg="true"/>
+<Var nm="rotYMat" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="62" cb="31" le="62" ce="99">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="62" cb="31" le="62" ce="99">
+<exp pvirg="true"/>
+<n32 lb="62" cb="31" le="62" ce="99">
+<ce lb="62" cb="31" le="62" ce="99" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_7ba2db83cd9d646476a4a42564d54dd5">
+<exp pvirg="true"/>
+<n32 lb="62" cb="31" le="62" ce="40">
+<drx lb="62" cb="31" le="62" ce="40" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_7ba2db83cd9d646476a4a42564d54dd5" nm="XMMatrixRotationY"/>
+</n32>
+<n32 lb="62" cb="58" le="62" ce="98">
+<xop lb="62" cb="58" le="62" ce="98" kind="*">
+<n32 lb="62" cb="58" le="62" ce="76">
+<xop lb="62" cb="58" le="62" ce="76" kind="*">
+<n40 lb="62" cb="58">
+<flit/>
+</n40>
+<n32 lb="62" cb="66" le="62" ce="76">
+<n46 lb="62" cb="66" le="62" ce="76">
+<exp pvirg="true"/>
+<xop lb="62" cb="67" le="62" ce="75" kind="+">
+<n32 lb="62" cb="67">
+<mex lb="62" cb="67" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="62" cb="67"/>
+</mex>
+</n32>
+<n45 lb="62" cb="75"/>
+</xop>
+</n46>
+</n32>
+</xop>
+</n32>
+<ce lb="62" cb="80" le="62" ce="98" nbparm="2" id="e35c51c298000ae8635dae26a95e1423_d7d421e22f0231ebb6819e04a30f9018">
+<exp pvirg="true"/>
+<n32 lb="62" cb="80" le="62" ce="85">
+<drx lb="62" cb="80" le="62" ce="85" kind="lvalue" id="e35c51c298000ae8635dae26a95e1423_d7d421e22f0231ebb6819e04a30f9018" nm="pow">
+<template_arguments>
+<bt name="int"/>
+<bt name="int"/>
+<bt name="void"/>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="62" cb="89" le="62" ce="90" kind="-">
+<n45 lb="62" cb="90"/>
+</uo>
+<n32 lb="62" cb="93">
+<mex lb="62" cb="93" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="62" cb="93"/>
+</mex>
+</n32>
+</ce>
+</xop>
+</n32>
+</ce>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="63" cb="3" le="63" ce="100">
+<exp pvirg="true"/>
+<Var nm="rotZMat" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="63" cb="31" le="63" ce="99">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="63" cb="31" le="63" ce="99">
+<exp pvirg="true"/>
+<n32 lb="63" cb="31" le="63" ce="99">
+<ce lb="63" cb="31" le="63" ce="99" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_8d923fd04ae1005419161eb574a1d8c0">
+<exp pvirg="true"/>
+<n32 lb="63" cb="31" le="63" ce="40">
+<drx lb="63" cb="31" le="63" ce="40" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_8d923fd04ae1005419161eb574a1d8c0" nm="XMMatrixRotationZ"/>
+</n32>
+<n32 lb="63" cb="58" le="63" ce="98">
+<xop lb="63" cb="58" le="63" ce="98" kind="*">
+<n32 lb="63" cb="58" le="63" ce="76">
+<xop lb="63" cb="58" le="63" ce="76" kind="*">
+<n40 lb="63" cb="58">
+<flit/>
+</n40>
+<n32 lb="63" cb="66" le="63" ce="76">
+<n46 lb="63" cb="66" le="63" ce="76">
+<exp pvirg="true"/>
+<xop lb="63" cb="67" le="63" ce="75" kind="+">
+<n32 lb="63" cb="67">
+<mex lb="63" cb="67" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="63" cb="67"/>
+</mex>
+</n32>
+<n45 lb="63" cb="75"/>
+</xop>
+</n46>
+</n32>
+</xop>
+</n32>
+<ce lb="63" cb="80" le="63" ce="98" nbparm="2" id="e35c51c298000ae8635dae26a95e1423_d7d421e22f0231ebb6819e04a30f9018">
+<exp pvirg="true"/>
+<n32 lb="63" cb="80" le="63" ce="85">
+<drx lb="63" cb="80" le="63" ce="85" kind="lvalue" id="e35c51c298000ae8635dae26a95e1423_d7d421e22f0231ebb6819e04a30f9018" nm="pow">
+<template_arguments>
+<bt name="int"/>
+<bt name="int"/>
+<bt name="void"/>
+</template_arguments>
+</drx>
+</n32>
+<uo lb="63" cb="89" le="63" ce="90" kind="-">
+<n45 lb="63" cb="90"/>
+</uo>
+<n32 lb="63" cb="93">
+<mex lb="63" cb="93" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_809ca7b521e5603cea30c6e57459abf8" nm="index" arrow="1">
+<n19 lb="63" cb="93"/>
+</mex>
+</n32>
+</ce>
+</xop>
+</n32>
+</ce>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<ocx lb="65" cb="3" le="65" ce="72" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_06f620129b68a48e44dac0bbe8c8186e">
+<exp pvirg="true"/>
+<n32 lb="65" cb="10">
+<drx lb="65" cb="10" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_06f620129b68a48e44dac0bbe8c8186e" nm="operator="/>
+</n32>
+<drx lb="65" cb="3" kind="lvalue" nm="rotMat"/>
+<mte lb="65" cb="12" le="65" ce="72">
+<exp pvirg="true"/>
+<n32 lb="65" cb="12" le="65" ce="72">
+<ocx lb="65" cb="12" le="65" ce="72" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3">
+<exp pvirg="true"/>
+<n32 lb="65" cb="70">
+<drx lb="65" cb="70" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3" nm="operator*"/>
+</n32>
+<n32 lb="65" cb="12" le="65" ce="62">
+<ocx lb="65" cb="12" le="65" ce="62" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3">
+<exp pvirg="true"/>
+<n32 lb="65" cb="60">
+<drx lb="65" cb="60" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3" nm="operator*"/>
+</n32>
+<n32 lb="65" cb="12" le="65" ce="52">
+<ocx lb="65" cb="12" le="65" ce="52" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3">
+<exp pvirg="true"/>
+<n32 lb="65" cb="50">
+<drx lb="65" cb="50" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3" nm="operator*"/>
+</n32>
+<n32 lb="65" cb="12" le="65" ce="47">
+<ce lb="65" cb="12" le="65" ce="47" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_f39e10e3a24f2ad9a1c0d2a4d2291abf">
+<exp pvirg="true"/>
+<n32 lb="65" cb="12" le="65" ce="21">
+<drx lb="65" cb="12" le="65" ce="21" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_f39e10e3a24f2ad9a1c0d2a4d2291abf" nm="XMLoadFloat4x4"/>
+</n32>
+<n32 lb="65" cb="36" le="65" ce="37">
+<uo lb="65" cb="36" le="65" ce="37" kind="&amp;">
+<mex lb="65" cb="37" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_31001c08e5b4f4b17356492319a5fdf6" nm="cubeRotMat" arrow="1">
+<n19 lb="65" cb="37"/>
+</mex>
+</uo>
+</n32>
+</ce>
+</n32>
+<n32 lb="65" cb="52">
+<drx lb="65" cb="52" kind="lvalue" nm="rotXMat"/>
+</n32>
+</ocx>
+</n32>
+<n32 lb="65" cb="62">
+<drx lb="65" cb="62" kind="lvalue" nm="rotYMat"/>
+</n32>
+</ocx>
+</n32>
+<n32 lb="65" cb="72">
+<drx lb="65" cb="72" kind="lvalue" nm="rotZMat"/>
+</n32>
+</ocx>
+</n32>
+</mte>
+</ocx>
+</u>
+<u lb="67" cb="7" le="69" ce="2">
+<ocx lb="68" cb="3" le="68" ce="47" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_06f620129b68a48e44dac0bbe8c8186e">
+<exp pvirg="true"/>
+<n32 lb="68" cb="10">
+<drx lb="68" cb="10" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_06f620129b68a48e44dac0bbe8c8186e" nm="operator="/>
+</n32>
+<drx lb="68" cb="3" kind="lvalue" nm="rotMat"/>
+<mte lb="68" cb="12" le="68" ce="47">
+<exp pvirg="true"/>
+<n32 lb="68" cb="12" le="68" ce="47">
+<ce lb="68" cb="12" le="68" ce="47" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_f39e10e3a24f2ad9a1c0d2a4d2291abf">
+<exp pvirg="true"/>
+<n32 lb="68" cb="12" le="68" ce="21">
+<drx lb="68" cb="12" le="68" ce="21" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_f39e10e3a24f2ad9a1c0d2a4d2291abf" nm="XMLoadFloat4x4"/>
+</n32>
+<n32 lb="68" cb="36" le="68" ce="37">
+<uo lb="68" cb="36" le="68" ce="37" kind="&amp;">
+<mex lb="68" cb="37" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_31001c08e5b4f4b17356492319a5fdf6" nm="cubeRotMat" arrow="1">
+<n19 lb="68" cb="37"/>
+</mex>
+</uo>
+</n32>
+</ce>
+</n32>
+</mte>
+</ocx>
+<n59 lb="68" cb="49"/>
+</u>
+</if>
+<ce lb="70" cb="2" le="70" ce="46" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_3a9ecf848dc9aa4c76a29b8b8207cb49">
+<exp pvirg="true"/>
+<n32 lb="70" cb="2" le="70" ce="11">
+<drx lb="70" cb="2" le="70" ce="11" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_3a9ecf848dc9aa4c76a29b8b8207cb49" nm="XMStoreFloat4x4"/>
+</n32>
+<uo lb="70" cb="27" le="70" ce="28" kind="&amp;">
+<mex lb="70" cb="28" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_31001c08e5b4f4b17356492319a5fdf6" nm="cubeRotMat" arrow="1">
+<n19 lb="70" cb="28"/>
+</mex>
+</uo>
+<n32 lb="70" cb="40">
+<drx lb="70" cb="40" kind="lvalue" nm="rotMat"/>
+</n32>
+</ce>
+<dst lb="73" cb="2" le="73" ce="104">
+<exp pvirg="true"/>
+<Var nm="translationMat" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="73" cb="37" le="73" ce="103">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="73" cb="37" le="73" ce="103">
+<exp pvirg="true"/>
+<n32 lb="73" cb="37" le="73" ce="103">
+<ce lb="73" cb="37" le="73" ce="103" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_cda2e5e93721a56c9d325aaa527a2c62">
+<exp pvirg="true"/>
+<n32 lb="73" cb="37" le="73" ce="46">
+<drx lb="73" cb="37" le="73" ce="46" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_cda2e5e93721a56c9d325aaa527a2c62" nm="XMMatrixTranslationFromVector"/>
+</n32>
+<n10 lb="73" cb="76" le="73" ce="102">
+<typeptr id="0bb983d106789f348a7c16ea0daf649f_78cd5cab950b214921baf2b057494fb4"/>
+<temp/>
+<mte lb="73" cb="76" le="73" ce="102">
+<exp pvirg="true"/>
+<ce lb="73" cb="76" le="73" ce="102" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_44b8975baa561310a34e3028166e8fc8">
+<exp pvirg="true"/>
+<n32 lb="73" cb="76">
+<drx lb="73" cb="76" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_44b8975baa561310a34e3028166e8fc8" nm="XMLoadFloat4"/>
+</n32>
+<n32 lb="73" cb="89" le="73" ce="90">
+<uo lb="73" cb="89" le="73" ce="90" kind="&amp;">
+<mex lb="73" cb="90" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_a65f1362bb2b04581b8f218e4b90bc0d" nm="cubePosition" arrow="1">
+<n19 lb="73" cb="90"/>
+</mex>
+</uo>
+</n32>
+</ce>
+</mte>
+</n10>
+</ce>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="74" cb="2" le="74" ce="85">
+<exp pvirg="true"/>
+<Var nm="scaleMatrix" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="74" cb="34" le="74" ce="84">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="74" cb="34" le="74" ce="84">
+<exp pvirg="true"/>
+<n32 lb="74" cb="34" le="74" ce="84">
+<ce lb="74" cb="34" le="74" ce="84" nbparm="3" id="2ca9ad7d54635bd14c95d8d5b934011b_c002bbe121432c1b6bd6358dab75d238">
+<exp pvirg="true"/>
+<n32 lb="74" cb="34" le="74" ce="43">
+<drx lb="74" cb="34" le="74" ce="43" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_c002bbe121432c1b6bd6358dab75d238" nm="XMMatrixScaling"/>
+</n32>
+<n32 lb="74" cb="59">
+<mex lb="74" cb="59" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_7cae401c4871ed9484dd628f4aa25e60" nm="m_Scale" arrow="1">
+<n19 lb="74" cb="59"/>
+</mex>
+</n32>
+<n32 lb="74" cb="68">
+<mex lb="74" cb="68" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_7cae401c4871ed9484dd628f4aa25e60" nm="m_Scale" arrow="1">
+<n19 lb="74" cb="68"/>
+</mex>
+</n32>
+<n32 lb="74" cb="77">
+<mex lb="74" cb="77" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_7cae401c4871ed9484dd628f4aa25e60" nm="m_Scale" arrow="1">
+<n19 lb="74" cb="77"/>
+</mex>
+</n32>
+</ce>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="77" cb="2" le="77" ce="68">
+<exp pvirg="true"/>
+<Var nm="worldMat" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="77" cb="31" le="77" ce="57">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="77" cb="31" le="77" ce="57">
+<exp pvirg="true"/>
+<n32 lb="77" cb="31" le="77" ce="57">
+<ocx lb="77" cb="31" le="77" ce="57" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3">
+<exp pvirg="true"/>
+<n32 lb="77" cb="55">
+<drx lb="77" cb="55" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3" nm="operator*"/>
+</n32>
+<n32 lb="77" cb="31" le="77" ce="40">
+<ocx lb="77" cb="31" le="77" ce="40" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3">
+<exp pvirg="true"/>
+<n32 lb="77" cb="38">
+<drx lb="77" cb="38" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_d7ca43612f39da2876171fff6aef06d3" nm="operator*"/>
+</n32>
+<n32 lb="77" cb="31">
+<drx lb="77" cb="31" kind="lvalue" nm="rotMat"/>
+</n32>
+<n32 lb="77" cb="40">
+<drx lb="77" cb="40" kind="lvalue" nm="translationMat"/>
+</n32>
+</ocx>
+</n32>
+<n32 lb="77" cb="57">
+<drx lb="77" cb="57" kind="lvalue" nm="scaleMatrix"/>
+</n32>
+</ocx>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="80" cb="2" le="80" ce="69">
+<exp pvirg="true"/>
+<Var nm="transposed" value="true">
+<ety>
+<rt>
+<cr id="2ca9ad7d54635bd14c95d8d5b934011b_d5bb37e30cfd81a9265503eb2dd5a361"/>
+</rt>
+</ety>
+<n10 lb="80" cb="33" le="80" ce="68">
+<typeptr id="2ca9ad7d54635bd14c95d8d5b934011b_328201cb4f19cd43ebac66676aff655f"/>
+<temp/>
+<mte lb="80" cb="33" le="80" ce="68">
+<exp pvirg="true"/>
+<n32 lb="80" cb="33" le="80" ce="68">
+<ce lb="80" cb="33" le="80" ce="68" nbparm="1" id="2ca9ad7d54635bd14c95d8d5b934011b_57f307d802fb59c6541e43f0f51a46ad">
+<exp pvirg="true"/>
+<n32 lb="80" cb="33" le="80" ce="42">
+<drx lb="80" cb="33" le="80" ce="42" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_57f307d802fb59c6541e43f0f51a46ad" nm="XMMatrixTranspose"/>
+</n32>
+<n32 lb="80" cb="60">
+<drx lb="80" cb="60" kind="lvalue" nm="worldMat"/>
+</n32>
+</ce>
+</n32>
+</mte>
+</n10>
+</Var>
+</dst>
+<ce lb="81" cb="2" le="81" ce="52" nbparm="2" id="2ca9ad7d54635bd14c95d8d5b934011b_3a9ecf848dc9aa4c76a29b8b8207cb49">
+<exp pvirg="true"/>
+<n32 lb="81" cb="2" le="81" ce="11">
+<drx lb="81" cb="2" le="81" ce="11" kind="lvalue" id="2ca9ad7d54635bd14c95d8d5b934011b_3a9ecf848dc9aa4c76a29b8b8207cb49" nm="XMStoreFloat4x4"/>
+</n32>
+<uo lb="81" cb="27" le="81" ce="28" kind="&amp;">
+<mex lb="81" cb="28" kind="lvalue" id="cf7a42d4362123a17d5d3488f5fa4432_db3555f5f734d33b3d3d3f949217ddf8" nm="cubeWorldMat" arrow="1">
+<n19 lb="81" cb="28"/>
+</mex>
+</uo>
+<n32 lb="81" cb="42">
+<drx lb="81" cb="42" kind="lvalue" nm="transposed"/>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

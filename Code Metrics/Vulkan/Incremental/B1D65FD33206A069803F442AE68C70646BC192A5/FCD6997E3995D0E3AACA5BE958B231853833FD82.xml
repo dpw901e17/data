@@ -1,0 +1,435 @@
+<Root>
+<Comments/>
+<Macros/>
+<Directives>
+<m f="1" bl="1" bc="1"/>
+</Directives>
+<Comments/>
+<Macros/>
+<Directives>
+<m f="2" bl="2" bc="1"/>
+<m f="2" bl="3" bc="1"/>
+</Directives>
+<tun>
+<cr access="none" depth="0" kind="class" name="Shader" id="fbcf631c9165a5b393d4ff7c682867e4_97d543f11b9dfbf061d52e986166123c" file="2" linestart="5" lineend="16">
+<cr access="public" kind="class" name="Shader" id="fbcf631c9165a5b393d4ff7c682867e4_4e907e8e7650019e87de62930a55157b" file="2" linestart="5" lineend="5"/>
+<asd access="public"/>
+<c name="Shader" id="fbcf631c9165a5b393d4ff7c682867e4_f0ab0b926a891efd7cd5c7343d4f0dac" file="2" linestart="8" lineend="8" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="vk::Device" access2="none">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_850ff36823b09b7eb52ee43ce8f91ba2"/>
+</rt>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="file_path" proto="std::string" access2="none">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="stage" proto="vk::ShaderStageFlagBits" isLiteral="true" access2="none">
+<ety>
+<et>
+<e id="8fca0f03eb82c3878d224fb1566a72dd_a04cfd68cec76df008812f7e6ca4ca69"/>
+</et>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~Shader" id="fbcf631c9165a5b393d4ff7c682867e4_97a68ee454397e2258a0369fef20187f" file="2" linestart="9" lineend="9" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<fl name="m_Info" id="fbcf631c9165a5b393d4ff7c682867e4_255192bc1ea6fb68aae4917981e54f6d" file="2" linestart="11" lineend="11" access="public" proto="vk::PipelineShaderStageCreateInfo">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_b7a41fbcbf593ff02647ecd76a5d9a1c"/>
+</rt>
+</ety>
+</fl>
+<asd access="private"/>
+<fl name="m_Device" id="fbcf631c9165a5b393d4ff7c682867e4_7459100d8f4e8dd03564def0dc3a91dd" file="2" linestart="13" lineend="13" access="private" proto="vk::Device">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_850ff36823b09b7eb52ee43ce8f91ba2"/>
+</rt>
+</ety>
+</fl>
+<fl name="m_Module" id="fbcf631c9165a5b393d4ff7c682867e4_0ea0945f06dc2b49c57e3248d46ecdf4" file="2" linestart="14" lineend="14" access="private" proto="vk::ShaderModule">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_0961472e759c72622ff2cd30b18026cd"/>
+</rt>
+</ety>
+</fl>
+<c name="Shader" id="fbcf631c9165a5b393d4ff7c682867e4_ab2cab8d37bd3e807c6708ec43704d05" file="2" linestart="5" lineend="5" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const Shader &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fbcf631c9165a5b393d4ff7c682867e4_97d543f11b9dfbf061d52e986166123c"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<f name="createShaderModule" id="fe0079157efa27f91b11e36b267754c6_b515d981fa74e727ff971a31cf35e8d0" file="1" linestart="3" lineend="9" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="vk::ShaderModule">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_0961472e759c72622ff2cd30b18026cd"/>
+</rt>
+</ety>
+</fpt>
+<p name="device" proto="vk::Device" access2="none">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_850ff36823b09b7eb52ee43ce8f91ba2"/>
+</rt>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="source_code" proto="const std::vector&lt;char&gt; &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<tss>
+<templatebase id="33c826770be6a5c668eec595c19b1004_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="4" cb="1" le="9" ce="1">
+<dst lb="5" cb="2" le="5" ce="44">
+<exp pvirg="true"/>
+<Var nm="createInfo" value="true">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_8385675dfb5ede6855a35ef62a81ada2"/>
+</rt>
+</ety>
+<n10 lb="5" cb="42" le="5" ce="43">
+<typeptr id="8fca0f03eb82c3878d224fb1566a72dd_6c753ad98426dbcc9c8e25eea42eae8c"/>
+<temp/>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</n10>
+</Var>
+</dst>
+<xop lb="6" cb="2" le="6" ce="41" kind="=">
+<mex lb="6" cb="2" le="6" ce="13" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_affcc5bde7e00b27c30418c0f9c8535b" nm="codeSize" point="1">
+<drx lb="6" cb="2" kind="lvalue" nm="createInfo"/>
+</mex>
+<mce lb="6" cb="24" le="6" ce="41" nbparm="0" id="33c826770be6a5c668eec595c19b1004_4d302b215534245d1eabe876b749053e">
+<exp pvirg="true"/>
+<mex lb="6" cb="24" le="6" ce="36" id="33c826770be6a5c668eec595c19b1004_4d302b215534245d1eabe876b749053e" nm="size" point="1">
+<drx lb="6" cb="24" kind="lvalue" nm="source_code"/>
+</mex>
+</mce>
+</xop>
+<xop lb="7" cb="2" le="7" ce="73" kind="=">
+<mex lb="7" cb="2" le="7" ce="13" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_0ff8bd3225759219a72cc2324df2d9e3" nm="pCode" point="1">
+<drx lb="7" cb="2" kind="lvalue" nm="createInfo"/>
+</mex>
+<rcast lb="7" cb="21" le="7" ce="73">
+<cast cast="BitCast">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</QualType>
+</pt>
+</cast>
+<mce lb="7" cb="55" le="7" ce="72" nbparm="0" id="33c826770be6a5c668eec595c19b1004_02a1cc96c0d8d9b6a264787f210acf29">
+<exp pvirg="true"/>
+<mex lb="7" cb="55" le="7" ce="67" id="33c826770be6a5c668eec595c19b1004_02a1cc96c0d8d9b6a264787f210acf29" nm="data" point="1">
+<drx lb="7" cb="55" kind="lvalue" nm="source_code"/>
+</mex>
+</mce>
+</rcast>
+</xop>
+<rx lb="8" cb="2" le="8" ce="45" pvirg="true">
+<n10 lb="8" cb="9" le="8" ce="45">
+<typeptr id="8fca0f03eb82c3878d224fb1566a72dd_dd29c8497c9eab6170c1aa770ad0b36b"/>
+<temp/>
+<mte lb="8" cb="9" le="8" ce="45">
+<exp pvirg="true"/>
+<mce lb="8" cb="9" le="8" ce="45" nbparm="2" id="8fca0f03eb82c3878d224fb1566a72dd_5235aa5127f83666a84280358e2c66b4">
+<exp pvirg="true"/>
+<mex lb="8" cb="9" le="8" ce="16" id="8fca0f03eb82c3878d224fb1566a72dd_5235aa5127f83666a84280358e2c66b4" nm="createShaderModule" point="1">
+<n32 lb="8" cb="9">
+<drx lb="8" cb="9" kind="lvalue" nm="device"/>
+</n32>
+</mex>
+<n32 lb="8" cb="35">
+<drx lb="8" cb="35" kind="lvalue" nm="createInfo"/>
+</n32>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</mce>
+</mte>
+</n10>
+</rx>
+</u>
+
+</Stmt>
+</f>
+<c name="Shader" id="fe0079157efa27f91b11e36b267754c6_f0ab0b926a891efd7cd5c7343d4f0dac" file="1" linestart="11" lineend="20" previous="fbcf631c9165a5b393d4ff7c682867e4_f0ab0b926a891efd7cd5c7343d4f0dac" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="device" proto="vk::Device" access2="none">
+<ety>
+<rt>
+<cr id="8fca0f03eb82c3878d224fb1566a72dd_850ff36823b09b7eb52ee43ce8f91ba2"/>
+</rt>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="file_path" proto="std::string" access2="none">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="0b1fac74b373748f39ef0b1f52fedc63_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="ce7d66c4fb37f82f4844d16a4c953408_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6110fe54ba3fb31470656e507d722665_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="stage" proto="vk::ShaderStageFlagBits" isLiteral="true" access2="none">
+<ety>
+<et>
+<e id="8fca0f03eb82c3878d224fb1566a72dd_a04cfd68cec76df008812f7e6ca4ca69"/>
+</et>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<initlist id="fbcf631c9165a5b393d4ff7c682867e4_7459100d8f4e8dd03564def0dc3a91dd">
+<Stmt>
+<n10 lb="12" cb="4" le="12" ce="19">
+<typeptr id="8fca0f03eb82c3878d224fb1566a72dd_df79953c610c3c1f652ea146e8ff786f"/>
+<temp/>
+<n32 lb="12" cb="13">
+<drx lb="12" cb="13" kind="lvalue" nm="device"/>
+</n32>
+</n10>
+
+</Stmt>
+</initlist>
+<Stmt>
+<u lb="13" cb="1" le="20" ce="1">
+<dst lb="14" cb="2" le="14" ce="35">
+<exp pvirg="true"/>
+<Var nm="source" value="true">
+<auto/>
+<n10 lb="14" cb="16" le="14" ce="34">
+<typeptr id="33c826770be6a5c668eec595c19b1004_49514725c1e58fa28dc03bacd77f7558">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="ce7d66c4fb37f82f4844d16a4c953408_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="14" cb="16" le="14" ce="34">
+<exp pvirg="true"/>
+<ce lb="14" cb="16" le="14" ce="34" nbparm="1" id="fa3b494e8201efee4737cf877f4e84dd_9f511ce99eda9062108b2820b382eedc">
+<exp pvirg="true"/>
+<n32 lb="14" cb="16">
+<drx lb="14" cb="16" kind="lvalue" id="fa3b494e8201efee4737cf877f4e84dd_9f511ce99eda9062108b2820b382eedc" nm="readFile"/>
+</n32>
+<n32 lb="14" cb="25">
+<drx lb="14" cb="25" kind="lvalue" nm="file_path"/>
+</n32>
+</ce>
+</mte>
+</n10>
+</Var>
+</dst>
+<ocx lb="15" cb="2" le="15" ce="46" nbparm="2" id="8fca0f03eb82c3878d224fb1566a72dd_eeec62b084835382d262fedb564e0748">
+<exp pvirg="true"/>
+<n32 lb="15" cb="11">
+<drx lb="15" cb="11" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_eeec62b084835382d262fedb564e0748" nm="operator="/>
+</n32>
+<mex lb="15" cb="2" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_0ea0945f06dc2b49c57e3248d46ecdf4" nm="m_Module" arrow="1">
+<n19 lb="15" cb="2"/>
+</mex>
+<mte lb="15" cb="13" le="15" ce="46">
+<exp pvirg="true"/>
+<ce lb="15" cb="13" le="15" ce="46" nbparm="2" id="fe0079157efa27f91b11e36b267754c6_b515d981fa74e727ff971a31cf35e8d0">
+<exp pvirg="true"/>
+<n32 lb="15" cb="13">
+<drx lb="15" cb="13" kind="lvalue" id="fe0079157efa27f91b11e36b267754c6_b515d981fa74e727ff971a31cf35e8d0" nm="createShaderModule"/>
+</n32>
+<n10 lb="15" cb="32">
+<typeptr id="8fca0f03eb82c3878d224fb1566a72dd_df79953c610c3c1f652ea146e8ff786f"/>
+<temp/>
+<n32 lb="15" cb="32">
+<drx lb="15" cb="32" kind="lvalue" nm="device"/>
+</n32>
+</n10>
+<n32 lb="15" cb="40">
+<drx lb="15" cb="40" kind="lvalue" nm="source"/>
+</n32>
+</ce>
+</mte>
+</ocx>
+<xop lb="17" cb="2" le="17" ce="17" kind="=">
+<mex lb="17" cb="2" le="17" ce="9" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_edebad985c073f832a45d0da8be000f7" nm="stage" point="1">
+<mex lb="17" cb="2" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_255192bc1ea6fb68aae4917981e54f6d" nm="m_Info" arrow="1">
+<n19 lb="17" cb="2"/>
+</mex>
+</mex>
+<n32 lb="17" cb="17">
+<drx lb="17" cb="17" kind="lvalue" nm="stage"/>
+</n32>
+</xop>
+<ocx lb="18" cb="2" le="18" ce="18" nbparm="2" id="8fca0f03eb82c3878d224fb1566a72dd_2371eaafcb7daee6ad16fd66073046aa">
+<exp pvirg="true"/>
+<n32 lb="18" cb="16">
+<drx lb="18" cb="16" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_2371eaafcb7daee6ad16fd66073046aa" nm="operator="/>
+</n32>
+<mex lb="18" cb="2" le="18" ce="9" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_4d9cf9b9cad212cb7ad2b5fb82f565c8" nm="module" point="1">
+<mex lb="18" cb="2" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_255192bc1ea6fb68aae4917981e54f6d" nm="m_Info" arrow="1">
+<n19 lb="18" cb="2"/>
+</mex>
+</mex>
+<n32 lb="18" cb="18">
+<mex lb="18" cb="18" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_0ea0945f06dc2b49c57e3248d46ecdf4" nm="m_Module" arrow="1">
+<n19 lb="18" cb="18"/>
+</mex>
+</n32>
+</ocx>
+<xop lb="19" cb="2" le="19" ce="17" kind="=">
+<mex lb="19" cb="2" le="19" ce="9" kind="lvalue" id="8fca0f03eb82c3878d224fb1566a72dd_8d1c8178cf8a47b5efc9418d3f35b31b" nm="pName" point="1">
+<mex lb="19" cb="2" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_255192bc1ea6fb68aae4917981e54f6d" nm="m_Info" arrow="1">
+<n19 lb="19" cb="2"/>
+</mex>
+</mex>
+<n32 lb="19" cb="17">
+<n52 lb="19" cb="17">
+<slit/>
+</n52>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<d name="~Shader" id="fe0079157efa27f91b11e36b267754c6_97a68ee454397e2258a0369fef20187f" file="1" linestart="22" lineend="25" previous="fbcf631c9165a5b393d4ff7c682867e4_97a68ee454397e2258a0369fef20187f" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="23" cb="1" le="25" ce="1">
+<mce lb="24" cb="2" le="24" ce="39" nbparm="2" id="8fca0f03eb82c3878d224fb1566a72dd_b118615cb719047e5871c20948ebff26">
+<exp pvirg="true"/>
+<mex lb="24" cb="2" le="24" ce="11" id="8fca0f03eb82c3878d224fb1566a72dd_b118615cb719047e5871c20948ebff26" nm="destroyShaderModule" point="1">
+<n32 lb="24" cb="2">
+<mex lb="24" cb="2" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_7459100d8f4e8dd03564def0dc3a91dd" nm="m_Device" arrow="1">
+<n19 lb="24" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n10 lb="24" cb="31">
+<typeptr id="8fca0f03eb82c3878d224fb1566a72dd_8afff412bb0a46bcc747fb217ae9c439"/>
+<temp/>
+<n32 lb="24" cb="31">
+<mex lb="24" cb="31" kind="lvalue" id="fbcf631c9165a5b393d4ff7c682867e4_0ea0945f06dc2b49c57e3248d46ecdf4" nm="m_Module" arrow="1">
+<n19 lb="24" cb="31"/>
+</mex>
+</n32>
+</n10>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</mce>
+</u>
+
+</Stmt>
+</d>
+</tun>
+</Root>

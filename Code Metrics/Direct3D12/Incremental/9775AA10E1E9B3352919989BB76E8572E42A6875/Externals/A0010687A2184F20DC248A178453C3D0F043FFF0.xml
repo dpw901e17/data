@@ -1,0 +1,21 @@
+<Externals>
+<cr access="public" depth="0" pod="true" kind="struct" name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49" file="1" linestart="7" lineend="12">
+<c name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_509c253cdb2f581f033e73ecfdade5e6" file="1" linestart="7" lineend="7" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="VS_OUTPUT" id="f892c7ccef61579476c7732dcb4ff11a_fca38654f64a8f619a6beb904dfee993" file="1" linestart="7" lineend="7" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="VS_OUTPUT &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="f892c7ccef61579476c7732dcb4ff11a_db2d5da00854a3cec91301b5318f1e49"/>
+</rt>
+</rrf>
+</p>
+</c>
+</cr>
+</Externals>

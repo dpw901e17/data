@@ -1,0 +1,175 @@
+<Externals>
+<cr access="none" depth="1" kind="interface" name="ID3D10Blob" id="2fffffddcd3c95038f77e770bc674107_3bb2d1ed62138c86487176900684ead0" file="3" linestart="369" lineend="377" previous="2fffffddcd3c95038f77e770bc674107_b2bc8a3f761f3c533f6d4375df777eea">
+<base access="public">
+<rt>
+<cr id="dde68f5d57e0d9fe580d7edc4c07fc7d_6b30c935079209804768d2401c9e7119"/>
+</rt>
+</base>
+<m name="GetBufferPointer" id="2fffffddcd3c95038f77e770bc674107_500f19fa1bef89833090708f0efb0c16" file="3" linestart="373" lineend="373" pure="true" virtual="true" access="public">
+<Attributed/>
+</m>
+<m name="GetBufferSize" id="2fffffddcd3c95038f77e770bc674107_9157a22c9e24ac5edc92eba05707a3d6" file="3" linestart="375" lineend="375" pure="true" virtual="true" access="public">
+<Attributed/>
+</m>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="D3D12_SHADER_BYTECODE" id="2cd4e6b730954360c006482b86a79774_bd9768604b69916a1d634b9ec29d5cf4" file="4" linestart="1623" lineend="1627">
+<fl name="pShaderBytecode" id="2cd4e6b730954360c006482b86a79774_9c35247f05233fa3f243b855693a3485" file="4" linestart="1625" lineend="1625" isPtr="true" isLiteral="true" access="public" proto="const void *">
+<pt>
+<QualType const="true">
+<bt name="void"/>
+</QualType>
+</pt>
+</fl>
+<fl name="BytecodeLength" id="2cd4e6b730954360c006482b86a79774_9c256c1aca1fda6df777f6302d0ba83e" file="4" linestart="1626" lineend="1626" isLiteral="true" access="public" proto="SIZE_T">
+<Tdef>
+<Tdef>
+<bt name="unsigned long"/>
+</Tdef>
+</Tdef>
+</fl>
+<c name="D3D12_SHADER_BYTECODE" id="2cd4e6b730954360c006482b86a79774_77d625dba32fc9d2cf689be2cccaa76a" file="4" linestart="1623" lineend="1623" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const D3D12_SHADER_BYTECODE &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bd9768604b69916a1d634b9ec29d5cf4"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<c name="D3D12_SHADER_BYTECODE" id="2cd4e6b730954360c006482b86a79774_5ad9f8a40f2cf93231f385de85d25ce3" file="4" linestart="1623" lineend="1623" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="D3D12_SHADER_BYTECODE &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bd9768604b69916a1d634b9ec29d5cf4"/>
+</rt>
+</rrf>
+</p>
+</c>
+<m name="operator=" id="2cd4e6b730954360c006482b86a79774_a2b51aaae169bd58077727057145d812" file="4" linestart="1623" lineend="1623" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="D3D12_SHADER_BYTECODE &amp;">
+<lrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bd9768604b69916a1d634b9ec29d5cf4"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="D3D12_SHADER_BYTECODE &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="2cd4e6b730954360c006482b86a79774_bd9768604b69916a1d634b9ec29d5cf4"/>
+</rt>
+</rrf>
+</p>
+</m>
+</cr>
+<f name="OutputDebugStringA" id="f21739ee4fd29324238eec773ae5bf6f_ed9b317ad6be5f76806559b1e9c55d8f" file="5" linestart="90" lineend="95" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="lpOutputString" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+</p>
+</f>
+<f name="D3DCompileFromFile" id="de53995ec84219805332548ef429b09c_e584bd51d6b5382a1bdefb8bde74e66f" file="6" linestart="247" lineend="256" extC="true" access="none">
+<Attributed/>
+<p name="pFileName" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+</p>
+<p name="pDefines" proto="const D3D_SHADER_MACRO *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="2fffffddcd3c95038f77e770bc674107_531dfb8968e141d6e15414e35ea237f8"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="pInclude" proto="ID3DInclude *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="2fffffddcd3c95038f77e770bc674107_74d41d165060d7821d137107192ffa84"/>
+</rt>
+</pt>
+</p>
+<p name="pEntrypoint" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+</p>
+<p name="pTarget" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+</p>
+<p name="Flags1" proto="UINT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="Flags2" proto="UINT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="ppCode" proto="ID3DBlob **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<Tdef>
+<rt>
+<cr id="2fffffddcd3c95038f77e770bc674107_3bb2d1ed62138c86487176900684ead0"/>
+</rt>
+</Tdef>
+</pt>
+</pt>
+</p>
+<p name="ppErrorMsgs" proto="ID3DBlob **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<Tdef>
+<rt>
+<cr id="2fffffddcd3c95038f77e770bc674107_3bb2d1ed62138c86487176900684ead0"/>
+</rt>
+</Tdef>
+</pt>
+</pt>
+</p>
+</f>
+</Externals>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin analysis with CppDepend v2017.3.0.65</Info>
+  <Warning>Additional include directory  not found for the project OrganizedDirectX12 : This can influence the analysis. You can add the directory path from Project Properties Panel -&gt; View Additional Include Paths. Please contact CppDepend support to check why this path was not correctly resolved.</Warning>
+  <Info>The parser used is Clang</Info>
+  <Info>4 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'DirectX' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12/stdafx.h:141:2</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'CommandListHandler' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12/stdafx.h:167:13</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'Cube' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12/CubeContainer.h:28:20</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'SV_POSITION' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl:6:14</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'TEXCOORD' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl:7:19</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'POSITION' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl:8:18</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'STBI_rgb_alpha' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\main.cpp:916:77</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'float4' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\SkullPixelShader.hlsl:13:2</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'float4x4' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\VertexShader.hlsl:16:2</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'worldMat' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\VertexShader.hlsl:33:34</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'viewMat' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\VertexShader.hlsl:33:48</ClangError>
+  <ClangError>Project:OrganizedDirectX12=&gt;use of undeclared identifier 'projectionMat' at C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\VertexShader.hlsl:33:57</ClangError>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>Analyse dependencies of your application.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Info>Execute queries and rules.</Info>
+  <Warning>1 quality gate fail.
+  - 'Critical Rules Violated' value 2 rules greater than fail threshold 0 rules</Warning>
+  <Info>CppDepend analysis done. Duration: 00:00:39</Info>
+  <Info>Building the report (standard).</Info>
+</InfoWarnings>

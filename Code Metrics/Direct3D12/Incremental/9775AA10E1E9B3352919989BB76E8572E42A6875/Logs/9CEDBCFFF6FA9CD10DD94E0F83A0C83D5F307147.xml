@@ -1,0 +1,16 @@
+<log>
+ <error level="error" id="err_invalid_token_after_toplevel_declarator" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="1" col="13" msg="expected &apos;;&apos; after top level declarator" />
+ <error level="error" id="err_missing_type_specifier" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="1" col="24" msg="C++ requires a type specifier for all declarations" />
+ <error level="warning" id="warn_deprecated_register" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="1" col="15" msg="&apos;register&apos; storage class specifier is deprecated" />
+ <error level="error" id="err_typecheck_sclass_fscope" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="1" col="24" msg="illegal storage class on file-scoped variable" />
+ <error level="error" id="err_invalid_token_after_toplevel_declarator" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="2" col="16" msg="expected &apos;;&apos; after top level declarator" />
+ <error level="error" id="err_missing_type_specifier" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="2" col="27" msg="C++ requires a type specifier for all declarations" />
+ <error level="warning" id="warn_deprecated_register" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="2" col="18" msg="&apos;register&apos; storage class specifier is deprecated" />
+ <error level="error" id="err_typecheck_sclass_fscope" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="2" col="27" msg="illegal storage class on file-scoped variable" />
+ <error level="error" id="err_undeclared_var_use" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="6" col="14" msg="use of undeclared identifier &apos;SV_POSITION&apos;" />
+ <error level="error" id="err_undeclared_var_use" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="7" col="19" msg="use of undeclared identifier &apos;TEXCOORD&apos;" />
+ <error level="error" id="err_undeclared_var_use" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="8" col="18" msg="use of undeclared identifier &apos;POSITION&apos;" />
+ <error level="error" id="err_expected_expression" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="13" col="2" msg="expected expression" />
+ <error level="error" id="err_expected_either" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="14" col="2" msg="expected &apos;{&apos; or &apos;,&apos;" />
+ <error level="error" id="err_only_constructors_take_base_inits" file="C:\Users\alexa\Documents\Direct3D12-Application\DX12Projects\OrganizedDirectX12\PixelShader.hlsl" line="11" col="30" msg="only constructors take base initializers" />
+</log>

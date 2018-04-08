@@ -1,0 +1,56 @@
+<Root>
+<Comments/>
+<Macros/>
+<Directives/>
+<tun>
+<v name="t1" proto="int" isLiteral="true" isPrimitive="true" id="0fc4102b00c2595f09832c80f791c603_ccc49142f1e5fbd770a75b32578fc6de" file="1" linestart="1" lineend="1" access2="public">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="t0" proto="int" isLiteral="true" isPrimitive="true" id="0fc4102b00c2595f09832c80f791c603_4ac7b531760cb980743b0c0d08114359" file="1" linestart="1" storage="register" access2="public">
+<Paren/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="s1" proto="int" isLiteral="true" isPrimitive="true" id="0fc4102b00c2595f09832c80f791c603_6ae7f93e16c29a3449be814b3f10413e" file="1" linestart="2" lineend="2" access2="public">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</v>
+<v name="s0" proto="int" isLiteral="true" isPrimitive="true" id="0fc4102b00c2595f09832c80f791c603_fe6d1a09b3ff08b30c11b36b9f1ded0a" file="1" linestart="2" storage="register" access2="public">
+<Paren/>
+<Stmt>
+
+</Stmt>
+</v>
+<cr access="public" depth="0" pod="true" kind="struct" name="VS_OUTPUT" id="0fc4102b00c2595f09832c80f791c603_db2d5da00854a3cec91301b5318f1e49" file="1" linestart="4" lineend="9">
+<cr access="public" kind="struct" name="VS_OUTPUT" id="0fc4102b00c2595f09832c80f791c603_0f339bb0d2de8f65b07da00a9720dffd" file="1" linestart="4" lineend="4"/>
+<fl name="pos" id="0fc4102b00c2595f09832c80f791c603_2c0048b8e92d9516d27d8342fb212e7b" file="1" linestart="6" lineend="6" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="texCoord" id="0fc4102b00c2595f09832c80f791c603_d8d98ef7f62e6dc0771437b0b7b4a5d1" file="1" linestart="7" lineend="7" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="posCopy" id="0fc4102b00c2595f09832c80f791c603_a363040bb72e23fc6f3d4ae23c44c58b" file="1" linestart="8" lineend="8" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+</cr>
+<f name="main" id="0fc4102b00c2595f09832c80f791c603_e2a667621eaa0de46d1bb829ef06282a" file="1" linestart="11" lineend="11" entry="true" access="public">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="input" proto="VS_OUTPUT" isLiteral="true" access2="none">
+<rt>
+<cr id="0fc4102b00c2595f09832c80f791c603_db2d5da00854a3cec91301b5318f1e49"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+</f>
+</tun>
+</Root>
