@@ -1,0 +1,9 @@
+Increase.ods:
+The data is split into two sheets: Threads and Objects.
+
+Threads:
+There are two tables: One for cubes and one for skulls. Each table displays the 
+average frame time over three runs for increasing number of draw threads.
+
+Objects:
+Similar to threads, but for increasing number of Cubes (upper table) or Skulls (lower table)
