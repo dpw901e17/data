@@ -1,0 +1,27 @@
+CPU-GPU-Loads.ods:
+The data is split into two sheets: Tables and Graphs.
+
+Tables:
+The header "dim" denotes how many objects are in each of the three dimensions of our grid, e.g. dim = 5 => a 5x5x5 grid of cubes/skulls
+
+We have collected data from three runs. In each run we collect data over 10 configurations: 
+
+conf  #  dim
+------#-------
+ 1    #   5
+ 2    #   10
+ 3    #   15
+ 4    #   20
+ 5    #   25
+ 6    #   30
+ 7    #   35
+ 8    #   40
+ 9    #   45
+ 10   #   50
+ 
+For each configuration, we have ~30 data entries collected from Open Hardware Monitor (located in vk[b|mwd]-[run]-[conf].csv).
+
+Let A be the average of these entries where ComponentType = "nvidiagpu" or "intelcpu" and SensorType = "Load" and SensorID = 0. 
+This gives us the average load of the GPU or CPU for that configuration.
+
+The header "AVG(Value)" is an average over A on the three runs.
